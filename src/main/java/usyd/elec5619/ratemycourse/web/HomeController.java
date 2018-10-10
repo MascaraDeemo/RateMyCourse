@@ -1,4 +1,4 @@
-package usyd.elec5619.ratemycourse;
+package usyd.elec5619.ratemycourse.web;
 
 import java.text.DateFormat;
 import java.util.Date;
