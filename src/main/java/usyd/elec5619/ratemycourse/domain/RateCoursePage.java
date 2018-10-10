@@ -1,6 +1,7 @@
 package usyd.elec5619.ratemycourse.domain;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -28,6 +29,9 @@ public class RateCoursePage implements Serializable {
 	
 	@Column(name="TextBook")
 	private boolean textBook;
+	
+	@Column(name="Tags")
+	private ArrayList<String> tags;
 
 	@Column(name="Specification")
 	private String spec;
@@ -76,6 +80,14 @@ public class RateCoursePage implements Serializable {
 
 	public void setTextBook(boolean textBook) {
 		this.textBook = textBook;
+	}
+	
+	public ArrayList<String> getTags(){
+		return tags;
+	}
+	
+	public void setTags(ArrayList<String> tags) {
+		this.tags = tags;
 	}
 
 	public String getSpec() {
