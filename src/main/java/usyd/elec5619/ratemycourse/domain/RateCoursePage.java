@@ -9,6 +9,13 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.hibernate.search.annotations.Indexed;
+import org.hibernate.search.annotations.Field;
+import org.hibernate.search.annotations.Index;
+import org.hibernate.search.annotations.Analyze;
+import org.hibernate.search.annotations.Store;
+
+
 @Entity
 @Table(name="Product")
 public class RateCoursePage implements Serializable {
@@ -19,27 +26,35 @@ public class RateCoursePage implements Serializable {
 	private long id;
 	
 	@Column(name="RateCourse")
+	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
     private int rating;
 	
 	@Column(name="Difficulty")
+	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
     private int difficulty;
     
 	@Column(name="TakenForCredit")
+	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private boolean ifCredit;
 	
 	@Column(name="TextBook")
+	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private boolean textBook;
 	
 	@Column(name="Tags")
+	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private ArrayList<String> tags;
 
 	@Column(name="Specification")
+	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private String spec;
 	
 	@Column(name="Grade")
+	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private int grade;
 	
 	@Column(name="Major")
+	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private String major;
 	
     public long getId() {
