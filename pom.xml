@@ -158,11 +158,8 @@
 			<artifactId>hibernate-validator</artifactId>
 			<version>5.4.1.Final</version>
 		</dependency>
-<<<<<<< HEAD
-		
-=======
 
->>>>>>> fbb1efd035f1c50aefaa446dc03f00beca051d09
+		
 		<dependency>
 		    <groupId>javax.xml.bind</groupId>
 		    <artifactId>jaxb-api</artifactId>
