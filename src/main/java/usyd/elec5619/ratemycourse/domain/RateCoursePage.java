@@ -10,15 +10,15 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Product")
+@Table(name="RateCourse")
 public class RateCoursePage implements Serializable {
 
 	@Id
 	@GeneratedValue
-	@Column(name="Id")
+	@Column(name="Id", length=50,nullable = false)
 	private long id;
 	
-	@Column(name="RateCourse")
+	@Column(name="RateCourse",nullable=false)
     private int rating;
 	
 	@Column(name="Difficulty")
