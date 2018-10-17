@@ -159,10 +159,7 @@
 			<version>5.4.1.Final</version>
 		</dependency>
 
-<<<<<<< HEAD
-=======
 		
->>>>>>> 0a61b46eb2cd0e143a4597e1984e10397a1b64f1
 		<dependency>
 		    <groupId>javax.xml.bind</groupId>
 		    <artifactId>jaxb-api</artifactId>
