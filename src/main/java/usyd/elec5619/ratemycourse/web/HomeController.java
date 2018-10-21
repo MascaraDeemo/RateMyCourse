@@ -33,6 +33,10 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+<<<<<<< HEAD
+=======
+
+>>>>>>> 03ecf6c1857a35a6276e7bc866fe52dcf8a4669d
 		new RateCoursePage();
 		return "loginForm";
 	}
