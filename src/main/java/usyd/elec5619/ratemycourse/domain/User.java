@@ -15,7 +15,7 @@ import org.hibernate.search.annotations.Store;
 
 @Entity
 @Indexed
-@Table(name = "Course")
+@Table(name = "User")
 public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
