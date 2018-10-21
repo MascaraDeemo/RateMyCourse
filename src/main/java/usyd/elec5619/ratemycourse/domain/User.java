@@ -36,15 +36,6 @@ public class User {
 	@Field(index = Index.YES,analyze = Analyze.YES,store = Store.NO)
 	String userUni;
 	
-	public User() {
-		
-	}
-	public User(String email,String name, String password, String university) {
-		this.userEmail = email;
-		this.userName = name;
-		this.userPswd = password;
-		this.userUni = university;
-	}
 	public int getId() {
 		return this.id;
 	}
