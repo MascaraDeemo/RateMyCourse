@@ -33,10 +33,9 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		System.out.println("dashabi");
 		new RateCoursePage();
-
 		return "loginForm";
 	}
+
 	
 }
