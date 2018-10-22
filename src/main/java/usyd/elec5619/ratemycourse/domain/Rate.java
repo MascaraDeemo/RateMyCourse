@@ -2,30 +2,29 @@ package usyd.elec5619.ratemycourse.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 import org.hibernate.search.annotations.Indexed;
 import org.hibernate.search.annotations.Field;
 import org.hibernate.search.annotations.Index;
 import org.hibernate.search.annotations.Analyze;
 import org.hibernate.search.annotations.Store;
+import org.hibernate.validator.constraints.NotEmpty;
 
 
 @Entity
-@Table(name="Product")
-public class RateCoursePage implements Serializable {
+@Table(name="Rate")
+public class Rate implements Serializable {
 
 	@Id
 	@GeneratedValue
 	@Column(name="Id")
 	private long id;
-	
+
 	@Column(name="RateCourse")
+	@NotEmpty(message = "Please rate this course")
 	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
     private int rating;
 	
@@ -41,9 +40,9 @@ public class RateCoursePage implements Serializable {
 	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private boolean textBook;
 	
-	@Column(name="Tags")
+	@ElementCollection
 	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
-	private ArrayList<String> tags;
+	private List<String> tags = new ArrayList<String>();
 
 	@Column(name="Specification")
 	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
@@ -97,7 +96,7 @@ public class RateCoursePage implements Serializable {
 		this.textBook = textBook;
 	}
 	
-	public ArrayList<String> getTags(){
+	public List<String> getTags(){
 		return tags;
 	}
 	

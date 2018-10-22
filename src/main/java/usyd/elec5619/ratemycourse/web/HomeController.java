@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import usyd.elec5619.ratemycourse.domain.RateCoursePage;
+import usyd.elec5619.ratemycourse.domain.Rate;
 
 /**
  * Handles requests for the application home page.
@@ -32,7 +32,7 @@ public class HomeController {
 		
 		String formattedDate = dateFormat.format(date);
 
-		new RateCoursePage();
+		new Rate();
 		return "loginForm";
 	}
 
