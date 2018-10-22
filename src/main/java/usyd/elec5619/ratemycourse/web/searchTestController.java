@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class searchTestController {
 	
-	@RequestMapping(value = "/search", method = RequestMethod.GET)
+	@RequestMapping("/search")
 	public String search(HttpServletRequest request, HttpServletResponse response) {
 
 		return "searchBar";
