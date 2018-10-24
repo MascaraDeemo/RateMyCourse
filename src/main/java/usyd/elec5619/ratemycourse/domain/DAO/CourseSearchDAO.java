@@ -5,7 +5,6 @@ import org.hibernate.search.jpa.FullTextEntityManager;
 import org.hibernate.search.jpa.FullTextQuery;
 import org.hibernate.search.jpa.Search;
 import org.hibernate.search.query.dsl.QueryBuilder;
-import org.springframework.data.annotation.PersistenceConstructor;
 import org.springframework.stereotype.Repository;
 import usyd.elec5619.ratemycourse.domain.Course;
 
