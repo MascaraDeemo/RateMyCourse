@@ -11,10 +11,10 @@
     <title>Rate Course</title>
 </head>
 <body>
-<form>
+<form action="#" method="post">
     Rate this Course:<br>
     <div class="sliderContainer1">
-        <input type="range" min="1" max="10" value="5" class="slider" id="courseRate" onchange="changeRate()">
+        <input type="range"  min="1" max="10" value="5" class="slider" id="courseRate" onchange="changeRate()">
         <span id="rate_result">5</span>
     </div>
     <script>
