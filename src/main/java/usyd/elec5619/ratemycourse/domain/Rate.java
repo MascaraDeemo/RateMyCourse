@@ -9,6 +9,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
+import java.util.List;
 
 
 @Entity
@@ -18,7 +19,7 @@ public class Rate implements Serializable {
 	@Id
 	@GeneratedValue
 	@Column(name="Id")
-	private long rateId;
+	private Integer rateId;
 
 	@Column(name="RateCourse")
 	@NotEmpty(message = "Please rate this course")
@@ -36,6 +37,9 @@ public class Rate implements Serializable {
 	@Column(name="TextBook")
 	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private boolean textBook;
+
+	@Column(name = "tags")
+	private List<String> tags;
 
 	@Column(name="Specification")
 	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
@@ -57,6 +61,10 @@ public class Rate implements Serializable {
 	@NotNull
 	private String userID;
 
+	public boolean isNew() {
+		return (this.rateId == null);
+	}
+
 	public String getUserID() {
 		return userID;
 	}
@@ -65,12 +73,8 @@ public class Rate implements Serializable {
 		this.userID = userID;
 	}
 
-	public long getRateId() {
+	public int getRateId() {
 		return rateId;
-	}
-
-	public void setRateId(long rateId) {
-		this.rateId = rateId;
 	}
 
 	public String getCourseID() {
@@ -137,4 +141,15 @@ public class Rate implements Serializable {
 		this.major = major;
 	}
 
+	public void setRateId(int rateId) {
+		this.rateId = rateId;
+	}
+
+	public List<String> getTags() {
+		return tags;
+	}
+
+	public void setTags(List<String> tags) {
+		this.tags = tags;
+	}
 }

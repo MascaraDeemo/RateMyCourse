@@ -11,11 +11,15 @@ import java.util.List;
 @Transactional
 public interface RateDAO  extends CrudRepository<Rate, String> {
 
-    public List<Rate> findAll();
+    List<Rate> findAll();
 
-    public Rate findById(long id);
+    Rate findById(long id);
 
-    public Rate findByCourseID(String courseID);
+    List<Rate> findAllByCourseID(String courseID);
+
+    void update(Rate rate);
+
+    void delete(Integer id);
 
 
 
