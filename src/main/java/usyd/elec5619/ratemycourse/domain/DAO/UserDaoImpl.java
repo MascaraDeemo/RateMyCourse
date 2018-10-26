@@ -1,22 +1,15 @@
-package usyd.elec5619.ratemycourse.DAO;
- 
-import java.sql.ResultSet;
- 
-import java.sql.SQLException;
- 
-import java.util.List;
- 
-import javax.sql.DataSource;
- 
+package usyd.elec5619.ratemycourse.domain.DAO;
+
 import org.springframework.beans.factory.annotation.Autowired;
- 
 import org.springframework.jdbc.core.JdbcTemplate;
- 
 import org.springframework.jdbc.core.RowMapper;
- 
 import usyd.elec5619.ratemycourse.domain.Login;
- 
 import usyd.elec5619.ratemycourse.domain.User;
+
+import javax.sql.DataSource;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
 
 public class UserDaoImpl implements UserDao {
  

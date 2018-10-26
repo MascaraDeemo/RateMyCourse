@@ -1,7 +1,6 @@
-package usyd.elec5619.ratemycourse.DAO;
- 
+package usyd.elec5619.ratemycourse.domain.DAO;
+
 import usyd.elec5619.ratemycourse.domain.Login;
- 
 import usyd.elec5619.ratemycourse.domain.User;
  
 public interface UserDao {
