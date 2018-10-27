@@ -26,6 +26,4 @@ public class RateDao {
     public void saveRate(Rate rate){
         sessionFactory.getCurrentSession().save(rate);
     }
-
-
 }
