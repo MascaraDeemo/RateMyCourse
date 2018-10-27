@@ -17,9 +17,4 @@ public class WikiServiceImpl implements WikiService{
     public List<Wiki> findAll() {
         return wikiDAO.findAll();
     }
-
-//    @Override
-//    public List<Wiki> findAllByCourseId(String courseId) {
-//        return wikiDAO.findAllByCourseId(courseId);
-//    }
 }

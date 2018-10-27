@@ -1,3 +1,7 @@
 html {
     background-color: #eee;
 }
+
+textarea {
+    display: none;
+}
