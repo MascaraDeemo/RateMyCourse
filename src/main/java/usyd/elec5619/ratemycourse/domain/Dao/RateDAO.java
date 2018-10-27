@@ -1,4 +1,4 @@
-package usyd.elec5619.ratemycourse.domain.DAO;
+package usyd.elec5619.ratemycourse.domain.Dao;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
@@ -9,11 +9,11 @@ import java.util.List;
 
 @Repository
 @Transactional
-public interface RateDAO  extends CrudRepository<Rate, String> {
+public interface RateDAO extends CrudRepository<Rate, String>{
 
     List<Rate> findAll();
 
-    Rate findById(long id);
+    Rate findById(int id);
 
     List<Rate> findAllByCourseID(String courseID);
 

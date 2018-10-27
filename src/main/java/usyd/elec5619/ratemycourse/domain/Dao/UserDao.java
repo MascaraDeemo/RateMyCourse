@@ -1,4 +1,4 @@
-package usyd.elec5619.ratemycourse.domain.DAO;
+package usyd.elec5619.ratemycourse.domain.Dao;
 
 import usyd.elec5619.ratemycourse.domain.Login;
 import usyd.elec5619.ratemycourse.domain.User;

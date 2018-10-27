@@ -1,6 +1,9 @@
 package usyd.elec5619.ratemycourse.web;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -19,7 +22,12 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
+@Scope("singleton")
 public class RateController {
+
+    private final Logger logger = LoggerFactory.getLogger(RateController.class);
+
+
 
     private RateService rateService;
 
@@ -43,9 +51,9 @@ public class RateController {
     //save or update rate
     @RequestMapping(value = "/courseRate", method = RequestMethod.POST)
     public String saveOrUpdateRate(@ModelAttribute("rateForm") @Validated Rate rate,
-                                   BindingResult result, Model model, final RedirectAttributes redirectAttributes){
+                                   BindingResult result, final RedirectAttributes redirectAttributes){
         if(result.hasErrors()){
-            populateDefaultModel(model);
+
             return "rate_course";
         }else {
             redirectAttributes.addFlashAttribute("css", "success");
@@ -62,17 +70,4 @@ public class RateController {
     }
 
 
-    private void populateDefaultModel(Model model) {
-
-        List<String> tagList = new ArrayList<String>();
-        tagList.add("Spring MVC");
-        tagList.add("Struts 2");
-        tagList.add("JSF 2");
-        tagList.add("GWT");
-        tagList.add("Play");
-        tagList.add("Apache Wicket");
-        model.addAttribute("tagList", tagList);
-
-
-    }
 }

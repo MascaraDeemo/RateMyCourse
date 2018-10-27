@@ -1,4 +1,4 @@
-package usyd.elec5619.ratemycourse.domain.DAO;
+package usyd.elec5619.ratemycourse.domain.Dao;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
