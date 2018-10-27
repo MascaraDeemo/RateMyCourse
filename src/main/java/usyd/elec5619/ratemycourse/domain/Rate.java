@@ -1,17 +1,15 @@
 package usyd.elec5619.ratemycourse.domain;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.persistence.*;
-
-import org.hibernate.search.annotations.Indexed;
+import org.hibernate.search.annotations.Analyze;
 import org.hibernate.search.annotations.Field;
 import org.hibernate.search.annotations.Index;
-import org.hibernate.search.annotations.Analyze;
 import org.hibernate.search.annotations.Store;
 import org.hibernate.validator.constraints.NotEmpty;
+
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import java.io.Serializable;
+import java.util.List;
 
 
 @Entity
@@ -21,7 +19,7 @@ public class Rate implements Serializable {
 	@Id
 	@GeneratedValue
 	@Column(name="Id")
-	private long id;
+	private Integer rateId;
 
 	@Column(name="RateCourse")
 	@NotEmpty(message = "Please rate this course")
@@ -39,10 +37,9 @@ public class Rate implements Serializable {
 	@Column(name="TextBook")
 	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private boolean textBook;
-	
-	@ElementCollection
-	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
-	private List<String> tags = new ArrayList<String>();
+
+	@Column(name = "tags")
+	private List<String> tags;
 
 	@Column(name="Specification")
 	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
@@ -55,13 +52,37 @@ public class Rate implements Serializable {
 	@Column(name="Major")
 	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private String major;
-	
-    public long getId() {
-		return id;
+
+	@Column(name="CourseID")
+	@NotNull
+	private String courseID;
+
+	@Column(name = "userID")
+	@NotNull
+	private String userID;
+
+	public boolean isNew() {
+		return (this.rateId == null);
 	}
 
-	public void setId(long id) {
-		this.id = id;
+	public String getUserID() {
+		return userID;
+	}
+
+	public void setUserID(String userID) {
+		this.userID = userID;
+	}
+
+	public int getRateId() {
+		return rateId;
+	}
+
+	public String getCourseID() {
+		return courseID;
+	}
+
+	public void setCourseID(String courseID) {
+		this.courseID = courseID;
 	}
 	
 	public int getRating() {
@@ -95,14 +116,6 @@ public class Rate implements Serializable {
 	public void setTextBook(boolean textBook) {
 		this.textBook = textBook;
 	}
-	
-	public List<String> getTags(){
-		return tags;
-	}
-	
-	public void setTags(ArrayList<String> tags) {
-		this.tags = tags;
-	}
 
 	public String getSpec() {
 		return spec;
@@ -128,11 +141,15 @@ public class Rate implements Serializable {
 		this.major = major;
 	}
 
+	public void setRateId(int rateId) {
+		this.rateId = rateId;
+	}
 
-//    public String toString() {
-//        StringBuffer buffer = new StringBuffer();
-//        buffer.append("Description: " + description + ";");
-//        buffer.append("Price: " + price);
-//        return buffer.toString();
-//    }
+	public List<String> getTags() {
+		return tags;
+	}
+
+	public void setTags(List<String> tags) {
+		this.tags = tags;
+	}
 }
