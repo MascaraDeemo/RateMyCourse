@@ -1,5 +1,6 @@
 package usyd.elec5619.ratemycourse.web;
 
+
 import org.apache.lucene.search.Query;
 import org.hibernate.SessionFactory;
 import org.hibernate.search.FullTextSession;
@@ -12,13 +13,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import usyd.elec5619.ratemycourse.domain.Course;
 
-import javax.persistence.EntityManager;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+
 
 @Controller
 
 public class SearchResultController {
+
 
 //    @Autowired
 //    private CourseSearchDAO courseSearchDAO;
