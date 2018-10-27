@@ -1,8 +1,10 @@
 package usyd.elec5619.ratemycourse.services;
 
+import org.springframework.stereotype.Service;
 import usyd.elec5619.ratemycourse.domain.Rate;
 
 import java.util.List;
+
 
 public interface RateService {
     Rate findById(int id);
