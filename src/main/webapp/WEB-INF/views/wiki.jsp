@@ -1,3 +1,5 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="th" uri="http://www.springframework.org/tags/form" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -8,36 +10,26 @@
     <link rel="stylesheet" href="../../resources/main.css">
 </head>
 <body>
-    <h1>${courseTitle}</h1>
+    <h1>${wiki.courseId}</h1>
 
-    <div>
-        ${wikiContent}
+    <div id="original-content">
+        ${wiki.content}
     </div>
 
     <button id="edit-btn">Edit Wiki</button>
 
-    <textarea id="wiki-content-textarea"></textarea>
-
-    <button id="submit-btn">Submit</button>
+    <form:form modelAttribute="wiki" method="post" action="/wiki">
+        <form:textarea path="content" rows="3" cols="20" value="${wiki.content}" />
+        <input type="submit" value="Save Changes" />
+    </form:form>
 
     <script>
         var editBtn = document.getElementById('edit-btn');
         editBtn.addEventListener('click', function() {
-            document.getElementById('wiki-content-textarea').style.display = 'block';
+            var el = document.getElementById("content");
+            el.style.display = 'block';
+            el.innerText = document.getElementById('original-content').innerHTML;
         });
-
-        var submitBtn = document.getElementById('submit-btn');
-        submitBtn.addEventListener('click', function() {
-            var html = document.getElementById('wiki-content-textarea').innerText;
-
-            var xhr = new XMLHttpRequest();
-            xhr.open("POST", '/wiki/' + ${wikiContent}, true);
-            xhr.setRequestHeader('Content-Type', 'application/json');
-            xhr.send(JSON.stringify({
-                content: html
-            }));
-            // TODO: invoke update wiki
-        })
     </script>
 </body>
 </html>

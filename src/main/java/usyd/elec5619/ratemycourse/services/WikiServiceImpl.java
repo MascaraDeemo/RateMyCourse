@@ -17,4 +17,18 @@ public class WikiServiceImpl implements WikiService{
     public List<Wiki> findAll() {
         return wikiDAO.findAll();
     }
+
+    @Override
+    public Wiki findById(int id) {
+        return wikiDAO.findById(id);
+    }
+
+    @Override
+    public void saveOrUpdate(Wiki wiki) {
+//        if (findById(wiki.getId()) == null) {
+            wikiDAO.save(wiki);
+//        } else {
+//            wikiDAO.update(wiki);
+//        }
+    }
 }

@@ -32,22 +32,20 @@ public class WikiController {
             String wikiCourseId = wiki.getCourseId();
             if (wikiCourseId.equals(courseId)) {
                 targetWiki = allWikis.get(i);
-                System.out.println("heyheyyoyo");
                 break;
             }
         }
 
         if (targetWiki != null) {
-            model.addAttribute("courseTitle", targetWiki.getCourseId());
-            model.addAttribute("wikiContent", targetWiki.getContent());
+            model.addAttribute("wiki", targetWiki);
         }
         return "wiki";
     }
 
-    @PostMapping("/wiki/{courseId}")
-    public String updateWiki(Model model, @PathVariable("courseId") String courseId) {
-
-        return "Update Status";
+    @PostMapping("/wiki")
+    public String updateWiki(@ModelAttribute("wikiForm") Wiki wiki) {
+        wikiService.saveOrUpdate(wiki);
+        return "wiki_result";
     }
 
     private void initWikis() {

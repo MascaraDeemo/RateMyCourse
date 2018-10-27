@@ -7,4 +7,8 @@ import java.util.List;
 
 public interface WikiService {
     List<Wiki> findAll();
+
+    Wiki findById(int id);
+
+    void saveOrUpdate(Wiki wiki);
 }

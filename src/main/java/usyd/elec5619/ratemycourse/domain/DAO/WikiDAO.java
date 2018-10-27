@@ -10,8 +10,12 @@ import java.util.List;
 
 @Repository
 @Transactional
-public interface WikiDAO extends CrudRepository<Wiki, Long> {
+public interface WikiDAO extends CrudRepository<Wiki, String> {
     List<Wiki> findAll();
+
+    Wiki findById(int id);
+
+//    void update(Wiki );
 //    Wiki findByCourseId(String courseId);
 //    List<Wiki> findAllByCourseId(String CourseId);
 }

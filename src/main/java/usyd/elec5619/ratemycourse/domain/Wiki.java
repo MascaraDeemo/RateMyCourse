@@ -9,7 +9,7 @@ public class Wiki {
     @Id
     @GeneratedValue
     @Column(name="Id")
-    private long id;
+    private int id;
 
     @Column(name="Content")
     private String content;
@@ -17,7 +17,7 @@ public class Wiki {
     @Column(name="CourseId")
     private String CourseId;
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
