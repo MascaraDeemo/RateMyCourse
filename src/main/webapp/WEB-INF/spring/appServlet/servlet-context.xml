@@ -23,5 +23,5 @@
 	
 	<context:component-scan base-package="usyd.elec5619.ratemycourse" />
 	
-	
+
 </beans:beans>
