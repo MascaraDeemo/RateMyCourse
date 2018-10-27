@@ -5,6 +5,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import usyd.elec5619.ratemycourse.domain.Wiki;
 import usyd.elec5619.ratemycourse.services.WikiServiceImpl;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class WikiController {
