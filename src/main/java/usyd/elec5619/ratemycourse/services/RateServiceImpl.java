@@ -4,14 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
-import usyd.elec5619.ratemycourse.domain.DAO.RateDAO;
+import usyd.elec5619.ratemycourse.domain.Dao.RateDAO;
 import usyd.elec5619.ratemycourse.domain.Rate;
 
 import java.util.List;
 
 @Service("RateService")
 public class RateServiceImpl implements RateService{
-    RateDAO rateDAO;
+    private RateDAO rateDAO;
 
     @Autowired
     public void setRateDAO(RateDAO rateDAO){

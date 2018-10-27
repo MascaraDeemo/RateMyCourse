@@ -1,4 +1,4 @@
-package usyd.elec5619.ratemycourse.domain.DAO;
+package usyd.elec5619.ratemycourse.domain.Dao;
 
 import org.apache.lucene.search.Query;
 import org.hibernate.search.jpa.FullTextEntityManager;
