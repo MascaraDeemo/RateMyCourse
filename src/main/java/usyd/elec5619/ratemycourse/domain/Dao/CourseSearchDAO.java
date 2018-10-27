@@ -6,6 +6,7 @@ import org.hibernate.search.jpa.FullTextQuery;
 import org.hibernate.search.jpa.Search;
 import org.hibernate.search.query.dsl.QueryBuilder;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 import usyd.elec5619.ratemycourse.domain.Course;
 
 import javax.persistence.EntityManager;
@@ -13,6 +14,7 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 @Repository
+@Transactional
 public class CourseSearchDAO {
 
     @PersistenceContext
@@ -40,7 +42,14 @@ public class CourseSearchDAO {
     }
 
     private FullTextQuery getJpaQuery(org.apache.lucene.search.Query luceneQuery){
+
         FullTextEntityManager fullTextEntityManager = Search.getFullTextEntityManager(entityManager);
+        try {
+            fullTextEntityManager.createIndexer().startAndWait();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        entityManager.getTransaction().begin();
         return fullTextEntityManager.createFullTextQuery(luceneQuery,Course.class);
     }
 
