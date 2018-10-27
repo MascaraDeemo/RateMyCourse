@@ -49,7 +49,7 @@ public class CourseSearchDAO {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        entityManager.getTransaction().begin();
+//        entityManager.getTransaction().begin();
         return fullTextEntityManager.createFullTextQuery(luceneQuery,Course.class);
     }
 
