@@ -21,21 +21,9 @@ import java.util.List;
 
 public class SearchResultController {
 
-
-//    @Autowired
-//    private CourseSearchDAO courseSearchDAO;
     @Autowired
     private SessionFactory sessionFactory;
-//    @RequestMapping(value = "/search_action",method = RequestMethod.GET)
-//    public String searchResult(HttpServletRequest request, Model model){
-//
-//        String input = request.getParameter("search");
-//        List<Course> searchResult = courseSearchDAO.searchCourseNameByKeyword(input);
-//
-//        model.addAttribute("searchResult",searchResult);
-//
-//        return "searchResult";
-//    }
+
 
     @RequestMapping("/seach_action")
     public String searchResult(HttpServletRequest request, Model model){

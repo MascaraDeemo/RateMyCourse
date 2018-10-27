@@ -19,7 +19,7 @@ public class RateServiceImpl implements RateService{
     }
 
     @Override
-    public Rate findById(Integer id){
+    public Rate findById(int id){
         return rateDAO.findById(id);
     }
 

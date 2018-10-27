@@ -5,7 +5,7 @@ import usyd.elec5619.ratemycourse.domain.Rate;
 import java.util.List;
 
 public interface RateService {
-    Rate findById(Integer id);
+    Rate findById(int id);
 
     List<Rate> findAllByCourseId(String id);
 

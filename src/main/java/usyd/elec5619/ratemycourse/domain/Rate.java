@@ -19,7 +19,7 @@ public class Rate implements Serializable {
 	@Id
 	@GeneratedValue
 	@Column(name="Id")
-	private Integer rateId;
+	private int rateId;
 
 	@Column(name="RateCourse")
 	@NotEmpty(message = "Please rate this course")
@@ -63,7 +63,7 @@ public class Rate implements Serializable {
 	private String userID;
 
 	public boolean isNew() {
-		return (this.rateId == null);
+		return ((Integer)rateId == null);
 	}
 
 	public String getUserID() {
