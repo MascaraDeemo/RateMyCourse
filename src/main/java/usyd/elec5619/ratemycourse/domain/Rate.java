@@ -38,6 +38,7 @@ public class Rate implements Serializable {
 	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private boolean textBook;
 
+	@ElementCollection
 	@Column(name = "tags")
 	private List<String> tags;
 
