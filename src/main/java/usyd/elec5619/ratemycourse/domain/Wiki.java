@@ -1,7 +1,7 @@
 package usyd.elec5619.ratemycourse.domain;
 
 import javax.persistence.*;
-import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name="Wiki")
@@ -11,12 +11,11 @@ public class Wiki {
     @Column(name="Id")
     private long id;
 
-    @Column(name="content")
-    private String content;
+    @Column(name="CourseID")
+    private String courseID;
 
-    @Column(name="edited_by")
-//    @OneToMany(mappedBy="User")
-    private ArrayList<User> users;
+    @Column(name="Content")
+    private String content;
 
     public long getId() {
         return id;

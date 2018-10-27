@@ -9,7 +9,7 @@ import java.util.List;
 
 @Repository
 @Transactional
-public interface CourseDAO  extends CrudRepository<Course, String> {
+public interface CourseDAO extends CrudRepository<Course, String> {
 
     public List<Course> findAll();
 
