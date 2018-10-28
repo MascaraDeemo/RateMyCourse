@@ -86,11 +86,6 @@ public class WikiServiceImpl implements WikiService{
         newHistory.setContent(wiki.getContent());
         newHistory.setWiki_Id(wiki.getId());
 
-        System.out.println("************************************");
-        System.out.println(newHistory.getWiki_Id());
-        System.out.println(newHistory.getContent());
-        System.out.println(newHistory.getHistory());
-
         Session currentSession = this.sessionFactory.getCurrentSession();
         Transaction trans = currentSession.beginTransaction();
         currentSession.save(newHistory);
