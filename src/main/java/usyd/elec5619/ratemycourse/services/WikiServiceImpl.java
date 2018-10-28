@@ -24,11 +24,12 @@ public class WikiServiceImpl implements WikiService{
     }
 
     @Override
+    public void deleteById(int id) {
+        wikiDAO.deleteById(id);
+    }
+
+    @Override
     public void saveOrUpdate(Wiki wiki) {
-//        if (findById(wiki.getId()) == null) {
-            wikiDAO.save(wiki);
-//        } else {
-//            wikiDAO.update(wiki);
-//        }
+        wikiDAO.save(wiki);
     }
 }

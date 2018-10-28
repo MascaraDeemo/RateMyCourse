@@ -15,6 +15,9 @@ public interface WikiDAO extends CrudRepository<Wiki, String> {
 
     Wiki findById(int id);
 
+    void deleteById(int id);
+
+
 //    void update(Wiki );
 //    Wiki findByCourseId(String courseId);
 //    List<Wiki> findAllByCourseId(String CourseId);

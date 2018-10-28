@@ -7,21 +7,27 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Wiki</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="../../resources/main.css">
 </head>
-<body>
-    <h1>${wiki.courseId}</h1>
-
+<body class="wiki-container">
+    <h1 class="course-title">${wiki.courseId}</h1>
     <div id="original-content">
         ${wiki.content}
     </div>
 
     <button id="edit-btn">Edit Wiki</button>
 
-    <form:form modelAttribute="wiki" method="post" action="/wiki">
+    <form:form modelAttribute="wiki" method="post" action="/wiki/${wiki.id}">
+        <form:hidden path="courseId" value="${wiki.courseId}"/>
+        <form:hidden path="id" value="${wiki.id}"/>
         <form:textarea path="content" rows="3" cols="20" value="${wiki.content}" />
-        <input type="submit" value="Save Changes" />
+        <input class="button-success" type="submit" value="Save Changes" />
     </form:form>
+
+    <div>
+        ${wiki.history}
+    </div>
 
     <script>
         var editBtn = document.getElementById('edit-btn');

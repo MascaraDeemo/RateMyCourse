@@ -8,6 +8,8 @@ import java.util.List;
 public interface WikiService {
     List<Wiki> findAll();
 
+    void deleteById(int id);
+
     Wiki findById(int id);
 
     void saveOrUpdate(Wiki wiki);
