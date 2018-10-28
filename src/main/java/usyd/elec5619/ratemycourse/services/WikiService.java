@@ -13,4 +13,6 @@ public interface WikiService {
     Wiki findById(int id);
 
     void saveOrUpdate(Wiki wiki);
+
+    Wiki findWikiByCourseId(String courseId);
 }

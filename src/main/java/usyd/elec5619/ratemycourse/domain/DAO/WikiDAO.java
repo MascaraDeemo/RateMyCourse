@@ -9,8 +9,7 @@ import usyd.elec5619.ratemycourse.domain.Wiki;
 import java.util.List;
 
 @Repository
-@Transactional
-public interface WikiDAO extends CrudRepository<Wiki, String> {
+public interface WikiDAO extends CrudRepository<Wiki, Integer> {
     List<Wiki> findAll();
 
     Wiki findById(int id);

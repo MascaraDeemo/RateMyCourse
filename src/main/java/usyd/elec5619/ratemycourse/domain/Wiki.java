@@ -14,9 +14,9 @@ import java.util.List;
 @Table(name="Wiki")
 public class Wiki {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name="Id")
-    private int id;
+    private Integer id;
 
     @Column(name="Content")
     private String content;
@@ -24,8 +24,35 @@ public class Wiki {
     @Column(name="CourseId")
     private String CourseId;
 
-    @ElementCollection(fetch = FetchType.EAGER)
-    private List<String> history = new ArrayList<String>();
+
+    @Column(name="Wiki_Id")
+    private Integer Wiki_Id;
+
+    @OneToMany(cascade=CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "id")
+    private List<WikiHistory> history = new ArrayList<WikiHistory>();
+
+    public Wiki() {
+
+    }
+
+    public Wiki(int id, String courseId, String content, List<WikiHistory> history) {
+        this.id = id;
+        this.content = content;
+        this.history = history;
+        this.CourseId = courseId;
+    }
+
+    public Integer getWiki_Id() {
+        return Wiki_Id;
+    }
+
+    public void setWiki_Id(Integer wiki_Id) {
+        Wiki_Id = wiki_Id;
+    }
+
+    public void addHistory(String content) {
+        this.history.add(new WikiHistory(content, this.id));
+    }
 
     public int getId() {
         return id;
@@ -51,11 +78,11 @@ public class Wiki {
         this.CourseId = courseId;
     }
 
-    public List<String> getHistory() {
+    public List<WikiHistory> getHistory() {
         return history;
     }
 
-    public void setHistory(List<String> history) {
+    public void setHistory(List<WikiHistory> history) {
         this.history = history;
     }
 }
