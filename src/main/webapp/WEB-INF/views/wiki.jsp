@@ -23,6 +23,7 @@
         <form:hidden path="courseId" value="${wiki.courseId}"/>
         <form:hidden path="id" value="${wiki.id}"/>
         <form:textarea path="content" rows="3" cols="20" value="${wiki.content}" />
+        <form:input path="summary" type="text" placeholder="Summary of this edition" />
         <input class="button-success" type="submit" value="Save Changes" />
     </form:form>
 

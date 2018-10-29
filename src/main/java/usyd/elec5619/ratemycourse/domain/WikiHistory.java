@@ -19,6 +19,9 @@ public class WikiHistory {
     @Column(name="history")
     private String history;
 
+    @Column(name="summary")
+    private String summary;
+
     public WikiHistory() {
 
     }
@@ -58,6 +61,14 @@ public class WikiHistory {
 
     public void setHistory(String history) {
         this.history = history;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
     }
 }
 

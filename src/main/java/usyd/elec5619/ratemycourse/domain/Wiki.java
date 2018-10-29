@@ -28,6 +28,9 @@ public class Wiki {
     @Column(name="Wiki_Id")
     private Integer Wiki_Id;
 
+    @Column(name="Summary")
+    private String summary;
+
     @OneToMany(cascade=CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "id")
     private List<WikiHistory> history = new ArrayList<WikiHistory>();
 
@@ -84,5 +87,13 @@ public class Wiki {
 
     public void setHistory(List<WikiHistory> history) {
         this.history = history;
+    }
+
+    public String getSummary() {
+        return summary;
+    }
+
+    public void setSummary(String summary) {
+        this.summary = summary;
     }
 }
