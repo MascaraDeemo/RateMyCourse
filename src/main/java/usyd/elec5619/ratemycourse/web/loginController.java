@@ -36,7 +36,7 @@ public class loginController {
  
   public ModelAndView showLogin(HttpServletRequest request, HttpServletResponse response) {
  
-    ModelAndView mav = new ModelAndView("searchBar");
+    ModelAndView mav = new ModelAndView("loginForm");
  
     mav.addObject("loginForm", new Login());
  
@@ -51,12 +51,10 @@ public class loginController {
 
     User user1 = userService.validateUser(login);
     if (user1 != null) {
-      request.getSession().setAttribute("userID",user1.getId());
-
+      request.getSession().setAttribute("userID",user1.getUserName());
     } else {
       System.out.println("DO SOMTHING ! LOGIN FAILED");
     }
-
     return new RedirectView("/search");
   }
 }

@@ -12,7 +12,7 @@ public interface RateService {
     List<Rate> findAll();
 
     List<Rate> findAllByCourseId(String id);
-
+    List<Rate> findAllByUserId(String userName);
     void saveOrUpdate(Rate rate);
 
     void delete(int id);

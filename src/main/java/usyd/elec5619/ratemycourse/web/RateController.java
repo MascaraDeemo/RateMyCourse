@@ -44,6 +44,8 @@ public class RateController {
 
     @RequestMapping(value = "rates/{courseId}", method = RequestMethod.POST)
     public RedirectView rateSubmit(@PathVariable String courseId, HttpServletRequest request) {
+        String userId = (String)request.getSession().getAttribute("userID");
+
         int rating = Integer.parseInt(request.getParameter("rating"));
         String spec = request.getParameter("spec");
         int diff = Integer.parseInt(request.getParameter("difficulty"));
@@ -59,14 +61,9 @@ public class RateController {
         rate.setMajor(major);
         rate.setIfTextBook(ifTextBook);
         rate.setSpec(spec);
-
-
         rate.setCourseID(courseId);
-
-        rate.setUserID("123");
+        rate.setUserID(userId);
         rateService.saveOrUpdate(rate);
-
-
         return new RedirectView(courseId);
     }
 

@@ -39,7 +39,10 @@ public class RateServiceImpl implements RateService {
     public List<Rate> findAllByCourseId(String id) {
         return rateDao.findAllByCourseID(id);
     }
-
+    @Override
+    public List<Rate> findAllByUserId(String userName){
+        return rateDao.findAllByUserID(userName);
+    }
     @Override
     public void saveOrUpdate(Rate rate) {
         Session currentSeesion = this.sessionFactory.getCurrentSession();

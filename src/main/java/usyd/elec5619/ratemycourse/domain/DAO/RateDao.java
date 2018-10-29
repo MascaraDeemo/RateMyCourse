@@ -21,6 +21,5 @@ public interface RateDao extends CrudRepository<Rate, Integer>{
 
     List<Rate> findAllByCourseID(String courseID);
 
-    List<Rate> findAllByUserID(int userID);
-
+    List<Rate> findAllByUserID(String userName);
 }
