@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -21,6 +22,11 @@
 </main>
 
 
+<c:forEach var = "userRated" items = "${userRateList}">
+
+  <button type="button" class="btn btn-primary"><a href="/${userRated.courseID}/rates"> ${userRated.courseID}</a></button>
+
+</c:forEach>
 <jsp:include page="fragments/footer.jsp"/>
 
 </body>
