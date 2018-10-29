@@ -74,6 +74,10 @@ public class RateController {
         String major = request.getParameter("major");
         Rate rate = new Rate();
         rate.setRating(rating);
+<<<<<<< HEAD
+=======
+        rate.setTags(new ArrayList<>(Arrays.asList(request.getParameterValues("tags"))));
+>>>>>>> b67d19838a8195f59359f7bae06ea311d0cb9c9e
         rate.setDifficulty(diff);
         rate.setIfCredit(ifCred);
         rate.setGrade(grade);
@@ -93,6 +97,7 @@ public class RateController {
         return "redirect:COMP5318/rates";
     }
 
+<<<<<<< HEAD
     @Autowired
     private SessionFactory sessionFactory;
 
@@ -133,4 +138,6 @@ public class RateController {
 
 
 
+=======
+>>>>>>> b67d19838a8195f59359f7bae06ea311d0cb9c9e
 }
