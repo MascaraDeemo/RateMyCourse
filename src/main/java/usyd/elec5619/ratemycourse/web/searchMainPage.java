@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import usyd.elec5619.ratemycourse.domain.Course;
 import usyd.elec5619.ratemycourse.domain.DAO.CourseDAO;
 
@@ -28,29 +29,31 @@ public class searchMainPage {
     }
 
     @RequestMapping(value = "/sousuo", method = RequestMethod.GET)
-    public String searchResult(HttpServletRequest request, Model model){
+    public String searchResult(HttpServletRequest request, Model model) {
 
         String key = request.getParameter("search");
 
-        List<Course> allCourse = courseDAO.findAll();
+        if (key.isEmpty()) {
+            return "searchBar";
+        } else {
+            List<Course> allCourse = courseDAO.findAll();
 
-        List<Course> searchJieGuo = new ArrayList<Course>();
+            List<Course> searchJieGuo = new ArrayList<Course>();
 
-        for (Course i:allCourse){
-            System.out.println(i.getCourseId());
-            if(i.getCourseId().toLowerCase().contains(key.toLowerCase().trim()) ||
-                    i.getCourseName().toLowerCase().contains(key.toLowerCase().trim())){
-                searchJieGuo.add(i);
-            }
-            StringTokenizer st = new StringTokenizer(i.getCourseDescrip());
-            while(st.hasMoreTokens()){
-                if (st.nextToken() == key && !searchJieGuo.contains(i)){
+            for (Course i : allCourse) {
+                if (i.getCourseId().toLowerCase().contains(key.toLowerCase().trim()) ||
+                        i.getCourseName().toLowerCase().contains(key.toLowerCase().trim())) {
                     searchJieGuo.add(i);
                 }
+                StringTokenizer st = new StringTokenizer(i.getCourseDescrip());
+                while (st.hasMoreTokens()) {
+                    if (st.nextToken() == key && !searchJieGuo.contains(i)) {
+                        searchJieGuo.add(i);
+                    }
+                }
             }
+            model.addAttribute("searchJieGuoresult", searchJieGuo);
+            return "result";
         }
-//        List<Course> h = ((List<Course>) searchJieGuo);
-        model.addAttribute("searchJieGuoresult",searchJieGuo);
-        return "result";
     }
 }
