@@ -31,7 +31,7 @@ public class searchMainPage {
         this.courseDAO = courseDAO;
     }
 
-    @RequestMapping("/search")
+    @RequestMapping(value="/search", method=RequestMethod.GET)
     public String showSearchBar(HttpServletRequest request, Model model){
         int userID = (int)request.getSession().getAttribute("userID");
         System.out.print(userID);

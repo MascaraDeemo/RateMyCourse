@@ -19,6 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
  
 //import usyd.elec5619.ratemycourse.domain.Login;
 
+import org.springframework.web.servlet.view.RedirectView;
 import usyd.elec5619.ratemycourse.domain.Login;
 import usyd.elec5619.ratemycourse.domain.User;
  
@@ -44,32 +45,19 @@ public class loginController {
   }
  
   @RequestMapping(value = "/login", method = RequestMethod.POST)
- 
-  public ModelAndView loginProcess(HttpServletRequest request, HttpServletResponse response,
-  @ModelAttribute("login") Login login) {
+  public RedirectView loginProcess(HttpServletRequest request,
+                                   @ModelAttribute("login") Login login) {
 
-    ModelAndView mav = null;
 
     User user1 = userService.validateUser(login);
-    request.getSession().setAttribute("userID",user1.getId());
-
     if (user1 != null) {
-
-      mav = new ModelAndView("searchBar");
-      //go to home page
-
-      mav.addObject("name", user1.getUserName());
+      request.getSession().setAttribute("userID",user1.getId());
 
     } else {
-
-      mav = new ModelAndView("loginForm");
-
-      mav.addObject("message", "Username or Password is wrong!!");
-
-      // }
+      System.out.println("DO SOMTHING ! LOGIN FAILED");
     }
 
-    return mav;
+    return new RedirectView("/search");
   }
 }
 
