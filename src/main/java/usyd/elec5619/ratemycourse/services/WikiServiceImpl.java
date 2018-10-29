@@ -8,7 +8,6 @@ import org.hibernate.Transaction;
 import org.hibernate.transform.Transformers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import usyd.elec5619.ratemycourse.domain.DAO.WikiDAO;
 import usyd.elec5619.ratemycourse.domain.Wiki;
 import usyd.elec5619.ratemycourse.domain.WikiHistory;
 
@@ -18,25 +17,7 @@ import java.util.List;
 @Service("WikiService")
 public class WikiServiceImpl implements WikiService{
     @Autowired
-    private WikiDAO wikiDAO;
-
-    @Autowired
     private SessionFactory sessionFactory;
-
-    @Override
-    public List<Wiki> findAll() {
-        return wikiDAO.findAll();
-    }
-
-    @Override
-    public Wiki findById(int id) {
-        return wikiDAO.findById(id);
-    }
-
-    @Override
-    public void deleteById(int id) {
-        wikiDAO.deleteById(id);
-    }
 
     @Override
     public Wiki findWikiByCourseId(String courseId) {
@@ -65,11 +46,6 @@ public class WikiServiceImpl implements WikiService{
 
     @Override
     public void saveOrUpdate(Wiki wiki) {
-        System.out.println("Save or update method");
-        System.out.println(wiki.getContent());
-        System.out.println(wiki.getCourseId());
-        System.out.println(wiki.getId());
-
         saveHistory(wiki);
 
         Session currentSession = this.sessionFactory.getCurrentSession();
@@ -79,7 +55,8 @@ public class WikiServiceImpl implements WikiService{
         trans.commit();
     }
 
-    private void saveHistory(Wiki wiki) {
+    @Override
+    public void saveHistory(Wiki wiki) {
         WikiHistory newHistory = new WikiHistory();
 
         newHistory.setHistory(wiki.getContent());
