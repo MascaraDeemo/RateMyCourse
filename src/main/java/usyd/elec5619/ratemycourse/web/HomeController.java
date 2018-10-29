@@ -32,7 +32,6 @@ public class HomeController {
 		
 		String formattedDate = dateFormat.format(date);
 
-		new Rate();
 		return "loginForm";
 	}
 
