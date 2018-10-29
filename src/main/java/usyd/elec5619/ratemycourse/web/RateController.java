@@ -74,7 +74,7 @@ public class RateController {
         String major = request.getParameter("major");
         Rate rate = new Rate();
         rate.setRating(rating);
-
+        rate.setTags(new ArrayList<>(Arrays.asList(request.getParameterValues("tags"))));
         rate.setDifficulty(diff);
         rate.setIfCredit(ifCred);
         rate.setGrade(grade);
