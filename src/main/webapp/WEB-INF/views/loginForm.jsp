@@ -9,20 +9,24 @@
 <body>
 	<h3>Log in</h3>
 	<br>
-	<form action="login" method="post">
+	<form action="/login" method="post">
 		<table>
 			<tr>
-				<td><label>username</label></td>
-				<td><input type="text" id="Username" name="username"></td>
+				<td><label>Username</label></td>
+				<td><input type="text" id="Username" name="Username"></td>
 			</tr>
 			<tr>
-				<td><label>password</label></td>
-				<td><input type="password" id="Password" name="password"></td>
+				<td><label>Password</label></td>
+				<td><input type="password" id="Password" name="Password"></td>
 			</tr>		
 			<tr>
-				<td><input id="submit" type="submit" value="Log in"></td>
+				<td><input id="login" type="submit" value="Log in"></td>
+			</tr>
+			<tr>
+				<td><input id="register" type="submit" value="Register" onclick="window.location.href='register'"></td>
 			</tr>
 		</table>
 	</form>
+	if you haven't got an account, please register here:<a href="register.jsp"></a>
 </body>
 </html>

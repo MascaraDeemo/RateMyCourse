@@ -38,6 +38,7 @@
 		<property name="packagesToScan" value="usyd.elec5619.ratemycourse" />
 		<property name="hibernateProperties">
 			<props>
+				<prop key="hibernate.current_session_context_class">thread</prop>
 				<prop key="hibernate.hbm2ddl.auto">update</prop>
 				<prop key="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</prop>
 				<prop key="hibernate.show_sql">false</prop>
@@ -49,10 +50,22 @@
 		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="datasource" />
+	</bean>
 
 	<bean id = "Course"
 		  class = "usyd.elec5619.ratemycourse.domain.Course">
 
+
+	</bean>
+
+	<bean id="datasource"
+		  class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/hello" />
+		<property name="username" value="root" />
+		<property name="password" value="Wzy19960415" />
 	</bean>
 
 	<tx:annotation-driven proxy-target-class="true"/>
