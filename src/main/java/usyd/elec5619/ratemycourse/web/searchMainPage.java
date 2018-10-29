@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import usyd.elec5619.ratemycourse.domain.Course;
 import usyd.elec5619.ratemycourse.domain.DAO.CourseDAO;
+import usyd.elec5619.ratemycourse.domain.DAO.RateDao;
+import usyd.elec5619.ratemycourse.domain.Rate;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
@@ -17,6 +19,12 @@ import java.util.StringTokenizer;
 @Controller
 public class searchMainPage {
     CourseDAO courseDAO;
+    RateDao rateDao;
+
+    @Autowired
+    public void setRateDao(RateDao rateDao){
+        this.rateDao=rateDao;
+    }
 
     @Autowired
     public void setCourseDAO(CourseDAO courseDAO) {
@@ -27,7 +35,11 @@ public class searchMainPage {
     public String showSearchBar(HttpServletRequest request, Model model){
         int userID = (int)request.getSession().getAttribute("userID");
         System.out.print(userID);
-
+//        List<Rate> rateList = rateDao.findAllByUserID(userID);
+//
+//        if(rateList !=null){
+//            model.addAttribute("userList",rateList);
+//        }
         return "searchBar";
     }
 

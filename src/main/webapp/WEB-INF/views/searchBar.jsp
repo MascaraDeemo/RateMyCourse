@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -19,9 +20,10 @@
 </div>
   </div>
 </main>
-
-
 <jsp:include page="fragments/footer.jsp"/>
 
+<%--<c:forEach var="userList" items = "${userList}">--%>
+  <%--<B--%>
+<%--</c:forEach>--%>
 </body>
 </html>
