@@ -12,6 +12,7 @@ import usyd.elec5619.ratemycourse.domain.Wiki;
 import usyd.elec5619.ratemycourse.domain.WikiHistory;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Service("WikiService")
@@ -63,6 +64,7 @@ public class WikiServiceImpl implements WikiService{
         newHistory.setContent(wiki.getContent());
         newHistory.setWiki_Id(wiki.getId());
         newHistory.setSummary(wiki.getSummary());
+        newHistory.setTime(new Date());
 
         Session currentSession = this.sessionFactory.getCurrentSession();
         Transaction trans = currentSession.beginTransaction();

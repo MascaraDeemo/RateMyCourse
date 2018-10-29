@@ -29,7 +29,10 @@
 
     <div>
         <c:forEach var="history" items="${wiki.history}">
-            ${history.content}
+            content: ${history.content}
+            summary: ${history.summary}
+            modified at: ${history.time}
+            <br />
         </c:forEach>
     </div>
 

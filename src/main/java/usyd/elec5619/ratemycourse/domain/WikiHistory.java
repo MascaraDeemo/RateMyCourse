@@ -1,6 +1,7 @@
 package usyd.elec5619.ratemycourse.domain;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Table(name="Wiki_History")
@@ -21,6 +22,9 @@ public class WikiHistory {
 
     @Column(name="summary")
     private String summary;
+
+    @Column(name="time")
+    private Date time;
 
     public WikiHistory() {
 
@@ -69,6 +73,14 @@ public class WikiHistory {
 
     public void setSummary(String summary) {
         this.summary = summary;
+    }
+
+    public Date getTime() {
+        return time;
+    }
+
+    public void setTime(Date time) {
+        this.time = time;
     }
 }
 
