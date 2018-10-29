@@ -32,7 +32,7 @@ public class WikiController {
         wiki.setId(id);
         wikiService.saveOrUpdate(wiki);
 
-        model.addAttribute("wiki", wiki);
+        model.addAttribute("wiki",wiki);
         return new RedirectView("/wiki/" + wiki.getCourseId());
     }
 }

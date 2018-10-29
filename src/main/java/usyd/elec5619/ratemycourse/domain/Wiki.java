@@ -24,6 +24,8 @@ public class Wiki {
     @Column(name="CourseId")
     private String CourseId;
 
+    @Column(name="CourseName")
+    private String CourseName;
 
     @Column(name="Wiki_Id")
     private Integer Wiki_Id;
@@ -95,5 +97,13 @@ public class Wiki {
 
     public void setSummary(String summary) {
         this.summary = summary;
+    }
+
+    public String getCourseName() {
+        return CourseName;
+    }
+
+    public void setCourseName(String courseName) {
+        CourseName = courseName;
     }
 }
