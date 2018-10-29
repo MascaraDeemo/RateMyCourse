@@ -38,6 +38,7 @@
 		<property name="packagesToScan" value="usyd.elec5619.ratemycourse" />
 		<property name="hibernateProperties">
 			<props>
+				<prop key="hibernate.current_session_context_class">thread</prop>
 				<prop key="hibernate.hbm2ddl.auto">update</prop>
 				<prop key="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</prop>
 				<prop key="hibernate.show_sql">false</prop>
@@ -49,6 +50,8 @@
 		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
+
+
 
 	<bean id = "Course"
 		  class = "usyd.elec5619.ratemycourse.domain.Course">
