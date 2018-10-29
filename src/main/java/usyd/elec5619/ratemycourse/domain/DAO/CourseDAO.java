@@ -13,11 +13,11 @@ public interface CourseDAO  extends CrudRepository<Course, String> {
 
     List<Course> findAll();
 
-    Course findByCourseId(String courseId);
-
-    Course findByCourseName(String courseName);
-
-    List<Course> findAllByCourseId(String courseId);
+//    Course findByCourseId(String courseId);
+//
+//    Course findByCourseName(String courseName);
+//
+//    List<Course> findAllByCourseId(String courseId);
 
 //    List<Course> findAllByCourseIdAndCourseName(String courseId);
 //    List<Course> findAllByCourseName(String courseName);

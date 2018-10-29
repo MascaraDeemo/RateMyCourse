@@ -74,7 +74,6 @@ public class RateController {
         String major = request.getParameter("major");
         Rate rate = new Rate();
         rate.setRating(rating);
-
         rate.setDifficulty(diff);
         rate.setIfCredit(ifCred);
         rate.setGrade(grade);
@@ -115,8 +114,8 @@ public class RateController {
         List<Course> searchJieGuo = new ArrayList<Course>();
 
         for (Course i:allCourse){
-            System.out.println(i.getCourseId());
-            if(i.getCourseId().toLowerCase().contains(key.toLowerCase().trim()) ||
+            System.out.println(i.getCourseID());
+            if(i.getCourseID().toLowerCase().contains(key.toLowerCase().trim()) ||
                     i.getCourseName().toLowerCase().contains(key.toLowerCase().trim())){
                 searchJieGuo.add(i);
             }
