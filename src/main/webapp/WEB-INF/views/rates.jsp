@@ -1,16 +1,83 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Sam
-  Date: 24/10/18
-  Time: 1:46 AM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
+<%@ page session="false"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+
 <body>
 
+<div>
+    <form action="/search_action">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+</div>
+
+
+<h1>All Rates</h1>
+
+<hr>
+<c:forEach var="rates" items="${rates}">
+    <div class="row">
+
+
+        <label class="col-sm-2">Rating</label>
+        <div class="col-sm-10">${rates.rating}</div>
+    </div>
+
+    <div class="row">
+        <label class="col-sm-2">Difficulty</label>
+        <div class="col-sm-10">${rates.difficulty}</div>
+    </div>
+
+
+<c:if test="${not empty rates.isIfCredit()}">
+    <div class="row" id="creditDiv">
+        <label class="col-sm-2">Take For Credit?</label>
+        <div class="col-sm-10">${rates.isIfCredit()}</div>
+    </div>
+</c:if>
+
+
+    <c:if test="${not empty rates.getIfTextBook()}">
+        <div class="row" id="creditDiv">
+            <label class="col-sm-2">Textbook Used?</label>
+            <div class="col-sm-10" id="ifCreditDiv">${rates.getIfTextBook()}</div>
+        </div>
+    </c:if>
+    <c:if test="${not empty rates.tags}">
+        <div class="row">
+            <label class="col-sm-2">Tags Chosen</label>
+            <div class="col-sm-10">${rates.tags}</div>
+        </div>
+    </c:if>
+
+<c:if test="${not empty rates.spec}">
+    <div class="row">
+        <label class="col-sm-2">Specification</label>
+        <div class="col-sm-10">${rates.spec}</div>
+    </div>
+</c:if>
+
+    <c:if test="${rates.grade != 0}">
+    <div class="row">
+        <label class="col-sm-2">Grade Received</label>
+        <div class="col-sm-10">${rates.grade}</div>
+    </div>
+    </c:if>
+    <c:if test="${not empty rates.major}">
+    <div class="row">
+        <label class="col-sm-2">Major</label>
+        <div class="col-sm-10">${rates.major}</div>
+    </div>
+    </c:if>
+<hr>
+
+</c:forEach>
 </body>
 </html>
