@@ -24,10 +24,8 @@
 <hr>
 <c:forEach var="rates" items="${searchJieGuoresult}">
     <div class="row">
-
-
         <label class="col-sm-2">Course ID</label>
-        <div class="col-sm-10"><a href = "/${rates.courseId}/rates">${rates.courseId}</a></div>
+        <div class="col-sm-10"><a href = "/${rates.courseID}/rates">${rates.courseID}</a></div>
 
     </div>
 
@@ -40,9 +38,7 @@
         <label class="col-sm-2">Course Description</label>
         <div class="col-sm-10">${rates.courseDescrip}</div>
     </div>
-
     <hr>
-
 </c:forEach>
 </body>
 </html>

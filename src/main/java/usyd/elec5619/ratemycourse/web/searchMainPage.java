@@ -24,7 +24,10 @@ public class searchMainPage {
     }
 
     @RequestMapping("/search")
-    public String showSearchBar(){
+    public String showSearchBar(HttpServletRequest request, Model model){
+        int userID = (int)request.getSession().getAttribute("userID");
+        System.out.print(userID);
+
         return "searchBar";
     }
 

@@ -18,7 +18,7 @@
 			</tr>
 			<tr>
 				<td><label>Password</label></td>
-				<td><form:input type="password" id="password" name="password" path="userPswd"/></td>
+				<td><form:input type="password" id="password" name="password" path="password"/></td>
 			</tr>		
 			<tr>
 				<td><label>Email</label></td>
@@ -26,7 +26,7 @@
 			</tr>	
 			<tr>
 				<td><label>University</label></td>
-				<td><form:input type="text" id="University" name="University" path="userUni"/></td>
+				<td><form:input type="text" id="University" name="University" path="university"/></td>
 			</tr>	
 			<tr>
 				<td><input id="register" type="submit" value="Register"></td>

@@ -30,11 +30,11 @@ public class User {
 	String userName;
 	
 	@Column(name = "password", nullable = false, length = 100)
-	String userPswd;
+	String password;
 	
 	@Column(name = "university", length = 50)
 	@Field(index = Index.YES,analyze = Analyze.YES,store = Store.NO)
-	String userUni;
+	String university;
 	
 	public int getId() {
 		return this.id;
@@ -45,11 +45,11 @@ public class User {
 	public String getUserName() {
 		return this.userName;
 	}
-	public String getUserPswd() {
-		return this.userPswd;
+	public String getPassword() {
+		return this.password;
 	}
-	public String getUserUni() {
-		return this.userUni;
+	public String getUniversity() {
+		return this.university;
 	}
 	public void setUserEmail(String email) {
 		this.userEmail = email;
@@ -57,10 +57,10 @@ public class User {
 	public void setUserName(String name) {
 		this.userName = name;
 	}
-	public void setUserPswd(String password) {
-		this.userPswd = password;
+	public void setPassword(String password) {
+		this.password = password;
 	}
-	public void setUserUni(String university) {
-		this.userUni = university;
+	public void setUniversity(String university) {
+		this.university = university;
 	}
 }
