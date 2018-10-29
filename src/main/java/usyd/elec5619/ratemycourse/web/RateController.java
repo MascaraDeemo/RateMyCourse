@@ -107,5 +107,4 @@ public class RateController {
         model.addAttribute("searchJieGuoresult", searchJieGuo);
         return "result";
     }
-
 }
