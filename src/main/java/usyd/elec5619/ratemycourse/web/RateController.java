@@ -74,7 +74,10 @@ public class RateController {
         String major = request.getParameter("major");
         Rate rate = new Rate();
         rate.setRating(rating);
+<<<<<<< HEAD
+=======
         rate.setTags(new ArrayList<>(Arrays.asList(request.getParameterValues("tags"))));
+>>>>>>> b67d19838a8195f59359f7bae06ea311d0cb9c9e
         rate.setDifficulty(diff);
         rate.setIfCredit(ifCred);
         rate.setGrade(grade);
@@ -94,4 +97,47 @@ public class RateController {
         return "redirect:COMP5318/rates";
     }
 
+<<<<<<< HEAD
+    @Autowired
+    private SessionFactory sessionFactory;
+
+    CourseDAO courseDAO;
+
+    @Autowired
+    public void setCourseDAO(CourseDAO courseDAO) {
+        this.courseDAO = courseDAO;
+    }
+
+    @RequestMapping(value = "/search_action", method = RequestMethod.GET)
+    public String searchResult(HttpServletRequest request, Model model){
+
+
+        String key = request.getParameter("search");
+
+        List<Course> allCourse = courseDAO.findAll();
+
+        List<Course> searchJieGuo = new ArrayList<Course>();
+
+        for (Course i:allCourse){
+            System.out.println(i.getCourseID());
+            if(i.getCourseID().toLowerCase().contains(key.toLowerCase().trim()) ||
+                    i.getCourseName().toLowerCase().contains(key.toLowerCase().trim())){
+                searchJieGuo.add(i);
+            }
+            StringTokenizer st = new StringTokenizer(i.getCourseDescrip());
+            while(st.hasMoreTokens()){
+                if (st.nextToken() == key && !searchJieGuo.contains(i)){
+                    searchJieGuo.add(i);
+                }
+            }
+        }
+//        List<Course> h = ((List<Course>) searchJieGuo);
+        model.addAttribute("searchJieGuoresult",searchJieGuo);
+        return "result";
+    }
+
+
+
+=======
+>>>>>>> b67d19838a8195f59359f7bae06ea311d0cb9c9e
 }

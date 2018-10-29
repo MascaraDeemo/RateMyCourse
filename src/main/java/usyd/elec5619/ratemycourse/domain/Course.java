@@ -11,14 +11,16 @@ import org.hibernate.search.annotations.Field;
 import org.hibernate.search.annotations.Index;
 import org.hibernate.search.annotations.Store;
 
+import java.math.BigDecimal;
+
 
 @Entity
 @Indexed
 @Table(name = "Course")
 public class Course {
 	@Id
-	@Column(name = "courseId", nullable = false,length = 8)
-	String courseId;
+	@Column(name = "courseID", nullable = false,length = 8)
+	String courseID;
 	
 	@Column(name = "courseName", nullable = false, length = 100)
 	@Field(index = Index.YES,analyze = Analyze.YES,store = Store.NO)
@@ -27,12 +29,17 @@ public class Course {
 	@Column(name = "courseDescrip")
 	@Field(index = Index.YES,analyze = Analyze.YES,store = Store.NO)
 	String courseDescrip;
-	
-	public String getCourseId() {
-		return this.courseId;
+
+	@Column(name="coordinator")
+    private String coordinator;
+
+	private BigDecimal rate;
+
+	public String getCourseID() {
+		return this.courseID;
 	}
-	public void setCourseId(String courseId) {
-		this.courseId = courseId;
+	public void setCourseID(String courseID) {
+		this.courseID = courseID;
 	}
 	public String getCourseName() {
 		return this.courseName;
@@ -46,4 +53,20 @@ public class Course {
 	public void setCourseDescrip(String courseDescrip) {
 		this.courseDescrip = courseDescrip;
 	}
+
+    public void setRate(BigDecimal rate) {
+        this.rate = rate;
+    }
+
+    public BigDecimal getRate() {
+        return rate;
+    }
+
+    public String getCoordinator() {
+        return coordinator;
+    }
+
+    public void setCoordinator(String coordinator) {
+        this.coordinator = coordinator;
+    }
 }
