@@ -8,7 +8,7 @@
 <body>
 
 
-<form class="form-horizontal" action="/rate_course" method="post" modelAttribute="rate">
+<form class="form-horizontal" action="/rates/${courseId}" method="post" modelAttribute="rate">
     Rate this Course:<br>
 
     <div class="sliderContainer1">

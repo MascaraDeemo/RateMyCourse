@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.view.RedirectView;
 import usyd.elec5619.ratemycourse.domain.DAO.CourseDAO;
 import usyd.elec5619.ratemycourse.domain.Rate;
 
@@ -20,30 +21,29 @@ public class RateController {
 
     private RateService rateService;
 
-    String courseId = "COMP5318";
-
     @Autowired
     public void setRateService(RateService rateService) {
         this.rateService = rateService;
     }
 
-    @RequestMapping(value = "/{courseId}/rates", method = RequestMethod.GET)
+    @RequestMapping(value = "/rates/{courseId}", method = RequestMethod.GET)
     public String showAllRatesInCourse(@PathVariable String courseId, Model model) {
-
+        model.addAttribute("courseId",courseId);
         model.addAttribute("rates", rateService.findAllByCourseId(courseId));
         return "rates";
 
     }
 
 
-    @RequestMapping(value = "/{courseId}/rate_course", method = RequestMethod.GET)
-    public String getRateForm(@PathVariable String courseId) {
+    @RequestMapping(value = "/rate_course/{courseId}", method = RequestMethod.GET)
+    public String getRateForm(@PathVariable String courseId,Model model) {
+        model.addAttribute("courseId", courseId);
         return "rate_course";
     }
 
 
-    @RequestMapping(value = "rate_course", method = RequestMethod.POST)
-    public String rateSubmit(HttpServletRequest request) {
+    @RequestMapping(value = "rates/{courseId}", method = RequestMethod.POST)
+    public RedirectView rateSubmit(@PathVariable String courseId, HttpServletRequest request) {
         int rating = Integer.parseInt(request.getParameter("rating"));
         String spec = request.getParameter("spec");
         int diff = Integer.parseInt(request.getParameter("difficulty"));
@@ -67,7 +67,7 @@ public class RateController {
         rateService.saveOrUpdate(rate);
 
 
-        return "redirect:COMP5318/rates";
+        return new RedirectView(courseId);
     }
 
     @Autowired
@@ -78,33 +78,5 @@ public class RateController {
     @Autowired
     public void setCourseDAO(CourseDAO courseDAO) {
         this.courseDAO = courseDAO;
-    }
-
-    @RequestMapping(value = "/search_action", method = RequestMethod.GET)
-    public String searchResult(HttpServletRequest request, Model model) {
-
-
-        String key = request.getParameter("search");
-
-        List<Course> allCourse = courseDAO.findAll();
-
-        List<Course> searchJieGuo = new ArrayList<Course>();
-
-        for (Course i : allCourse) {
-            System.out.println(i.getCourseID());
-            if (i.getCourseID().toLowerCase().contains(key.toLowerCase().trim()) ||
-                    i.getCourseName().toLowerCase().contains(key.toLowerCase().trim())) {
-                searchJieGuo.add(i);
-            }
-            StringTokenizer st = new StringTokenizer(i.getCourseDescrip());
-            while (st.hasMoreTokens()) {
-                if (st.nextToken() == key && !searchJieGuo.contains(i)) {
-                    searchJieGuo.add(i);
-                }
-            }
-        }
-//        List<Course> h = ((List<Course>) searchJieGuo);
-        model.addAttribute("searchJieGuoresult", searchJieGuo);
-        return "result";
     }
 }
