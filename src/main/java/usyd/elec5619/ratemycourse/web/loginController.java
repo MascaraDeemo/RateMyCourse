@@ -35,7 +35,7 @@ public class loginController {
  
   public ModelAndView showLogin(HttpServletRequest request, HttpServletResponse response) {
  
-    ModelAndView mav = new ModelAndView("loginForm");
+    ModelAndView mav = new ModelAndView("searchBar");
  
     mav.addObject("loginForm", new Login());
  
@@ -56,7 +56,6 @@ public class loginController {
     if (user1 != null) {
 
       mav = new ModelAndView("searchBar");
-      //go to home page
 
       mav.addObject("name", user1.getUserName());
 

@@ -31,7 +31,7 @@
 
     <div class="row">
         <label class="col-sm-2">Course Name</label>
-        <div class="col-sm-10">${rates.courseName}</div>
+        <div class="col-sm-10"><a href = "/rate_course/${rates.courseID}">${rates.courseName}</a></div>
     </div>
 
     <div class="row">

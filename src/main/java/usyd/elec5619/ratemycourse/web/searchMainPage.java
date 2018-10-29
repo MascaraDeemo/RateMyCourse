@@ -33,13 +33,13 @@ public class searchMainPage {
 
     @RequestMapping("/search")
     public String showSearchBar(HttpServletRequest request, Model model){
-        int userID = (int)request.getSession().getAttribute("userID");
-        System.out.print(userID);
-//        List<Rate> rateList = rateDao.findAllByUserID(userID);
-//
-//        if(rateList !=null){
-//            model.addAttribute("userList",rateList);
-//        }
+        Integer userID = (int)request.getSession().getAttribute("userID");
+        System.out.print(userID.toString());
+        List<Rate> rateList = rateDao.findAllByUserID(userID);
+
+        if(rateList !=null){
+            model.addAttribute("userList",rateList);
+        }
         return "searchBar";
     }
 

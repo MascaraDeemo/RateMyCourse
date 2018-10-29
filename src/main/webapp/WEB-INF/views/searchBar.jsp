@@ -11,6 +11,9 @@
   <div class="jumbotron jumbotron-fluid">
     <br><br><br><br><br><br><br><br><br>
 <div class="container">
+  <c:forEach var="userList" items = "${userList}">
+    <button type="button" class="btn btn-info"><a href="/rates/${userList.courseID}">${userList.courseID}</a></button>
+  </c:forEach>
   <form action="/sousuo">
     <input class="form-control my-0 py-1" type="text" placeholder="Search.." name="search">
     <div class="input-group-append">
@@ -18,12 +21,11 @@
     </div>
   </form>
 </div>
+
   </div>
 </main>
 <jsp:include page="fragments/footer.jsp"/>
 
-<%--<c:forEach var="userList" items = "${userList}">--%>
-  <%--<B--%>
-<%--</c:forEach>--%>
+
 </body>
 </html>
