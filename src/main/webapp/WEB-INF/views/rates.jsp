@@ -101,9 +101,9 @@
     </div>
     </c:if>
 
-    <div class="row">
-        <label class="col-sm-4">Rated By</label>
-        <div class="col-sm-8">${rates.userID}</div>
+    <div class="row mt-3">
+        <div class="col-sm-9"></div>
+        <small class="col-sm-3 ">Rated By: ${rates.userID}</small>
     </div>
 <hr>
 
