@@ -8,37 +8,47 @@
 <jsp:include page="fragments/header.jsp" />
 
 <body class="wiki-container">
+
   <section class="main_section">
     <div class="container">
       <!-- <div class="col-12 col-md-10 col-lg-8"> -->
-        <!-- <div class="card card-sm"> -->
-          <!-- <div class="card-body row no-gutters align-items-center"> -->
-            <div>
-            <h1 class="course-title">${wiki.courseId}</h1>
-            <div id="original-content">
-              ${wiki.content}
-            </div>
+      <!-- <div class="card card-sm"> -->
+      <!-- <div class="card-body row no-gutters align-items-center"> -->
+      <div class="wiki-container">
+        <h1 class="course-title">${wiki.courseId} ${wiki.courseName}</h1>
+        <div id="original-content">
+          ${wiki.content}
+        </div>
 
-            <button id="edit-btn">Edit Wiki</button>
-
-            <form:form modelAttribute="wiki" method="post" action="/wiki/${wiki.id}">
-              <form:hidden path="courseId" value="${wiki.courseId}" />
-              <form:hidden path="id" value="${wiki.id}" />
-              <form:textarea path="content" rows="3" cols="20" value="${wiki.content}" />
-              <form:input path="summary" type="text" placeholder="Summary of this edition" />
-              <input class="button-success" type="submit" value="Save Changes" />
-            </form:form>
-
-            <div>
-              <c:forEach var="history" items="${wiki.history}">
-                content: ${history.content}
-                summary: ${history.summary}
-                modified at: ${history.time}
-                <br />
-              </c:forEach>
-            </div>
+        <form:form id="wiki-form" modelAttribute="wiki" method="post" action="/wiki/${wiki.id}">
+          <form:hidden path="courseId" value="${wiki.courseId}" />
+          <form:hidden path="id" value="${wiki.id}" />
+          <form:textarea path="content" rows="3" cols="20" value="${wiki.content}" />
+          <div class="submit-container">
+            <form:input path="summary" type="text" placeholder="Summary of this edition" value="" />
+            <input class="button-success" type="submit" value="submit" />
           </div>
-        <!-- </div> -->
+        </form:form>
+
+
+
+        <button id="edit-btn">Edit Wiki</button>
+
+        <div class="history-list">
+          <h3>Wiki Edit Revision</h3>
+          <ol>
+            <c:forEach var="history" items="${wiki.history}">
+              <li>
+                <span class="history-modified-time">This Wiki was modified at: ${history.time}</span>
+                <span class="history-content">The content is: ${history.content}</span>
+                <span class="history-summary">summarized as: ${history.summary}</span>
+              </li>
+              <br />
+            </c:forEach>
+          </ol>
+        </div>
+      </div>
+      <!-- </div> -->
       <!-- </div> -->
     </div>
   </section>
@@ -47,13 +57,21 @@
   <script>
     var editBtn = document.getElementById('edit-btn');
     editBtn.addEventListener('click', function () {
+      var form = document.getElementById('wiki-form');
+      if (form.style.display !== 'block') {
+        form.style.display = 'block';
+      } else {
+        form.style.display = 'none';
+        return;
+      }
       var el = document.getElementById("content");
-      el.style.display = 'block';
       el.innerText = document.getElementById('original-content').innerHTML;
+      document.getElementById('summary').value = "";
     });
   </script>
 
   <jsp:include page="fragments/footer.jsp" />
+  <link rel="stylesheet" href="/resources/core/css/wiki.css">
 </body>
 
 </html>
