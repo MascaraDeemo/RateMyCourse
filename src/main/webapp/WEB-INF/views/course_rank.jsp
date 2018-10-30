@@ -10,9 +10,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <html>
-<head>
-    <title>Course Rank</title>
-</head>
+<jsp:include page="fragments/header.jsp"/>
 <body>
 
 <h1>Course Rank</h1>
@@ -24,4 +22,6 @@
 </div>
 
 </body>
+
+<jsp:include page="fragments/footer.jsp"/>
 </html>

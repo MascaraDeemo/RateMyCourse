@@ -10,9 +10,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <html>
-<head>
-    <title>Create A Course</title>
-</head>
+<jsp:include page="fragments/header.jsp"/>
 <body>
 
 <h1>Create A Course</h1>
@@ -27,4 +25,5 @@
 </div>
 
 </body>
+<jsp:include page="fragments/footer.jsp"/>
 </html>

@@ -2,6 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Rate My Course</title>
@@ -12,7 +13,7 @@
 				var="signin" />
 	<link href="${signin}" rel="stylesheet" />
 </head>
-<body>
+<body>`
 
 <section class = "login-block">
 	<div class="container">
@@ -36,7 +37,7 @@
 								</label>
 					<button class="btn btn-login float-right" id="login" type="submit">Sign In</button>
 							</div>
-							<%--<button class="btn btn-lg btn-google btn-block text-uppercase" href="/register">Register Now</button>--%>
+							<div class="copy-text">If you haven't got an account, please <a href="register">register</a> here.</div>
 						</form>
 			</div>
 			<div class="col-md-8 banner-sec">
@@ -89,3 +90,4 @@
 
 <jsp:include page="fragments/footer.jsp"/>
 </body>
+</html>

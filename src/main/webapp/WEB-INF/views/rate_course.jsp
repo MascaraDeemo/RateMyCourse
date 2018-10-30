@@ -3,8 +3,9 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-<html>
 
+<html>
+<jsp:include page="fragments/header.jsp"/>
 <body>
 
 
@@ -94,5 +95,8 @@
 
 </form>
 
+
+<jsp:include page="fragments/footer.jsp"/>
 </body>
+
 </html>
