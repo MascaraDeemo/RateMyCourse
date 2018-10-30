@@ -20,6 +20,8 @@
         <div>course code is: ${course.courseID}</div>
         <div>course name is: ${course.courseName}</div>
     </c:forEach>
+
+    <a href="/course/addform">Add a Course</a>
 </div>
 
 </body>

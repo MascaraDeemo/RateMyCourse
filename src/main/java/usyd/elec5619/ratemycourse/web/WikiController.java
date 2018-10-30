@@ -6,11 +6,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.view.RedirectView;
 import usyd.elec5619.ratemycourse.domain.Wiki;
+import usyd.elec5619.ratemycourse.services.CourseService;
 import usyd.elec5619.ratemycourse.services.WikiService;
 
 @Controller
 public class WikiController {
     private WikiService wikiService;
+    @Autowired
+    private CourseService courseService;
 
     @Autowired
     public void setWikiService(WikiService wikiService) {
@@ -21,6 +24,8 @@ public class WikiController {
     public String showWikiPage(Model model, @PathVariable("courseId") String courseId){
         courseId = courseId.toUpperCase();
         Wiki wiki = wikiService.findWikiByCourseId(courseId);
+        String courseName = courseService.findCourseNameByCourseID(courseId);
+        wiki.setCourseName(courseName);
 
         model.addAttribute("wiki", wiki);
         return "wiki";
