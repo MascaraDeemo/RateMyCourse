@@ -23,12 +23,12 @@
 						<form class="login-form" action="/login" method="post">
 					<div class="form-group">
 						<label for="Username" class="text-uppercase">Username</label>
-						<input class="form-control" type="text" id="Username" name="Username" >
+						<input class="form-control" type="text" id="Username" name="Username"   required="required">
 					</div>
 
 					<div class="form-group">
 						<label for="Password" class="text-uppercase">Password</label>
-						<input class="form-control" type="password" id="Password" name="Password">
+						<input class="form-control" type="password" id="Password" name="Password"  required="required">
 					</div>
 							<div class="form-check">
 								<label class="form-check-label">
