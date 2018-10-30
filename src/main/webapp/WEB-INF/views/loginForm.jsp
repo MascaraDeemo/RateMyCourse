@@ -22,11 +22,9 @@
 			<tr>
 				<td><input id="login" type="submit" value="Log in"></td>
 			</tr>
-			<tr>
-				<td><input id="register" type="submit" value="Register" onclick="window.location.href='register'"></td>
-			</tr>
+
 		</table>
 	</form>
-	if you haven't got an account, please register here:<a href="register.jsp"></a>
+	if you haven't got an account, please register here:<a href="register">register</a>
 </body>
 </html>
