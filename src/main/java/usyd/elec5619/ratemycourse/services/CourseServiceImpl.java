@@ -42,4 +42,22 @@ public class CourseServiceImpl implements CourseService{
         currentSession.flush();
         trans.commit();
     }
+
+    @Override
+    public String findCourseNameByCourseID(String courseID) {
+        Session currentSession = this.sessionFactory.getCurrentSession();
+        Transaction trans = currentSession.beginTransaction();
+        trans.begin();
+
+        // find course with top 20 rates
+        String courseName = (String) currentSession.createSQLQuery("SELECT courseName FROM Course WHERE CourseID=:courseID")
+                .setParameter("courseID", courseID.toUpperCase())
+                .setMaxResults(1)
+                .uniqueResult();
+
+        currentSession.flush();
+        trans.commit();
+
+        return courseName;
+    }
 }
