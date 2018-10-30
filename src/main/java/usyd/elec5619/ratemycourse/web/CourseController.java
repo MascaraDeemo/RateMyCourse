@@ -11,6 +11,7 @@ import usyd.elec5619.ratemycourse.domain.Wiki;
 import usyd.elec5619.ratemycourse.services.CourseService;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -21,8 +22,13 @@ public class CourseController {
     @RequestMapping(value = "/course/rank", method = RequestMethod.GET)
     public String courseRank(Model model) {
         List<Course> courses = courseService.findCourseRankList();
+        List<Course> newCourses = new ArrayList<Course>();
 
-        model.addAttribute("courses", courses);
+        for (int i = 0; i < courses.size(); i++) {
+           newCourses.add(courseService.setCourseName(courses.get(i)));
+        }
+
+        model.addAttribute("courses", newCourses);
         return "course_rank";
     }
 

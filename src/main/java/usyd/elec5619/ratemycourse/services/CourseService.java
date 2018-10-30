@@ -8,4 +8,5 @@ public interface CourseService {
     List<Course> findCourseRankList();
     void addCourse(Course course);
     String findCourseNameByCourseID(String CourseID);
+    Course setCourseName(Course course);
 }
