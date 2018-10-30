@@ -9,6 +9,9 @@
 <section class="main_section">
   <br><br><br><br><br><br><br>
 
+  </div class="banner-text">
+    <h2>Search for the courses you are interested in</h2>
+  </div>
 <div class="container">
   <br>
   <div class="row justify-content-center">
@@ -18,6 +21,7 @@
           <div class="col-auto">
             <i class="fas fa-search h4 text-body"></i>
           </div>
+
           <!--end of col-->
           <form action="/sousuo">
           <div class="col">
