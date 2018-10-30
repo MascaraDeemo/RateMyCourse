@@ -42,7 +42,7 @@
 
     <div class="row">
         <label class="col-sm-2">Course Description</label>
-        <div class="col-sm-10">${rates.courseDescrip}</div>
+        <div class="col-sm-10" id = "des" >${rates.courseDescrip}</div>
     </div>
     <hr>
 </c:forEach>
