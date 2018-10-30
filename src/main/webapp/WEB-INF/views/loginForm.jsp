@@ -52,8 +52,8 @@
 							<img class="d-block img-fluid" src="https://static.pexels.com/photos/33972/pexels-photo.jpg" alt="First slide">
 							<div class="carousel-caption d-none d-md-block">
 								<div class="banner-text">
-									<h2>This is Heaven</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+									<h2>Rate My Course</h2>
+									<p>Free to share opinions and experience </p>
 								</div>
 							</div>
 						</div>
@@ -61,8 +61,8 @@
 							<img class="d-block img-fluid" src="https://images.pexels.com/photos/7097/people-coffee-tea-meeting.jpg" alt="First slide">
 							<div class="carousel-caption d-none d-md-block">
 								<div class="banner-text">
-									<h2>This is Heaven</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+									<h2>Rate My Course</h2>
+									<p> Search for the courses you are interested in</p>
 								</div>
 							</div>
 						</div>
@@ -70,8 +70,8 @@
 							<img class="d-block img-fluid" src="https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg" alt="First slide">
 							<div class="carousel-caption d-none d-md-block">
 								<div class="banner-text">
-									<h2>This is Heaven</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+									<h2>Rate My Course</h2>
+									<p> Highest Rated Courses! </p>
 								</div>
 							</div>
 						</div>
