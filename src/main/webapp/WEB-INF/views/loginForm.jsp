@@ -87,6 +87,11 @@
 <br><br><br>
 
 </section>
+<script>
+    if (window.location.search.length > 0) {
+        alert('password mismatch')
+	}
+</script>
 
 <jsp:include page="fragments/footer.jsp"/>
 </body>

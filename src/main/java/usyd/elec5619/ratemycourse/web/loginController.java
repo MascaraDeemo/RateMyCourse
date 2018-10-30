@@ -8,7 +8,8 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
  
 import org.springframework.stereotype.Controller;
- 
+
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
  
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -45,11 +46,15 @@ public class loginController {
 //  }
  
   @RequestMapping(value = "/login", method = RequestMethod.POST)
-  public RedirectView loginProcess(HttpServletRequest request,
+  public RedirectView loginProcess(HttpServletRequest request, Model model,
                                    @ModelAttribute("login") Login login) {
 
 
     User user1 = userService.validateUser(login);
+    if (!user1.getPassword().equals(login.getPassword())) {
+      return new RedirectView("/?msg=password");
+    }
+
     if (user1 != null) {
       request.getSession().setAttribute("userID",user1.getUserName());
     } else {
