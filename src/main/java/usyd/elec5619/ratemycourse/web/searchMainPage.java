@@ -58,9 +58,14 @@ public class searchMainPage {
             List<Course> searchJieGuo = new ArrayList<Course>();
 
             for (Course i : allCourse) {
-                if (i.getCourseID().toLowerCase().contains(key.toLowerCase().trim()) ||
-                        i.getCourseName().toLowerCase().contains(key.toLowerCase().trim())) {
+                if (i.getCourseID().toLowerCase().contains(key.toLowerCase().trim())) {
                     searchJieGuo.add(i);
+                }
+                StringTokenizer ss = new StringTokenizer(i.getCourseName());
+                while(ss.hasMoreTokens()){
+                    if(ss.nextToken() == key && !searchJieGuo.contains(i)){
+                        searchJieGuo.add(i);
+                    }
                 }
                 StringTokenizer st = new StringTokenizer(i.getCourseDescrip());
                 while (st.hasMoreTokens()) {

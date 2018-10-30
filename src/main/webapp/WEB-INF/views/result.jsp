@@ -25,13 +25,19 @@
 <c:forEach var="rates" items="${searchJieGuoresult}">
     <div class="row">
         <label class="col-sm-2">Course ID</label>
-        <div class="col-sm-10"><a href = "/rates/${rates.courseID}">${rates.courseID}</a></div>
+        <div class="col-sm-10">${rates.courseID}</div>
+        <div class="column">
+            <button type="button" class="btn btn-info"><a href="/rates/${rates.courseID}">View Rates</a></button>
+            <button type="button" class="btn btn-info"><a href = "/rate_course/${rates.courseID}">Rate Course</a></button>
+            <button type="button" class="btn btn-info"><a href = "/wiki/${rates.courseID}">CourseWiki</a></button>
+
+        </div>
 
     </div>
 
     <div class="row">
         <label class="col-sm-2">Course Name</label>
-        <div class="col-sm-10"><a href = "/rate_course/${rates.courseID}">${rates.courseName}</a></div>
+        <div class="col-sm-10">${rates.courseName}</div>
     </div>
 
     <div class="row">
