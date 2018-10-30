@@ -9,6 +9,19 @@
 <html lang="en">
 
 <jsp:include page="fragments/header.jsp"/>
+<style>
+    .book-list {
+        list-style: none;
+    }
+
+    .book-list li {
+        list-style: none;
+    }
+
+    .book-list ul {
+        padding-left: 0;
+    }
+</style>
 <body>
 
 <section class="main_section">
@@ -98,12 +111,11 @@
     </div>
         <div class="container col-sm-2">
         </div>
-        <div class="row">
+        <div class="row book-list">
             ${textbookHtml}
         </div>
         </div>
 </section>
 </body>
-
 <jsp:include page="fragments/footer.jsp"/>
 </html>
