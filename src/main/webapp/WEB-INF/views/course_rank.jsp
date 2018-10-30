@@ -16,8 +16,9 @@
 <h1>Course Rank</h1>
 <div>
     <c:forEach var="course" items="${courses}">
-        course rate is: ${course.rate}
-        course code is: ${course.courseID}
+        <div> course rate is: ${course.rate} </div>
+        <div>course code is: ${course.courseID}</div>
+        <div>course name is: ${course.courseName}</div>
     </c:forEach>
 </div>
 
