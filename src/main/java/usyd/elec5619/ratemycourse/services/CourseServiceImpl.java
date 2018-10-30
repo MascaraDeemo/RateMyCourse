@@ -32,6 +32,22 @@ public class CourseServiceImpl implements CourseService{
         return courses;
     }
 
+    public Course setCourseName (Course course) {
+        Session currentSession = this.sessionFactory.getCurrentSession();
+        Transaction trans = currentSession.beginTransaction();
+        trans.begin();
+
+        // find course with top 20 rates
+        Course c = (Course) currentSession.createSQLQuery("SELECT * FROM course WHERE CourseID=:courseID")
+                .setParameter("courseID", course.getCourseID())
+                .setResultTransformer(Transformers.aliasToBean(Course.class)).setMaxResults(1).uniqueResult();
+
+        currentSession.flush();
+        trans.commit();
+        c.setRate(course.getRate());
+        return c;
+    }
+
     @Override
     public void addCourse(Course course) {
         Session currentSession = this.sessionFactory.getCurrentSession();
