@@ -1,13 +1,16 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<div class="container">
-    <hr>
-    <footer>
-        <p>&copy; Rate My Course</p>
-    </footer>
-</div>
 
+<footer class="page-footer font-small">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <a href="https://mdbootstrap.com/bootstrap-tutorial/"> RateMyCourse.com</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
 <script
         src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 

@@ -9,7 +9,6 @@
 
 <main role="main" class="container">
   <div class="jumbotron jumbotron-fluid">
-    <br><br><br><br><br><br><br><br><br>
 <div class="container">
   <c:forEach var="userList" items = "${userList}">
     <button type="button" class="btn btn-info"><a href="/rates/${userList.courseID}">${userList.courseID}</a></button>
