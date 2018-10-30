@@ -7,4 +7,5 @@ import java.util.List;
 public interface CourseService {
     List<Course> findCourseRankList();
     void addCourse(Course course);
+    String findCourseNameByCourseID(String CourseID);
 }

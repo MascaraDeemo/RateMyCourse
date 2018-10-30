@@ -13,10 +13,11 @@
 
 
 <h1>All Rates</h1>
-
+<div class="row">
+    ${textbookHtml}
+</div>
 <label>Course Description</label>
 <div>${descrip}</div>
-
 <hr>
 <c:forEach var="rates" items="${rates}">
     <div class="row">
@@ -30,6 +31,8 @@
         <label class="col-sm-2">Difficulty</label>
         <div class="col-sm-10">${rates.difficulty}</div>
     </div>
+
+
 
 
 <c:if test="${not empty rates.isIfCredit()}">
