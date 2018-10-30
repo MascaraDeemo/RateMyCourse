@@ -33,11 +33,9 @@ public class Rate {
 
 	@Column(name="RateCourse")
 	@NotNull
-	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
     private int rating;
 	
 	@Column(name="Difficulty")
-	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
     private int difficulty;
 
 	@Column(name="TakenForCredit")
@@ -47,15 +45,12 @@ public class Rate {
 	private Boolean ifTextBook;
 
 	@Column(name="Specification")
-	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private String spec;
 	
 	@Column(name="Grade")
-	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
-	private int grade;
+	private Integer grade;
 	
 	@Column(name="Major")
-	@Field(index = Index.YES, analyze = Analyze.YES, store = Store.NO)
 	private String major;
 
 	@Column(name="courseID")
@@ -132,11 +127,11 @@ public class Rate {
 		this.spec = spec;
 	}
 
-	public int getGrade() {
+	public Integer getGrade() {
 		return grade;
 	}
 
-	public void setGrade(int grade) {
+	public void setGrade(Integer grade) {
 		this.grade = grade;
 	}
 

@@ -52,16 +52,19 @@ public class searchMainPage {
     public String searchResult(HttpServletRequest request, Model model) {
 
         String key = request.getParameter("search");
-
-        if(key.contains(" ")) {
-            System.out.println(key);
-            List<Course> searchJieGuo = searchService.searchByPhrase(key);
-            model.addAttribute("searchJieGuoresult", searchJieGuo);
-            return "result";
+        if(key.isEmpty()){
+            return "searchBar";
         }else{
-            List<Course> searchJieGuo = searchService.searchById(key);
-            model.addAttribute("searchJieGuoresult", searchJieGuo);
-            return "result";
+            if(key.contains(" ")) {
+                System.out.println(key);
+                List<Course> searchJieGuo = searchService.searchByPhrase(key);
+                model.addAttribute("searchJieGuoresult", searchJieGuo);
+                return "result";
+            }else{
+                List<Course> searchJieGuo = searchService.searchById(key);
+                model.addAttribute("searchJieGuoresult", searchJieGuo);
+                return "result";
+            }
         }
     }
 }
