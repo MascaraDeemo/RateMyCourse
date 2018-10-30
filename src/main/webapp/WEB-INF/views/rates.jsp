@@ -18,6 +18,12 @@
 </div>
 <label>Course Description</label>
 <div>${descrip}</div>
+
+<label>Average Difficulty:</label>
+<div>${averageDiff}</div>
+<label>Average Rating:</label>
+<div>${averageRate}</div>
+
 <hr>
 <c:forEach var="rates" items="${rates}">
     <div class="row">
