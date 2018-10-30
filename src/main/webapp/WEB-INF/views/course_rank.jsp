@@ -12,18 +12,35 @@
 <html>
 <jsp:include page="fragments/header.jsp"/>
 <body>
+<section class="main_section">
+    <div class="container bg-light">
 
-<h1>Course Rank</h1>
-<div>
+        <br>
+<div class="row">
+    <h2>Course Rank</h2>
+</div>
+        <hr>
     <c:forEach var="course" items="${courses}">
-        <div> course rate is: ${course.rate} </div>
-        <div>course code is: ${course.courseID}</div>
-        <div>course name is: ${course.courseName}</div>
+        <div class="row">
+            <label class="col-sm-4">Course Rate is</label>
+            <div class="col-sm-8">${course.rate}</div>
+        </div>
+        <div class="row">
+            <label class="col-sm-4">Course Code is</label>
+            <div class="col-sm-8">${course.courseID}</div>
+        </div>
+        <div class="row">
+            <label class="col-sm-4">Course Name is</label>
+            <div class="col-sm-8">${course.courseName}</div>
+        </div>
+        <hr>
     </c:forEach>
 
     <a href="/course/addform">Add a Course</a>
 </div>
+    </div>
 
+</section>
 </body>
 
 <jsp:include page="fragments/footer.jsp"/>

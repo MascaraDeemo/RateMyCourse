@@ -13,6 +13,7 @@
   <br>
   <div class="row justify-content-center">
     <div class="col-12 col-md-10 col-lg-8">
+      <h3>Find Something to Rate</h3>
       <form class="card card-sm" action="/sousuo">
         <div class="card-body row no-gutters align-items-center">
           <div class="col-auto">

@@ -43,7 +43,12 @@
 <div class="col-sm-2">${averageRate}</div>
             </div>
 
-<hr>
+<br>
+            <hr>
+            <div class="row">
+                <h5>All Rates</h5>
+            </div>
+<br>
 <c:forEach var="rates" items="${rates}">
     <div class="row">
 
