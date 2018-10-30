@@ -14,8 +14,10 @@
 
 <h1>All Rates</h1>
 <div class="row">
-    ${textbooxHtml}
+    ${textbookHtml}
 </div>
+<label>Course Description</label>
+<div>${descrip}</div>
 <hr>
 <c:forEach var="rates" items="${rates}">
     <div class="row">

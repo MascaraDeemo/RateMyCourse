@@ -32,17 +32,17 @@ public class loginController {
   UserService userService;
 
 
-  @RequestMapping(value = "/login", method = RequestMethod.GET)
- 
-  public ModelAndView showLogin(HttpServletRequest request, HttpServletResponse response) {
- 
-    ModelAndView mav = new ModelAndView("loginForm");
- 
-    mav.addObject("loginForm", new Login());
- 
-    return mav;
- 
-  }
+//  @RequestMapping(value = "/login", method = RequestMethod.GET)
+//
+//  public ModelAndView showLogin(HttpServletRequest request, HttpServletResponse response) {
+//
+//    ModelAndView mav = new ModelAndView("loginForm");
+//
+//    mav.addObject("loginForm", new Login());
+//
+//    return mav;
+//
+//  }
  
   @RequestMapping(value = "/login", method = RequestMethod.POST)
   public RedirectView loginProcess(HttpServletRequest request,

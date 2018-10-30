@@ -26,6 +26,7 @@ public class RateController {
 
     private RateService rateService;
     private CourseService courseService;
+    private CourseDAO courseDAO;
 
     @Autowired
     public void setRateService(RateService rateService) {
@@ -37,12 +38,19 @@ public class RateController {
         this.courseService = courseService;
     }
 
+    @Autowired
+    public void setCourseDAO(CourseDAO courseDAO) {
+        this.courseDAO = courseDAO;
+    }
+
     @RequestMapping(value = "/rates/{courseId}", method = RequestMethod.GET)
     public String showAllRatesInCourse(@PathVariable String courseId, Model model) {
         String courseName = courseService.findCourseNameByCourseID(courseId);
         String html = this.extractTextBook(courseName);
 
-        model.addAttribute("textbooxHtml", html);
+        model.addAttribute("textbookHtml", html);
+        String courseDescrip = courseDAO.findByCourseID(courseId).getCourseDescrip();
+        model.addAttribute("descrip",courseDescrip);
         model.addAttribute("courseId",courseId);
         model.addAttribute("rates", rateService.findAllByCourseId(courseId));
         return "rates";
@@ -52,6 +60,7 @@ public class RateController {
 
     @RequestMapping(value = "/rate_course/{courseId}", method = RequestMethod.GET)
     public String getRateForm(@PathVariable String courseId,Model model) {
+
         model.addAttribute("courseId", courseId);
         return "rate_course";
     }
@@ -78,18 +87,10 @@ public class RateController {
         rate.setSpec(spec);
         rate.setCourseID(courseId);
         rate.setUserID(userId);
+
+
         rateService.saveOrUpdate(rate);
         return new RedirectView(courseId);
-    }
-
-    @Autowired
-    private SessionFactory sessionFactory;
-
-    CourseDAO courseDAO;
-
-    @Autowired
-    public void setCourseDAO(CourseDAO courseDAO) {
-        this.courseDAO = courseDAO;
     }
 
     private String extractTextBook(String courseName) {
