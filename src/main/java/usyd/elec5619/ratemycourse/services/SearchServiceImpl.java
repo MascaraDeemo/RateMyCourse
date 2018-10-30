@@ -31,7 +31,7 @@ public class SearchServiceImpl implements SearchService {
                 " OR MATCH(courseName) AGAINST (:searchInput2)" +
                 "OR MATCH(courseDescrip) AGAINST (:searchInput2)");
         q.setParameter("searchInput1","%"+searchText.toLowerCase()+"%");
-        q.setParameter("searchInput2","'"+searchText.toLowerCase()+"'");
+        q.setParameter("searchInput2","'"+searchText.toLowerCase()+"*'");
 
         List<Course> searchResult = q.setResultTransformer(Transformers.aliasToBean(Course.class)).list();
 
@@ -40,7 +40,9 @@ public class SearchServiceImpl implements SearchService {
 
     @Override
     public List<Course> searchByPhrase(String searchText){
-        String input = searchText.replace(" "," +");
+
+        String input = searchText;
+
         System.out.print(input);
         Session session = this.sessionFactory.getCurrentSession();
         Transaction transaction=session.beginTransaction();
@@ -48,9 +50,8 @@ public class SearchServiceImpl implements SearchService {
 
         SQLQuery q = session.createSQLQuery
                 ("SELECT * FROM course " +
-                        "WHERE MATCH(courseDescrip) AGAINST (:searchInput IN BOOLEAN MODE)" +
-                        "OR MATCH(courseName) AGAINST (:searchInput IN BOOLEAN MODE)");
-        q.setParameter("searchInput","'+"+input+"'");
+                        "WHERE MATCH(courseName,courseDescrip) AGAINST (:searchInput IN BOOLEAN MODE)");
+        q.setParameter("searchInput","'\""+input+"\"'");
         List<Course> searchResult = q.setResultTransformer(Transformers.aliasToBean(Course.class)).list();
 
         return searchResult;
