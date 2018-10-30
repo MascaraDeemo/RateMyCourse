@@ -50,6 +50,20 @@ public class RateServiceImpl implements RateService {
         currentSeesion.save(rate);
         transaction.commit();
     }
+    @Override
+    public boolean isRated(String userName,String courseID){
+        Session session = this.sessionFactory.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+        transaction.begin();
+
+        List<Rate> lst = rateDao.findAllByCourseID(courseID);
+        for(Rate i:lst){
+            if(i.getUserID().equals(userName)){
+                return true;
+            }
+        }
+        return false;
+    }
 
     @Override
     public void delete(int id) {

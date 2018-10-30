@@ -10,47 +10,54 @@
 <jsp:include page="fragments/header.jsp"/>
 <body>
 
-<div>
-    <form action="/sousuo">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
+
+
 </div>
 
 
-<h1>Search Result</h1>
 
-<hr>
+<section class="main_section">
+<div class="container bg-light">
+
 <c:forEach var="rates" items="${searchJieGuoresult}">
-    <div class="row">
-        <label class="col-sm-2">Course ID</label>
-        <div class="col-sm-10">${rates.courseID}</div>
-        <div class="column">
-            <button type="button" class="btn btn-info"><a href="/rates/${rates.courseID}">View Rates</a></button>
-            <button type="button" class="btn btn-info"><a href = "/rate_course/${rates.courseID}">Rate Course</a></button>
-            <button type="button" class="btn btn-info"><a href = "/wiki/${rates.courseID}">CourseWiki</a></button>
-
+        <div class="row">
+            <h5 class="col-sm-2">Course ID</h5>
+                <div class="col-md-6">
+                ${rates.courseID}
+                </div>
+        <div class="btn-group float-right col-md-auto" role="group">
+           <a class="btn btn-info" href="/rates/${rates.courseID}">View Rates</a>
+            <a class="btn btn-info" href = "/rate_course/${rates.courseID}">Rate Course</a>
+            <a class="btn btn-info" href = "/wiki/${rates.courseID}">CourseWiki</a>
         </div>
 
-    </div>
+        </div>
+    <br>
+
 
     <div class="row">
-        <label class="col-sm-2">Course Name</label>
+        <h6 class="col-sm-2">Course Name</h6>
         <div class="col-sm-10">${rates.courseName}</div>
     </div>
+    <br>
 
     <div class="row">
-        <label class="col-sm-2">Course Description</label>
+        <h7 class="col-sm-2">Course Description</h7>
         <div id = "descrip" class="col-sm-10"><span id="desSpan">${rates.courseDescrip}</span></div>
-        <script>
-            var descrip = document.getElementById("desSpan");
-            var descripInfo = descrip.innerHTML;
-            var splite = descripInfo.split(" ",5);
-            descrip.innerText = splite.toString();
-        </script>
+        <%--<script>--%>
+            <%--var descrip = document.getElementById("desSpan");--%>
+            <%--var descripInfo = descrip.innerHTML;--%>
+            <%--var splite = descripInfo.split(" ",5);--%>
+            <%--descrip.innerText = splite.toString();--%>
+        <%--</script>--%>
     </div>
+
     <hr>
 </c:forEach>
+
+
+</div>
+</section>
 
 <jsp:include page="fragments/footer.jsp"/>
 </body>

@@ -50,6 +50,20 @@ public class RateController {
 
         model.addAttribute("textbookHtml", html);
         String courseDescrip = courseDAO.findByCourseID(courseId).getCourseDescrip();
+        List<Rate> allRated = rateService.findAllByCourseId(courseId);
+        int NanDu = 0;
+        int PingFen = 0;
+        if(allRated.size()>0) {
+            for (Rate i : allRated) {
+                NanDu = NanDu + i.getDifficulty();
+                PingFen = PingFen + i.getRating();
+            }
+            int AvgNandu = NanDu / allRated.size();
+            int AvgPingfen = PingFen / allRated.size();
+
+            model.addAttribute("averageDiff", AvgNandu);
+            model.addAttribute("averageRate", AvgPingfen);
+        }
         model.addAttribute("descrip",courseDescrip);
         model.addAttribute("courseId",courseId);
         model.addAttribute("rates", rateService.findAllByCourseId(courseId));
@@ -67,52 +81,56 @@ public class RateController {
 
     @RequestMapping(value = "rates/{courseId}", method = RequestMethod.POST)
     public RedirectView rateSubmit(@PathVariable String courseId, HttpServletRequest request) {
-
-        Rate rate = new Rate();
-
-        int rating = Integer.parseInt(request.getParameter("rating"));
-        int diff = Integer.parseInt(request.getParameter("difficulty"));
-        rate.setRating(rating);
-        rate.setDifficulty(diff);
-
-        if(request.getParameter("grade").isEmpty()){
-            rate.setGrade(null);
-        }else{
-            int grade = Integer.parseInt(request.getParameter("grade"));
-            rate.setGrade(grade);
-        }
-        String spec = request.getParameter("spec");
-        if(spec.isEmpty()){
-            rate.setSpec(null);
-        }else{
-            rate.setSpec(spec);
-        }
-        Boolean ifCred = Boolean.parseBoolean(request.getParameter("ifCredit"));
-        if(ifCred == null){
-            rate.setIfCredit(null);
-        }else{
-            rate.setIfCredit(ifCred);
-        }
-        Boolean ifTextBook = Boolean.parseBoolean(request.getParameter("textbook"));
-        if(ifTextBook == null){
-            rate.setIfTextBook(null);
-        }else{
-            rate.setIfTextBook(ifTextBook);
-        }
-        String major = request.getParameter("major");
-        if(major.isEmpty()){
-            rate.setMajor(null);
-        }else{
-            rate.setMajor(major);
-        }
-
-        rate.setCourseID(courseId);
         String userId = (String)request.getSession().getAttribute("userID");
-        rate.setUserID(userId);
+        if(rateService.isRated(userId,courseId)){
+            return new RedirectView(courseId);
+        }else {
+            Rate rate = new Rate();
+
+            int rating = Integer.parseInt(request.getParameter("rating"));
+            int diff = Integer.parseInt(request.getParameter("difficulty"));
+            rate.setRating(rating);
+            rate.setDifficulty(diff);
+
+            if (request.getParameter("grade").isEmpty()) {
+                rate.setGrade(null);
+            } else {
+                int grade = Integer.parseInt(request.getParameter("grade"));
+                rate.setGrade(grade);
+            }
+            String spec = request.getParameter("spec");
+            if (spec.isEmpty()) {
+                rate.setSpec(null);
+            } else {
+                rate.setSpec(spec);
+            }
+            Boolean ifCred = Boolean.parseBoolean(request.getParameter("ifCredit"));
+            if (ifCred == null) {
+                rate.setIfCredit(null);
+            } else {
+                rate.setIfCredit(ifCred);
+            }
+            Boolean ifTextBook = Boolean.parseBoolean(request.getParameter("textbook"));
+            if (ifTextBook == null) {
+                rate.setIfTextBook(null);
+            } else {
+                rate.setIfTextBook(ifTextBook);
+            }
+            String major = request.getParameter("major");
+            if (major.isEmpty()) {
+                rate.setMajor(null);
+            } else {
+                rate.setMajor(major);
+            }
+
+            rate.setCourseID(courseId);
+
+            rate.setUserID(userId);
 
 
-        rateService.saveOrUpdate(rate);
-        return new RedirectView(courseId);
+            rateService.saveOrUpdate(rate);
+            return new RedirectView(courseId);
+        }
     }
 
     private String extractTextBook(String courseName) {

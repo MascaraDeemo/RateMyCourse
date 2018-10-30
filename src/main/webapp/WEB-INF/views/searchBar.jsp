@@ -30,7 +30,10 @@
           <!--end of col-->
         </div>
       </form>
-    </div>
+      <c:forEach var="userList" items = "${userList}">
+        <button type="button" class="btn btn-info"><a href="/rates/${userList.courseID}">#${userList.courseID} </a ></button>
+      </c:forEach>
+    </div
     <!--end of col-->
   </div>
 
