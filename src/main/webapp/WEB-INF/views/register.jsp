@@ -35,7 +35,7 @@
 					<h4 class="card-title mt-2">Register</h4>
 				</header>
 				<article class="card-body">
-	<form:form action="/register" method="post"  modelAttribute="user">
+	<form:form action="/register" method="post" id="register-form" modelAttribute="user">
 		<div class="form-group">
 				<label>Username</label>
 				<form:input cssClass="form-control" type="text" id="username" name="username" path="userName" required="required"/>
@@ -67,6 +67,17 @@
 
 </section>
 
+<script>
+	var form = document.getElementById("register-form");
+	form.addEventListener('submit', function(e) {
+	    var email = document.getElementById('Email').value;
+	    if (!/usyd.edu.au/.test(email)) {
+	        alert("Only Email Addresses with domain name usyd.edu.au are valid.");
+	        e.preventDefault();
+	        e.stopPropagation();
+		}
+	})
+</script>
 <jsp:include page="fragments/footer.jsp"/>
 </body>
 </html>
