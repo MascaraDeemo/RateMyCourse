@@ -9,9 +9,6 @@
 <section class="main_section">
   <br><br><br><br><br><br><br>
 
-  </div class="banner-text">
-    <h2>Search for the courses you are interested in</h2>
-  </div>
 <div class="container">
   <br>
   <div class="row justify-content-center">
