@@ -24,7 +24,7 @@ public class CourseServiceImpl implements CourseService{
         trans.begin();
 
         // find course with top 20 rates
-        List<Course> courses = currentSession.createSQLQuery("SELECT SUM(RateCourse) AS rate, CourseID FROM Rate GROUP BY CourseID ORDER BY rate")
+        List<Course> courses = currentSession.createSQLQuery("SELECT SUM(RateCourse) AS rate, CourseID FROM Rate GROUP BY CourseID ORDER BY rate DESC")
                 .setResultTransformer(Transformers.aliasToBean(Course.class)).list();
 
         currentSession.flush();
