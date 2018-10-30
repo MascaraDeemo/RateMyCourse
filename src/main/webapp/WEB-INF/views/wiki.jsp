@@ -15,7 +15,7 @@
       <!-- <div class="card card-sm"> -->
       <!-- <div class="card-body row no-gutters align-items-center"> -->
       <div class="wiki-container">
-        <h1 class="course-title">${wiki.courseId} ${wiki.courseName}</h1>
+        <h1 class="course-title">${wiki.courseId} - ${wiki.courseName}</h1>
         <div id="original-content">
           ${wiki.content}
         </div>
