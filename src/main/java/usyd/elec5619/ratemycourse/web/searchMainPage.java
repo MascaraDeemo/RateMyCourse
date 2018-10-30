@@ -10,6 +10,7 @@ import usyd.elec5619.ratemycourse.domain.Course;
 import usyd.elec5619.ratemycourse.domain.DAO.CourseDAO;
 import usyd.elec5619.ratemycourse.domain.DAO.RateDao;
 import usyd.elec5619.ratemycourse.domain.Rate;
+import usyd.elec5619.ratemycourse.services.SearchServiceImpl;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
@@ -20,6 +21,8 @@ import java.util.StringTokenizer;
 public class searchMainPage {
     CourseDAO courseDAO;
     RateDao rateDao;
+    @Autowired
+    private SearchServiceImpl searchService;
 
     @Autowired
     public void setRateDao(RateDao rateDao){
@@ -50,30 +53,13 @@ public class searchMainPage {
 
         String key = request.getParameter("search");
 
-        if (key.isEmpty()) {
-            return "searchBar";
-        } else {
-            List<Course> allCourse = courseDAO.findAll();
-
-            List<Course> searchJieGuo = new ArrayList<Course>();
-
-            for (Course i : allCourse) {
-                if (i.getCourseID().toLowerCase().contains(key.toLowerCase().trim())) {
-                    searchJieGuo.add(i);
-                }
-                StringTokenizer ss = new StringTokenizer(i.getCourseName());
-                while(ss.hasMoreTokens()){
-                    if(ss.nextToken() == key && !searchJieGuo.contains(i)){
-                        searchJieGuo.add(i);
-                    }
-                }
-                StringTokenizer st = new StringTokenizer(i.getCourseDescrip());
-                while (st.hasMoreTokens()) {
-                    if (st.nextToken() == key && !searchJieGuo.contains(i)) {
-                        searchJieGuo.add(i);
-                    }
-                }
-            }
+        if(key.contains(" ")) {
+            System.out.println(key);
+            List<Course> searchJieGuo = searchService.searchByPhrase(key);
+            model.addAttribute("searchJieGuoresult", searchJieGuo);
+            return "result";
+        }else{
+            List<Course> searchJieGuo = searchService.searchById(key);
             model.addAttribute("searchJieGuoresult", searchJieGuo);
             return "result";
         }
