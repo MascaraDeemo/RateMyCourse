@@ -20,6 +20,9 @@
 			width:100%;
 			padding : 50px 0;
 		}
+
+		.btn-primary{color:#fff;background-color:#e16553;border-color:#e16553}
+		.btn-primary:hover{color:#fff;background-color:#e16553;border-color:#e16553}
 	</style>
 </head>
 <body>
@@ -56,7 +59,7 @@
 
 	</form:form>
 				</article>
-				<div class="border-top card-body text-center">Have an account? <a href="/login">Log In</a></div>
+				<div class="border-top card-body text-center">Have an account? <a href="/">Log In</a></div>
 	</div>
 		</div>
 	</div>

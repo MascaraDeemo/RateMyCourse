@@ -54,7 +54,6 @@ public class RateController {
         model.addAttribute("courseId",courseId);
         model.addAttribute("rates", rateService.findAllByCourseId(courseId));
         return "rates";
-
     }
 
 
@@ -140,7 +139,13 @@ public class RateController {
 
                 // print result
                 res = response.toString();
-                res = res.substring(res.indexOf("<li") - 1);
+                int startIndex = res.indexOf("<li") - 1;
+                if (startIndex < 0) {
+                    res = "";
+                } else {
+                    res = res.substring(startIndex);
+                }
+
                 return res;
             }
 

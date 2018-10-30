@@ -7,23 +7,38 @@
 <body>
 
 <section class="main_section">
-<main role="main" class="container">
-  <div class="jumbotron jumbotron-fluid">
+  <br><br><br><br><br><br><br>
+
 <div class="container">
-  <c:forEach var="userList" items = "${userList}">
-    <button type="button" class="btn btn-info"><a href="/rates/${userList.courseID}">${userList.courseID}</a></button>
-  </c:forEach>
-  <form action="/sousuo">
-    <input class="form-control my-0 py-1" type="text" placeholder="Search.." name="search">
-    <div class="input-group-append">
-    <button type="submit" class=""><i class="fa fa-search text-grey" aria-hidden="true">Search</i></button>
+  <br>
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8">
+      <form class="card card-sm" action="/sousuo">
+        <div class="card-body row no-gutters align-items-center">
+          <div class="col-auto">
+            <i class="fas fa-search h4 text-body"></i>
+          </div>
+
+          <!--end of col-->
+          <div class="col">
+            <input class="form-control form-control-lg form-control-borderless"  type="text" placeholder="Search topics or keywords" name="searchNMB">
+          </div>
+          <!--end of col-->
+          <div class="col-auto">
+            <button class="btn btn-lg btn-success" type="submit">Search</button>
+          </div>
+          <!--end of col-->
+        </div>
+      </form>
     </div>
-  </form>
-</div>
+    <!--end of col-->
+  </div>
 
   </div>
-</main>
+
+  <br><br><br><br><br><br><br><br><br><br>
 </section>
+
 <jsp:include page="fragments/footer.jsp"/>
 
 

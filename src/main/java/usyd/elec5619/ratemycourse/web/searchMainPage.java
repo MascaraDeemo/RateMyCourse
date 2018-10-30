@@ -51,9 +51,13 @@ public class searchMainPage {
     @RequestMapping(value = "/sousuo", method = RequestMethod.GET)
     public String searchResult(HttpServletRequest request, Model model) {
 
-        String key = request.getParameter("search");
-        if(key.isEmpty()){
-            return "searchBar";
+        String key = request.getParameter("searchNMB");
+
+        if(key.contains(" ")) {
+            System.out.println(key);
+            List<Course> searchJieGuo = searchService.searchByPhrase(key);
+            model.addAttribute("searchJieGuoresult", searchJieGuo);
+            return "result";
         }else{
             if(key.contains(" ")) {
                 System.out.println(key);
