@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.view.RedirectView;
 import usyd.elec5619.ratemycourse.domain.Course;
 import usyd.elec5619.ratemycourse.domain.Wiki;
 import usyd.elec5619.ratemycourse.services.CourseService;
@@ -39,10 +40,10 @@ public class CourseController {
     }
 
     @RequestMapping(value = "/course/add", method = RequestMethod.POST)
-    public String addCourse(Model model,  @ModelAttribute("Course") Course course) {
+    public RedirectView addCourse(Model model, @ModelAttribute("Course") Course course) {
         course.setRate(new BigDecimal(0));
         courseService.addCourse(course);
-        return "course_rank";
+        return new RedirectView("/search");
     }
 
 }

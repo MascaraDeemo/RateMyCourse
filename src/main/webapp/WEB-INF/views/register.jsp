@@ -38,19 +38,19 @@
 	<form:form action="/register" method="post"  modelAttribute="user">
 		<div class="form-group">
 				<label>Username</label>
-				<form:input cssClass="form-control" type="text" id="username" name="username" path="userName" />
+				<form:input cssClass="form-control" type="text" id="username" name="username" path="userName" required="required"/>
 		</div>
 		<div class="form-group">
 				<label>Password</label>
-				<form:input cssClass="form-control" type="password" id="password" name="password" path="password"/>
+				<form:input cssClass="form-control" type="password" id="password" name="password" path="password" required="required"/>
 		</div>
 		<div class="form-group">
 				<label>Email</label>
-				<form:input cssClass="form-control" type="text" id="Email" name="Email" path="userEmail"/>
+				<form:input cssClass="form-control" type="email" id="Email" name="Email" path="userEmail" required="required"/>
 		</div>
 		<div class="form-group">
 				<label>University</label>
-				<form:input cssClass="form-control" type="text" id="University" name="University" path="university"/>
+				<form:input cssClass="form-control" type="text" id="University" name="University" path="university" required="required"/>
 		</div>
 		<div class="form-group">
 			<button class="btn btn-primary btn-block" id="register" type="submit" value="Register">Register</button>

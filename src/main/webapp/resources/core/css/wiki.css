@@ -1,0 +1,79 @@
+.wiki-container {
+  background-color: white;
+  padding: 18px;
+  position: relative;
+}
+
+.wiki-container .course-title {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+#original-content {
+  font-family: "Times New Roman";
+  font-size: 18px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+#edit-btn {
+  border-radius: 6px;
+  border-color: skyblue;
+  background-color: skyblue;
+  font-size: 22px;
+  color: white;
+}
+
+#wiki-form {
+  margin-top: 18px;
+  padding: 12px;
+  display: none;
+}
+
+#wiki-form textarea {
+  display: block;
+  padding: 12px;
+  border-color: skyblue;
+  margin: 0 auto;
+  width: 560px;
+  height: 120px;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+
+.summary-container {
+  display: none;
+}
+
+#summary {
+  width: 240px;
+  padding: 4px;
+  margin-left: 24px;
+  margin-bottom: 8px;
+}
+
+.button-success {
+  background-color: rgb(242, 38, 53);
+  margin-left: 36px;
+  color: white;
+  font-size: 18px;
+}
+
+.history-list {
+  margin-top: 100px;
+  padding-left: 30px;
+}
+
+.history-list span {
+  padding-left: 6px;
+}
+
+.submit-container {
+  margin-top: 24px;
+  width: 100%;
+  text-align: center;
+}

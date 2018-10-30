@@ -59,9 +59,16 @@ public class searchMainPage {
             model.addAttribute("searchJieGuoresult", searchJieGuo);
             return "result";
         }else{
-            List<Course> searchJieGuo = searchService.searchById(key);
-            model.addAttribute("searchJieGuoresult", searchJieGuo);
-            return "result";
+            if(key.contains(" ")) {
+                System.out.println(key);
+                List<Course> searchJieGuo = searchService.searchByPhrase(key);
+                model.addAttribute("searchJieGuoresult", searchJieGuo);
+                return "result";
+            }else{
+                List<Course> searchJieGuo = searchService.searchById(key);
+                model.addAttribute("searchJieGuoresult", searchJieGuo);
+                return "result";
+            }
         }
     }
 }
