@@ -69,6 +69,11 @@
         <div class="col-sm-10">${rates.major}</div>
     </div>
     </c:if>
+
+    <div class="row">
+        <label class="col-sm-2">Rated By</label>
+        <div class="col-sm-2">${rates.userID}</div>
+    </div>
 <hr>
 
 </c:forEach>

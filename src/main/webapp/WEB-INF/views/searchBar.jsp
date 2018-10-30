@@ -17,7 +17,7 @@
   <form action="/sousuo">
     <input class="form-control my-0 py-1" type="text" placeholder="Search.." name="search">
     <div class="input-group-append">
-    <button type="submit" class=""><i class="fa fa-search text-grey" aria-hidden="true"></i></button>
+    <button type="submit" class=""><i class="fa fa-search text-grey" aria-hidden="true">Search</i></button>
     </div>
   </form>
 </div>
