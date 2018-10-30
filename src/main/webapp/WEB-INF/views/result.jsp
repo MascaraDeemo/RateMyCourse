@@ -7,8 +7,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
-
+<jsp:include page="fragments/header.jsp"/>
 <body>
 
 <div>
@@ -42,9 +41,18 @@
 
     <div class="row">
         <label class="col-sm-2">Course Description</label>
-        <div class="col-sm-10" id = "des" >${rates.courseDescrip}</div>
+        <div id = "descrip" class="col-sm-10"><span id="desSpan">${rates.courseDescrip}</span></div>
+        <script>
+            var descrip = document.getElementById("desSpan");
+            var descripInfo = descrip.innerHTML;
+            var splite = descripInfo.split(" ",5);
+            descrip.innerText = splite.toString();
+        </script>
     </div>
     <hr>
 </c:forEach>
+
+<jsp:include page="fragments/footer.jsp"/>
 </body>
+
 </html>
