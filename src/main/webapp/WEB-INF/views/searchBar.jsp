@@ -6,7 +6,7 @@
 <jsp:include page="fragments/header.jsp"/>
 <body>
 
-
+<section class="main_section">
 <main role="main" class="container">
   <div class="jumbotron jumbotron-fluid">
 <div class="container">
@@ -23,6 +23,7 @@
 
   </div>
 </main>
+</section>
 <jsp:include page="fragments/footer.jsp"/>
 
 
