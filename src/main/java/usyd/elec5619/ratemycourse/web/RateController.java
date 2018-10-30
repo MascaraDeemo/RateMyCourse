@@ -58,8 +58,8 @@ public class RateController {
                 NanDu = NanDu + i.getDifficulty();
                 PingFen = PingFen + i.getRating();
             }
-            int AvgNandu = NanDu / allRated.size();
-            int AvgPingfen = PingFen / allRated.size();
+            double AvgNandu = Math.round((NanDu / allRated.size()) * 10)/10;
+            double AvgPingfen = Math.round((PingFen / allRated.size()) * 10)/10;
 
             model.addAttribute("averageDiff", AvgNandu);
             model.addAttribute("averageRate", AvgPingfen);
