@@ -54,7 +54,6 @@ public class RateController {
         model.addAttribute("courseId",courseId);
         model.addAttribute("rates", rateService.findAllByCourseId(courseId));
         return "rates";
-
     }
 
 
