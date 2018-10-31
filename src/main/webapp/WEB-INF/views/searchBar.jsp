@@ -22,7 +22,7 @@
 
           <!--end of col-->
           <div class="col">
-            <input class="form-control form-control-lg form-control-borderless"  type="text" placeholder="Search topics or keywords" name="searchNMB">
+            <input class="form-control form-control-lg form-control-borderless"  type="text" placeholder="Search topics or keywords" name="search">
           </div>
           <!--end of col-->
           <div class="col-auto">
