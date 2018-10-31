@@ -51,18 +51,19 @@ public class RateController {
         model.addAttribute("textbookHtml", html);
         String courseDescrip = courseDAO.findByCourseID(courseId).getCourseDescrip();
         List<Rate> allRated = rateService.findAllByCourseId(courseId);
-        int NanDu = 0;
-        int PingFen = 0;
+        double NanDu = 0;
+        double PingFen = 0;
         if(allRated.size()>0) {
             for (Rate i : allRated) {
                 NanDu = NanDu + i.getDifficulty();
                 PingFen = PingFen + i.getRating();
             }
-            double AvgNandu = Math.round((NanDu / allRated.size()) * 10)/10;
-            double AvgPingfen = Math.round((PingFen / allRated.size()) * 10)/10;
-
-            model.addAttribute("averageDiff", AvgNandu);
-            model.addAttribute("averageRate", AvgPingfen);
+            double AvgNandu = (((NanDu / allRated.size())));
+            double AvgPingfen = ((PingFen / allRated.size()));
+            String xx=String.format("%.2f",AvgNandu);
+            String yy=String.format("%.2f",AvgPingfen);
+            model.addAttribute("averageDiff", xx);
+            model.addAttribute("averageRate", yy);
         }
         model.addAttribute("descrip",courseDescrip);
         model.addAttribute("courseId",courseId);
