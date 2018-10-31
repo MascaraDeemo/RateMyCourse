@@ -175,7 +175,11 @@
 			<artifactId>tomcat-dbcp</artifactId>
 			<version>9.0.12</version>
 		</dependency>
-
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.security</groupId>-->
+			<!--<artifactId>spring-security-core</artifactId>-->
+			<!--<version>5.1.1.RELEASE</version>-->
+		<!--</dependency>-->
 		<!-- MYSQL Database -->
 		<dependency>
 			<groupId>mysql</groupId>
@@ -229,8 +233,13 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.5.1</version>
                 <configuration>
+<<<<<<< HEAD
                     <source>1.8</source>
                     <target>1.8</target>
+=======
+                    <source>8</source>
+                    <target>8</target>
+>>>>>>> f4706960995aa5cb3c9e98efbdb0d4bd07cf7867
                     <compilerArgument>-Xlint:all</compilerArgument>
                     <showWarnings>true</showWarnings>
                     <showDeprecation>true</showDeprecation>

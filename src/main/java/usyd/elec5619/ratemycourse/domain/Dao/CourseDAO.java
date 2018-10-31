@@ -11,11 +11,16 @@ import java.util.List;
 @Transactional
 public interface CourseDAO extends CrudRepository<Course, String> {
 
-    public List<Course> findAll();
+    List<Course> findAll();
 
-    public Course findByCourseId(String courseId);
+    Course findByCourseID(String courseId);
+//
+//    Course findByCourseName(String courseName);
+//
+//    List<Course> findAllByCourseId(String courseId);
 
-    public Course findByCourseName(String courseName);
+//    List<Course> findAllByCourseIdAndCourseName(String courseId);
+//    List<Course> findAllByCourseName(String courseName);
 
 
 
