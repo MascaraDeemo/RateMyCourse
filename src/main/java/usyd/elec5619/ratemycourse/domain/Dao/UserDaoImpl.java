@@ -1,4 +1,4 @@
-package usyd.elec5619.ratemycourse.domain.DAO;
+package usyd.elec5619.ratemycourse.domain.Dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

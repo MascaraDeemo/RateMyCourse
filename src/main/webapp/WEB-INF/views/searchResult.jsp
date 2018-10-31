@@ -13,7 +13,7 @@
     </tr>
     </thead>
 
-    <c:forEach var = "course" items = "${searchResult}">
+    <c:forEach var = "course" items = "${searchResult}"/>
         <tr>
             <td>${course.courseId}</td>
             <td>${course.courseName}</td>
