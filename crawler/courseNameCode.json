@@ -1,0 +1,4458 @@
+[
+  {
+    "code": "AERO1400",
+    "name": "Introduction to Aircraft Construction and Design"
+  },
+  {
+    "code": "AERO1560",
+    "name": "Introduction to Aerospace Engineering"
+  },
+  {
+    "code": "AERO2703",
+    "name": "Aircraft Performance and Operations"
+  },
+  {
+    "code": "AERO2705",
+    "name": "Space Engineering 1"
+  },
+  {
+    "code": "AERO2711",
+    "name": "Aerospace Engineering Project 1"
+  },
+  {
+    "code": "AERO3260",
+    "name": "Aerodynamics 1"
+  },
+  {
+    "code": "AERO3261",
+    "name": "Propulsion"
+  },
+  {
+    "code": "AERO3360",
+    "name": "Aerospace Structures 1"
+  },
+  {
+    "code": "AERO3460",
+    "name": "Aerospace Design 1"
+  },
+  {
+    "code": "AERO3465",
+    "name": "Aerospace Design 2"
+  },
+  {
+    "code": "AERO3560",
+    "name": "Flight Mechanics 1"
+  },
+  {
+    "code": "AERO3660",
+    "name": "Aerospace Management"
+  },
+  {
+    "code": "AERO3711",
+    "name": "Aerospace Engineering Project 2"
+  },
+  {
+    "code": "AERO3760",
+    "name": "Space Engineering 2"
+  },
+  {
+    "code": "AERO4206",
+    "name": "Rotary Wing Aircraft"
+  },
+  {
+    "code": "AERO4260",
+    "name": "Aerodynamics 2"
+  },
+  {
+    "code": "AERO4360",
+    "name": "Aerospace Structures 2"
+  },
+  {
+    "code": "AERO4460",
+    "name": "Aerospace Design 3"
+  },
+  {
+    "code": "AERO4491",
+    "name": "Advanced Aircraft Design"
+  },
+  {
+    "code": "AERO4560",
+    "name": "Flight Mechanics 2"
+  },
+  {
+    "code": "AERO4591",
+    "name": "Advanced Flight Mechanics"
+  },
+  {
+    "code": "AERO4701",
+    "name": "Space Engineering 3"
+  },
+  {
+    "code": "AERO4711",
+    "name": "Aerospace Engineering Project 3"
+  },
+  {
+    "code": "AERO4712",
+    "name": "Advanced Aerospace Project 4"
+  },
+  {
+    "code": "AERO5010",
+    "name": "Optimisation Methods in Engineering"
+  },
+  {
+    "code": "AERO5200",
+    "name": "Advanced Aerodynamics"
+  },
+  {
+    "code": "AERO5206",
+    "name": "Rotary Wing Aircraft"
+  },
+  {
+    "code": "AERO5210",
+    "name": "Foundations of Aerodynamics"
+  },
+  {
+    "code": "AERO5211",
+    "name": "Foundations of Propulsion Systems"
+  },
+  {
+    "code": "AERO5301",
+    "name": "Applied Finite Element Analysis"
+  },
+  {
+    "code": "AERO5310",
+    "name": "Foundations of Aerospace Structures"
+  },
+  {
+    "code": "AERO5400",
+    "name": "Advanced Aircraft Design Analysis"
+  },
+  {
+    "code": "AERO5410",
+    "name": "Foundations of Aerospace Design "
+  },
+  {
+    "code": "AERO5500",
+    "name": "Flight Mechanics Test and Evaluation Adv"
+  },
+  {
+    "code": "AERO5510",
+    "name": "Foundations of Flight Mechanics"
+  },
+  {
+    "code": "AERO5520",
+    "name": "Aircraft Avionics and Systems [not running in 2018]"
+  },
+  {
+    "code": "AERO5660",
+    "name": "Safety Systems Management"
+  },
+  {
+    "code": "AERO5700",
+    "name": "Space Engineering (Advanced)"
+  },
+  {
+    "code": "AERO5750",
+    "name": "Unmanned Air Vehicle Systems"
+  },
+  {
+    "code": "AERO5760",
+    "name": "Spacecraft and Satellite Design"
+  },
+  {
+    "code": "AERO5901",
+    "name": "Project 1 and Seminar in Aerospace Eng"
+  },
+  {
+    "code": "AERO5902",
+    "name": "Project 2 and Seminar in Aerospace Eng"
+  },
+  {
+    "code": "AERO9260",
+    "name": "Aerodynamics 1"
+  },
+  {
+    "code": "AERO9261",
+    "name": "Propulsion"
+  },
+  {
+    "code": "AERO9262",
+    "name": "Aerodynamics 2"
+  },
+  {
+    "code": "AERO9301",
+    "name": "Applied Finite Element Analysis"
+  },
+  {
+    "code": "AERO9360",
+    "name": "Aerospace Structures 1"
+  },
+  {
+    "code": "AERO9460",
+    "name": "Aerospace Design 1"
+  },
+  {
+    "code": "AERO9560",
+    "name": "Flight Mechanics 1"
+  },
+  {
+    "code": "AERO9760",
+    "name": "Spacecraft and Satellite Design"
+  },
+  {
+    "code": "AMME0011",
+    "name": "International Exchange B"
+  },
+  {
+    "code": "AMME0012",
+    "name": "International Exchange C"
+  },
+  {
+    "code": "AMME0013",
+    "name": "International Exchange D"
+  },
+  {
+    "code": "AMME0014",
+    "name": "International Exchange E"
+  },
+  {
+    "code": "AMME0015",
+    "name": "International Exchange F"
+  },
+  {
+    "code": "AMME0016",
+    "name": "International Exchange G"
+  },
+  {
+    "code": "AMME0017",
+    "name": "International Exchange H"
+  },
+  {
+    "code": "AMME0018",
+    "name": "International Exchange I"
+  },
+  {
+    "code": "AMME1362",
+    "name": "Materials 1"
+  },
+  {
+    "code": "AMME1550",
+    "name": "Dynamics 1"
+  },
+  {
+    "code": "AMME1960",
+    "name": "Biomedical Engineering 1A"
+  },
+  {
+    "code": "AMME1961",
+    "name": "Biomedical Engineering 1B"
+  },
+  {
+    "code": "AMME2000",
+    "name": "Engineering Analysis"
+  },
+  {
+    "code": "AMME2200",
+    "name": "Introductory Thermofluids"
+  },
+  {
+    "code": "AMME2261",
+    "name": "Fluid Mechanics 1"
+  },
+  {
+    "code": "AMME2262",
+    "name": "Thermal Engineering 1"
+  },
+  {
+    "code": "AMME2301",
+    "name": "Mechanics of Solids 1"
+  },
+  {
+    "code": "AMME2302",
+    "name": "Materials 1"
+  },
+  {
+    "code": "AMME2500",
+    "name": "Engineering Dynamics"
+  },
+  {
+    "code": "AMME2700",
+    "name": "Instrumentation"
+  },
+  {
+    "code": "AMME2960",
+    "name": "Biomedical Engineering 2"
+  },
+  {
+    "code": "AMME3060",
+    "name": "Engineering Methods"
+  },
+  {
+    "code": "AMME3110",
+    "name": "Project A"
+  },
+  {
+    "code": "AMME3500",
+    "name": "System Dynamics and Control"
+  },
+  {
+    "code": "AMME3660",
+    "name": "Biomanufacturing"
+  },
+  {
+    "code": "AMME4010",
+    "name": "Major Industrial Project"
+  },
+  {
+    "code": "AMME4100",
+    "name": "Practical Experience (Cancelled)"
+  },
+  {
+    "code": "AMME4110",
+    "name": "Project B"
+  },
+  {
+    "code": "AMME4111",
+    "name": "Thesis A"
+  },
+  {
+    "code": "AMME4112",
+    "name": "Thesis B"
+  },
+  {
+    "code": "AMME4121",
+    "name": "Engineering Project A"
+  },
+  {
+    "code": "AMME4122",
+    "name": "Engineering Project B"
+  },
+  {
+    "code": "AMME4210",
+    "name": "Computational Fluid Dynamics"
+  },
+  {
+    "code": "AMME4241",
+    "name": "Renewable Energy"
+  },
+  {
+    "code": "AMME4500",
+    "name": "Guidance, Navigation and Control"
+  },
+  {
+    "code": "AMME4660",
+    "name": "Management, Employees and Industrial Relations"
+  },
+  {
+    "code": "AMME4700",
+    "name": "Inertial Navigation and the Kalman Filter "
+  },
+  {
+    "code": "AMME4710",
+    "name": "Computer Vision and Image Processing "
+  },
+  {
+    "code": "AMME4790",
+    "name": "Introduction to Biomechatronics"
+  },
+  {
+    "code": "AMME4971",
+    "name": "Tissue Engineering"
+  },
+  {
+    "code": "AMME4981",
+    "name": "Applied Biomedical Engineering"
+  },
+  {
+    "code": "AMME4990",
+    "name": "Biomedical Product Development"
+  },
+  {
+    "code": "AMME4992",
+    "name": "Regulatory Affairs in the Medical Industry"
+  },
+  {
+    "code": "AMME5010",
+    "name": "Major Industrial Project"
+  },
+  {
+    "code": "AMME5020",
+    "name": "Capstone Project A"
+  },
+  {
+    "code": "AMME5021",
+    "name": "Capstone Project B"
+  },
+  {
+    "code": "AMME5022",
+    "name": "Capstone Project B Extended"
+  },
+  {
+    "code": "AMME5060",
+    "name": "Advanced Computational Engineering"
+  },
+  {
+    "code": "AMME5101",
+    "name": "Energy and the Environment"
+  },
+  {
+    "code": "AMME5104",
+    "name": "Applied Safety Systems and Risk Analysis [not offered in 2018]"
+  },
+  {
+    "code": "AMME5105",
+    "name": "Risk Management Analysis"
+  },
+  {
+    "code": "AMME5200",
+    "name": "Foundations of Thermodynamics and Fluids"
+  },
+  {
+    "code": "AMME5202",
+    "name": "Computational Fluid Dynamics"
+  },
+  {
+    "code": "AMME5218",
+    "name": "Research Dissertation"
+  },
+  {
+    "code": "AMME5222",
+    "name": "Dissertation A"
+  },
+  {
+    "code": "AMME5223",
+    "name": "Dissertation B"
+  },
+  {
+    "code": "AMME5271",
+    "name": "Computational Nanotechnology"
+  },
+  {
+    "code": "AMME5292",
+    "name": "Advanced Fluid Dynamics"
+  },
+  {
+    "code": "AMME5301",
+    "name": "Foundations of Mechanics of Solids 1"
+  },
+  {
+    "code": "AMME5302",
+    "name": "Foundations of Materials 1"
+  },
+  {
+    "code": "AMME5310",
+    "name": "Engineering Tribology"
+  },
+  {
+    "code": "AMME5500",
+    "name": "Foundations of Engineering Dynamics"
+  },
+  {
+    "code": "AMME5501",
+    "name": "Foundations of System Dynamics and Control"
+  },
+  {
+    "code": "AMME5510",
+    "name": "Vibration and Acoustics"
+  },
+  {
+    "code": "AMME5520",
+    "name": "Advanced Control and Optimisation"
+  },
+  {
+    "code": "AMME5601",
+    "name": "Professional Engineering"
+  },
+  {
+    "code": "AMME5602",
+    "name": "Product Life Cycle Design"
+  },
+  {
+    "code": "AMME5700",
+    "name": "Foundations of Instrumentation"
+  },
+  {
+    "code": "AMME5790",
+    "name": "Introduction to Biomechatronics"
+  },
+  {
+    "code": "AMME5900",
+    "name": "Project 1 in Manufacturing & Automation"
+  },
+  {
+    "code": "AMME5901",
+    "name": "Anatomy and Physiology for Engineers"
+  },
+  {
+    "code": "AMME5902",
+    "name": "Computer Aided Manufacturing"
+  },
+  {
+    "code": "AMME5912",
+    "name": "Crash Analysis and Design"
+  },
+  {
+    "code": "AMME5921",
+    "name": "Biomedical Engineering Technology 2"
+  },
+  {
+    "code": "AMME5931",
+    "name": "Nanomaterials in Medicine"
+  },
+  {
+    "code": "AMME5951",
+    "name": "Fundamentals of Neuromodulation"
+  },
+  {
+    "code": "AMME5958",
+    "name": "Nanotechnology in Biomedical Engineering"
+  },
+  {
+    "code": "AMME5961",
+    "name": "Biomechanics and Biomaterials"
+  },
+  {
+    "code": "AMME5962",
+    "name": "Introduction to Mechanobiology"
+  },
+  {
+    "code": "AMME5971",
+    "name": "Applied Tissue Engineering"
+  },
+  {
+    "code": "AMME5981",
+    "name": "Computational Biomedical Engineering"
+  },
+  {
+    "code": "AMME5990",
+    "name": "Biomedical Engineering Technology 1"
+  },
+  {
+    "code": "AMME5992",
+    "name": "Regulatory Affairs in the Medical Industry"
+  },
+  {
+    "code": "AMME5995",
+    "name": "Advanced Bionics"
+  },
+  {
+    "code": "AMME9261",
+    "name": "Fluid Mechanics 1"
+  },
+  {
+    "code": "AMME9262",
+    "name": "Thermal Engineering 1"
+  },
+  {
+    "code": "AMME9301",
+    "name": "Mechanics of Solids 1"
+  },
+  {
+    "code": "AMME9302",
+    "name": "Materials 1"
+  },
+  {
+    "code": "AMME9500",
+    "name": "Engineering Dynamics"
+  },
+  {
+    "code": "AMME9501",
+    "name": "System Dynamics and Control"
+  },
+  {
+    "code": "AMME9601",
+    "name": "Professional Engineering"
+  },
+  {
+    "code": "AMME9700",
+    "name": "Instrumentation"
+  },
+  {
+    "code": "AMME9901",
+    "name": "Anatomy and Physiology for Engineers"
+  },
+  {
+    "code": "AMME9961",
+    "name": "Biomechanics and Biomaterials"
+  },
+  {
+    "code": "AMME9971",
+    "name": "Applied Tissue Engineering"
+  },
+  {
+    "code": "AMME9981",
+    "name": "Computational Biomedical Engineering"
+  },
+  {
+    "code": "AMME9990",
+    "name": "Biomedical Engineering Technology 1"
+  },
+  {
+    "code": "ARCF9001",
+    "name": "Modes of Inquiry: Research & Scholarship"
+  },
+  {
+    "code": "ARCH9001",
+    "name": "Urban Design Studio A"
+  },
+  {
+    "code": "ARCH9002",
+    "name": "Urban Design Studio B"
+  },
+  {
+    "code": "ARCH9028",
+    "name": "Conservation Methods and Practices"
+  },
+  {
+    "code": "ARCH9031",
+    "name": "Research Report"
+  },
+  {
+    "code": "ARCH9040",
+    "name": "General Elective 2"
+  },
+  {
+    "code": "ARCH9058",
+    "name": "General Elective 7"
+  },
+  {
+    "code": "ARCH9059",
+    "name": "General Elective 8"
+  },
+  {
+    "code": "ARCH9060",
+    "name": "Urban Design Report"
+  },
+  {
+    "code": "ARCH9064",
+    "name": "East Asian Arch & Urbanism (Modern)"
+  },
+  {
+    "code": "ARCH9074",
+    "name": "Principles of Heritage Conservation"
+  },
+  {
+    "code": "ARCH9075",
+    "name": "New Design in Old Settings"
+  },
+  {
+    "code": "ARCH9081",
+    "name": "Heritage Law and Policy"
+  },
+  {
+    "code": "ARCH9082",
+    "name": "Conservation of Traditional Materials"
+  },
+  {
+    "code": "AWSS1001",
+    "name": "Architectural Sketching and Drawing"
+  },
+  {
+    "code": "AWSS2001",
+    "name": "Public Art"
+  },
+  {
+    "code": "AWSS2002",
+    "name": "Site Specific Art"
+  },
+  {
+    "code": "AWSS2010",
+    "name": "Architecture & Design Ceramic Processes"
+  },
+  {
+    "code": "AWSS2013",
+    "name": "Digital Video"
+  },
+  {
+    "code": "AWSS2014",
+    "name": "Printmaking"
+  },
+  {
+    "code": "AWSS2015",
+    "name": "Generative Drawing"
+  },
+  {
+    "code": "AWSS2018",
+    "name": "Life Drawing"
+  },
+  {
+    "code": "AWSS2020",
+    "name": "Object Design"
+  },
+  {
+    "code": "AWSS2022",
+    "name": "Painting"
+  },
+  {
+    "code": "AWSS2023",
+    "name": "Architectural Photography 1"
+  },
+  {
+    "code": "AWSS2024",
+    "name": "Photography 2"
+  },
+  {
+    "code": "AWSS2026",
+    "name": "2D Print Processes in Design"
+  },
+  {
+    "code": "AWSS2027",
+    "name": "Architecture & Design Material Processes"
+  },
+  {
+    "code": "BACH1161",
+    "name": "Introductory Behavioural Health Sciences"
+  },
+  {
+    "code": "BACH2142",
+    "name": "Cognitive Neuropsychology "
+  },
+  {
+    "code": "BACH2143",
+    "name": "Counselling &Behaviour Management for CD "
+  },
+  {
+    "code": "BDES1012",
+    "name": "Architectural Communications 1"
+  },
+  {
+    "code": "BDES1023",
+    "name": "Architectural Technologies 1"
+  },
+  {
+    "code": "BDES1024",
+    "name": "Art Workshop 1"
+  },
+  {
+    "code": "BDES2010",
+    "name": "Architecture Studio 201"
+  },
+  {
+    "code": "BDES2012",
+    "name": "Architectural Communications 2"
+  },
+  {
+    "code": "BDES2024",
+    "name": "Art Workshop 2"
+  },
+  {
+    "code": "BDES3011",
+    "name": "Architectural History\\/Theory 3"
+  },
+  {
+    "code": "BDES3012",
+    "name": "Architectural Communications 3"
+  },
+  {
+    "code": "BDES3023",
+    "name": "Architectural Technologies 3"
+  },
+  {
+    "code": "BHSC3014",
+    "name": "Honours Research Proposal"
+  },
+  {
+    "code": "BHSC4001",
+    "name": "Honours Research Seminar 1"
+  },
+  {
+    "code": "BHSC4002",
+    "name": "Honours Research Seminar 2"
+  },
+  {
+    "code": "BHSC4003",
+    "name": "Honours Thesis\\/Research Report A"
+  },
+  {
+    "code": "BHSC4004",
+    "name": "Honours Thesis\\/Research Report B"
+  },
+  {
+    "code": "BIOL1901",
+    "name": "Concepts of Biology"
+  },
+  {
+    "code": "BIOL2011",
+    "name": "Invertebrate Zoology"
+  },
+  {
+    "code": "BIOL2012",
+    "name": "Vertebrates and their Origins"
+  },
+  {
+    "code": "BIOS1155",
+    "name": "Structure, Function and Disease A"
+  },
+  {
+    "code": "BIOS1158",
+    "name": "Structure, Function and Disease B"
+  },
+  {
+    "code": "BIOS1163",
+    "name": "Speech Science "
+  },
+  {
+    "code": "BIOS1165",
+    "name": "Hearing Science and Audiology "
+  },
+  {
+    "code": "BIOS1166",
+    "name": "Neuroscience I: Communication Disorders "
+  },
+  {
+    "code": "BIOS1167",
+    "name": "Human Cell Biology"
+  },
+  {
+    "code": "BIOS1168",
+    "name": "Functional Musculoskeletal Anatomy A"
+  },
+  {
+    "code": "BIOS1169",
+    "name": "Functional Musculoskeletal Anatomy B"
+  },
+  {
+    "code": "BIOS1170",
+    "name": "Body Systems: Structure and Function "
+  },
+  {
+    "code": "BIOS1171",
+    "name": "Neuroscience "
+  },
+  {
+    "code": "BIOS1172",
+    "name": "Biological Aspects of Ageing"
+  },
+  {
+    "code": "BIOS1173",
+    "name": "Disease in Ageing"
+  },
+  {
+    "code": "BIOS2062",
+    "name": "Neuroscience II: Communication Disorders "
+  },
+  {
+    "code": "BIOS2111",
+    "name": "Introductory Toxicology"
+  },
+  {
+    "code": "BIOS2114",
+    "name": "Applications of Biotechniques"
+  },
+  {
+    "code": "BIOS2115",
+    "name": "Embryology"
+  },
+  {
+    "code": "BIOS3063",
+    "name": "Project Design and Management"
+  },
+  {
+    "code": "BIOS3065",
+    "name": "Anatomical Analysis of Exercise"
+  },
+  {
+    "code": "BIOS3066",
+    "name": "Current Issues in Healthcare"
+  },
+  {
+    "code": "BIOS3068",
+    "name": "Environmental Toxicology"
+  },
+  {
+    "code": "BIOS5041",
+    "name": "Ageing, Biology & Health"
+  },
+  {
+    "code": "BIOS5090",
+    "name": "Clinically Oriented Musculoskeletal Anatomy A"
+  },
+  {
+    "code": "BIOS5091",
+    "name": "Clinically Based Neuroscience"
+  },
+  {
+    "code": "BIOS5092",
+    "name": "Bio Sciences for Health Professionals"
+  },
+  {
+    "code": "BIOS5093",
+    "name": "Clinically Oriented Musculoskeletal Anatomy B"
+  },
+  {
+    "code": "BIOS5094",
+    "name": "Anatomy of Exercise"
+  },
+  {
+    "code": "BMET1960",
+    "name": "Biomedical Engineering 1A"
+  },
+  {
+    "code": "BMET1961",
+    "name": "Biomedical Engineering 1B "
+  },
+  {
+    "code": "BMET2901",
+    "name": "Anatomy and Physiology for Engineers "
+  },
+  {
+    "code": "BMET2960",
+    "name": "Biomedical Engineering 2 "
+  },
+  {
+    "code": "BMET3660",
+    "name": "Biomanufacturing "
+  },
+  {
+    "code": "BMET3921",
+    "name": "Biomedical Design and Technology "
+  },
+  {
+    "code": "BMET4961",
+    "name": "Biomechanics and Biomaterials "
+  },
+  {
+    "code": "BMET4971",
+    "name": "Tissue Engineering "
+  },
+  {
+    "code": "BMET4981",
+    "name": "Applied Biomedical Engineering "
+  },
+  {
+    "code": "BMET4990",
+    "name": "Biomedical Product Development "
+  },
+  {
+    "code": "BMET5907",
+    "name": "Orthopaedic and Surgical Engineering"
+  },
+  {
+    "code": "BMET5921",
+    "name": "Biomedical Engineering Technology 2"
+  },
+  {
+    "code": "BMET5931",
+    "name": "Nanomaterials in Medicine"
+  },
+  {
+    "code": "BMET5951",
+    "name": "Fundamentals of Neuromodulation"
+  },
+  {
+    "code": "BMET5958",
+    "name": "Nanotechnology in Biomedical Engineering"
+  },
+  {
+    "code": "BMET5962",
+    "name": "Introduction to Mechanobiology"
+  },
+  {
+    "code": "BMET5992",
+    "name": "Regulatory Affairs in the Medical Industry"
+  },
+  {
+    "code": "BMET5995",
+    "name": "Advanced Bionics"
+  },
+  {
+    "code": "BMET9660",
+    "name": "Biomanufacturing"
+  },
+  {
+    "code": "BMET9901",
+    "name": "Anatomy and Physiology for Engineers"
+  },
+  {
+    "code": "BMET9961",
+    "name": "Biomechanics and Biomaterials"
+  },
+  {
+    "code": "BMET9971",
+    "name": "Applied Tissue Engineering"
+  },
+  {
+    "code": "BMET9981",
+    "name": "Computational Biomedical Engineering "
+  },
+  {
+    "code": "BMET9990",
+    "name": "Biomedical Engineering Technology 1"
+  },
+  {
+    "code": "CHEM1108",
+    "name": "Chemistry 1 Life Sciences A"
+  },
+  {
+    "code": "CHEM1109",
+    "name": "Chemistry 1 Life Sciences B"
+  },
+  {
+    "code": "CHNG1103",
+    "name": "Conservation of Mass and Energy "
+  },
+  {
+    "code": "CHNG1108",
+    "name": "Introduction to Chemical Engineering"
+  },
+  {
+    "code": "CHNG2801",
+    "name": "Fluid Mechanics"
+  },
+  {
+    "code": "CHNG2802",
+    "name": "Applied Maths for Chemical Engineers"
+  },
+  {
+    "code": "CHNG2803",
+    "name": "Heat and Mass Transfer"
+  },
+  {
+    "code": "CHNG2804",
+    "name": "Chemical Engineering Thermodynamics"
+  },
+  {
+    "code": "CHNG2805",
+    "name": "Engineering for a Sustainable Society"
+  },
+  {
+    "code": "CHNG2806",
+    "name": "Separation Processes"
+  },
+  {
+    "code": "CHNG3041",
+    "name": "Exchange Program 3A "
+  },
+  {
+    "code": "CHNG3042",
+    "name": "Exchange Program 3B"
+  },
+  {
+    "code": "CHNG3043",
+    "name": "Exchange Program 3C"
+  },
+  {
+    "code": "CHNG3044",
+    "name": "Exchange Program 3D"
+  },
+  {
+    "code": "CHNG3801",
+    "name": "Process Plant Design"
+  },
+  {
+    "code": "CHNG3802",
+    "name": "Process Dynamics and Control"
+  },
+  {
+    "code": "CHNG3803",
+    "name": "Chemical\\/Biological Process Design"
+  },
+  {
+    "code": "CHNG3804",
+    "name": "Biochemical Engineering"
+  },
+  {
+    "code": "CHNG3805",
+    "name": "Particle Processing"
+  },
+  {
+    "code": "CHNG3806",
+    "name": "Risk Management for Chemical Engineering"
+  },
+  {
+    "code": "CHNG3807",
+    "name": "Products and Value Chains"
+  },
+  {
+    "code": "CHNG3808",
+    "name": "Engineering Macromolecules & Nanocomposites"
+  },
+  {
+    "code": "CHNG3809",
+    "name": "Laboratory and Industrial Practice"
+  },
+  {
+    "code": "CHNG4001",
+    "name": "Practical Experience"
+  },
+  {
+    "code": "CHNG4003",
+    "name": "Advances in Chemical Engineering A"
+  },
+  {
+    "code": "CHNG4006",
+    "name": "Professional Option"
+  },
+  {
+    "code": "CHNG4008",
+    "name": "Chemical Engineering Advanced Concepts"
+  },
+  {
+    "code": "CHNG4041",
+    "name": "Exchange Program 4A"
+  },
+  {
+    "code": "CHNG4042",
+    "name": "Exchange Program 4B"
+  },
+  {
+    "code": "CHNG4203",
+    "name": "Major Industrial Project"
+  },
+  {
+    "code": "CHNG4802",
+    "name": "Chemical Engineering Design A"
+  },
+  {
+    "code": "CHNG4806",
+    "name": "Chemical Engineering Design B"
+  },
+  {
+    "code": "CHNG4811",
+    "name": "Thesis A"
+  },
+  {
+    "code": "CHNG4812",
+    "name": "Thesis B"
+  },
+  {
+    "code": "CHNG4813",
+    "name": "Engineering Project A"
+  },
+  {
+    "code": "CHNG4814",
+    "name": "Engineering Project B"
+  },
+  {
+    "code": "CHNG5001",
+    "name": "Process Systems Engineering"
+  },
+  {
+    "code": "CHNG5003",
+    "name": "Green Engineering"
+  },
+  {
+    "code": "CHNG5004",
+    "name": "Particles and Surfaces"
+  },
+  {
+    "code": "CHNG5005",
+    "name": "Wastewater Engineering"
+  },
+  {
+    "code": "CHNG5006",
+    "name": "Advanced Wastewater Engineering"
+  },
+  {
+    "code": "CHNG5008",
+    "name": "Nanotechnology in Chemical Engineering"
+  },
+  {
+    "code": "CHNG5020",
+    "name": "Capstone Project A"
+  },
+  {
+    "code": "CHNG5021",
+    "name": "Capstone Project B"
+  },
+  {
+    "code": "CHNG5022",
+    "name": "Capstone Project B Extended"
+  },
+  {
+    "code": "CHNG5112",
+    "name": "Foundation of Chemical Engineering Design A"
+  },
+  {
+    "code": "CHNG5116",
+    "name": "Foundation of Chemical Engineering Design B"
+  },
+  {
+    "code": "CHNG5205",
+    "name": "Major Industrial Placement Project"
+  },
+  {
+    "code": "CHNG5222",
+    "name": "Dissertation A"
+  },
+  {
+    "code": "CHNG5223",
+    "name": "Dissertation B"
+  },
+  {
+    "code": "CHNG5601",
+    "name": "Membrane Science"
+  },
+  {
+    "code": "CHNG5602",
+    "name": "Cellular Biophysics [not offered in 2018]"
+  },
+  {
+    "code": "CHNG5603",
+    "name": "Advanced Process Modelling & Simulation"
+  },
+  {
+    "code": "CHNG5604",
+    "name": "Advanced Membrane Engineering"
+  },
+  {
+    "code": "CHNG5605",
+    "name": "Bio-Products: Laboratory to Marketplace"
+  },
+  {
+    "code": "CHNG5606",
+    "name": "Advanced Food Processing"
+  },
+  {
+    "code": "CHNG5607",
+    "name": "Advanced Biochemical Engineering [not offered in 2018]"
+  },
+  {
+    "code": "CHNG5701",
+    "name": "Foundation of Conservation and Transport Processes"
+  },
+  {
+    "code": "CHNG5702",
+    "name": "Foundations of Applied Mathematics for Chemical Engineers"
+  },
+  {
+    "code": "CHNG5703",
+    "name": "Foundations of Energy and Fluid Systems "
+  },
+  {
+    "code": "CHNG5704",
+    "name": "Foundations of Chemical and Biological Systems Behaviour"
+  },
+  {
+    "code": "CHNG5705",
+    "name": "Foundations of Industrial Systems and Sustainability"
+  },
+  {
+    "code": "CHNG5706",
+    "name": "Foundations of Materials Purification and Recovery "
+  },
+  {
+    "code": "CHNG5707",
+    "name": "Foundations of Material and Energy Transformations"
+  },
+  {
+    "code": "CHNG5801",
+    "name": "Foundations of Process Design"
+  },
+  {
+    "code": "CHNG5802",
+    "name": "Found. of Control & Reaction Engineering"
+  },
+  {
+    "code": "CHNG5803",
+    "name": "Foundations of Chemical and Biological Processes"
+  },
+  {
+    "code": "CHNG5804",
+    "name": "Foundations of Biochemical Engineering"
+  },
+  {
+    "code": "CHNG5805",
+    "name": "Foundations of Product Formulation and Design"
+  },
+  {
+    "code": "CHNG5806",
+    "name": "Foundations of Management of Industrial Systems"
+  },
+  {
+    "code": "CHNG5901",
+    "name": "Project Part A"
+  },
+  {
+    "code": "CHNG5902",
+    "name": "Project Part B"
+  },
+  {
+    "code": "CHNG5906",
+    "name": "Extended Project"
+  },
+  {
+    "code": "CHNG5907",
+    "name": "Extended and Enhanced Project"
+  },
+  {
+    "code": "CHNG9000",
+    "name": "Chemical Engineering for Scientists"
+  },
+  {
+    "code": "CHNG9103",
+    "name": "Conservation of Mass and Energy"
+  },
+  {
+    "code": "CHNG9201",
+    "name": "Fluid Mechanics"
+  },
+  {
+    "code": "CHNG9202",
+    "name": "Applied Mathematics for Chemical Engineers"
+  },
+  {
+    "code": "CHNG9203",
+    "name": "Heat and Mass Transfer"
+  },
+  {
+    "code": "CHNG9204",
+    "name": "Chemical Engineering Thermodynamics"
+  },
+  {
+    "code": "CHNG9205",
+    "name": "Industrial Systems and Sustainability"
+  },
+  {
+    "code": "CHNG9206",
+    "name": "Separation Processes"
+  },
+  {
+    "code": "CHNG9301",
+    "name": "Process Plant Design"
+  },
+  {
+    "code": "CHNG9302",
+    "name": "Process Dynamics and Control"
+  },
+  {
+    "code": "CHNG9303",
+    "name": "Reaction Engineering"
+  },
+  {
+    "code": "CHNG9304",
+    "name": "Biochemical Engineering"
+  },
+  {
+    "code": "CHNG9305",
+    "name": "Particle Processing"
+  },
+  {
+    "code": "CHNG9306",
+    "name": "Risk Management for Chemical Engineering"
+  },
+  {
+    "code": "CHNG9308",
+    "name": "Engineering Macromolecules & Nanocomposites"
+  },
+  {
+    "code": "CHNG9341",
+    "name": "Semester Graduate Exchange A"
+  },
+  {
+    "code": "CHNG9342",
+    "name": "Semester Graduate Exchange B"
+  },
+  {
+    "code": "CHNG9402",
+    "name": "Chemical Engineering Design A"
+  },
+  {
+    "code": "CHNG9406",
+    "name": "Chemical Engineering Design B"
+  },
+  {
+    "code": "CIVL0011",
+    "name": "Civil Exchange A"
+  },
+  {
+    "code": "CIVL0012",
+    "name": "Civil Exchange B"
+  },
+  {
+    "code": "CIVL0013",
+    "name": "Civil Exchange C"
+  },
+  {
+    "code": "CIVL0014",
+    "name": "Civil Exchange D"
+  },
+  {
+    "code": "CIVL0015",
+    "name": "Civil Exchange E"
+  },
+  {
+    "code": "CIVL0016",
+    "name": "Civil Exchange F"
+  },
+  {
+    "code": "CIVL0017",
+    "name": "Civil Exchange G"
+  },
+  {
+    "code": "CIVL0018",
+    "name": "Civil Exchange H"
+  },
+  {
+    "code": "CIVL1802",
+    "name": "Statics"
+  },
+  {
+    "code": "CIVL1810",
+    "name": "Engineering Construction and Surveying"
+  },
+  {
+    "code": "CIVL1900",
+    "name": "Introduction to Civil Engineering"
+  },
+  {
+    "code": "CIVL2010",
+    "name": "Environmental Engineering"
+  },
+  {
+    "code": "CIVL2110",
+    "name": "Materials"
+  },
+  {
+    "code": "CIVL2201",
+    "name": "Structural Mechanics"
+  },
+  {
+    "code": "CIVL2230",
+    "name": "Introduction to Structural Concepts and Design"
+  },
+  {
+    "code": "CIVL2410",
+    "name": "Soil Mechanics"
+  },
+  {
+    "code": "CIVL2511",
+    "name": "Research Techniques"
+  },
+  {
+    "code": "CIVL2611",
+    "name": "Introductory Fluid Mechanics"
+  },
+  {
+    "code": "CIVL2700",
+    "name": "Transport Systems"
+  },
+  {
+    "code": "CIVL2810",
+    "name": "Engineering Construction and Surveying [no longer running]"
+  },
+  {
+    "code": "CIVL2812",
+    "name": "Project Appraisal"
+  },
+  {
+    "code": "CIVL3010",
+    "name": "Sustainable Systems Engineering"
+  },
+  {
+    "code": "CIVL3205",
+    "name": "Concrete Structures 1"
+  },
+  {
+    "code": "CIVL3206",
+    "name": "Steel Structures 1"
+  },
+  {
+    "code": "CIVL3235",
+    "name": "Structural Analysis"
+  },
+  {
+    "code": "CIVL3310",
+    "name": "Humanitarian Engineering"
+  },
+  {
+    "code": "CIVL3411",
+    "name": "Geotechnical Engineering"
+  },
+  {
+    "code": "CIVL3612",
+    "name": "Fluid Mechanics"
+  },
+  {
+    "code": "CIVL3614",
+    "name": "Hydrology"
+  },
+  {
+    "code": "CIVL3703",
+    "name": "Transport Policy, Planning and Deployment"
+  },
+  {
+    "code": "CIVL3704",
+    "name": "Transport Informatics"
+  },
+  {
+    "code": "CIVL3805",
+    "name": "Project Scope, Time and Cost Management"
+  },
+  {
+    "code": "CIVL3811",
+    "name": "Engineering Design and Construction"
+  },
+  {
+    "code": "CIVL3812",
+    "name": "Project Appraisal"
+  },
+  {
+    "code": "CIVL4022",
+    "name": "Thesis A"
+  },
+  {
+    "code": "CIVL4023",
+    "name": "Thesis B"
+  },
+  {
+    "code": "CIVL4024",
+    "name": "Engineering Project A"
+  },
+  {
+    "code": "CIVL4025",
+    "name": "Engineering Project B"
+  },
+  {
+    "code": "CIVL4810",
+    "name": "Mgmnt of People, Quality and Risk in PE"
+  },
+  {
+    "code": "CIVL4811",
+    "name": "Engineering Design and Construction"
+  },
+  {
+    "code": "CIVL4813",
+    "name": "Contracts Formulation and Management"
+  },
+  {
+    "code": "CIVL4814",
+    "name": "Project Procurement and Tendering"
+  },
+  {
+    "code": "CIVL4815",
+    "name": "Project Formulation"
+  },
+  {
+    "code": "CIVL4860",
+    "name": "Architectural to Structural Design"
+  },
+  {
+    "code": "CIVL4903",
+    "name": "Civil Engineering Design"
+  },
+  {
+    "code": "CIVL5020",
+    "name": "Capstone Project A"
+  },
+  {
+    "code": "CIVL5021",
+    "name": "Capstone Project B"
+  },
+  {
+    "code": "CIVL5022",
+    "name": "Capstone Project B Extended"
+  },
+  {
+    "code": "CIVL5222",
+    "name": "Dissertation A"
+  },
+  {
+    "code": "CIVL5223",
+    "name": "Dissertation B"
+  },
+  {
+    "code": "CIVL5266",
+    "name": "Steel Structures - Stability"
+  },
+  {
+    "code": "CIVL5269",
+    "name": "Advanced Concrete Structures"
+  },
+  {
+    "code": "CIVL5277",
+    "name": "Structural Rehabilitation and Timber Design"
+  },
+  {
+    "code": "CIVL5320",
+    "name": "Engineering for Sustainable Development"
+  },
+  {
+    "code": "CIVL5330",
+    "name": "Global Engineering Field Work"
+  },
+  {
+    "code": "CIVL5351",
+    "name": "Geoenvironmental Engineering"
+  },
+  {
+    "code": "CIVL5453",
+    "name": "Geotechnical Hazards"
+  },
+  {
+    "code": "CIVL5458",
+    "name": "Numerical Methods in Civil Engineering "
+  },
+  {
+    "code": "CIVL5460",
+    "name": "Particle Mechanics for Geotechnics"
+  },
+  {
+    "code": "CIVL5665",
+    "name": "Advanced Water Resources Engineering"
+  },
+  {
+    "code": "CIVL5668",
+    "name": "Fundamentals of Wind Engineering for Design"
+  },
+  {
+    "code": "CIVL5670",
+    "name": "Reservoir, Stream and Coastal Engineering "
+  },
+  {
+    "code": "CIVL5701",
+    "name": "Transport Networks"
+  },
+  {
+    "code": "CIVL5702",
+    "name": "Traffic Engineering"
+  },
+  {
+    "code": "CIVL5703",
+    "name": "Transport Policy, Planning and Deployment"
+  },
+  {
+    "code": "CIVL5999",
+    "name": "Advanced Research and Analysis"
+  },
+  {
+    "code": "CIVL6257",
+    "name": "Concrete Structures - Prestressed Concrete"
+  },
+  {
+    "code": "CIVL6264",
+    "name": "Composite Steel-Concrete Structures"
+  },
+  {
+    "code": "CIVL6267",
+    "name": "Steel Structures - Advanced Analysis and Design"
+  },
+  {
+    "code": "CIVL6268",
+    "name": "Structural Dynamics"
+  },
+  {
+    "code": "CIVL6450",
+    "name": "Analysis and Design of Pile Foundations "
+  },
+  {
+    "code": "CIVL6452",
+    "name": "Foundation Engineering"
+  },
+  {
+    "code": "CIVL6454",
+    "name": "Rock Engineering"
+  },
+  {
+    "code": "CIVL6455",
+    "name": "Engineering Behaviour of Soils"
+  },
+  {
+    "code": "CIVL6456",
+    "name": "Energy Geotechnics"
+  },
+  {
+    "code": "CIVL6665",
+    "name": "Advanced Water Resources Engineering"
+  },
+  {
+    "code": "CIVL6666",
+    "name": "Open Channel Flow & Hydraulic Structures"
+  },
+  {
+    "code": "CIVL6669",
+    "name": "Applied Fluid Engineering Computing"
+  },
+  {
+    "code": "CIVL9110",
+    "name": "Materials"
+  },
+  {
+    "code": "CIVL9201",
+    "name": "Structural Mechanics"
+  },
+  {
+    "code": "CIVL9205",
+    "name": "Concrete Structures 1"
+  },
+  {
+    "code": "CIVL9206",
+    "name": "Steel Structures 1"
+  },
+  {
+    "code": "CIVL9230",
+    "name": "Structural Concepts and Design"
+  },
+  {
+    "code": "CIVL9235",
+    "name": "Structural Analysis"
+  },
+  {
+    "code": "CIVL9310",
+    "name": "Humanitarian Engineering"
+  },
+  {
+    "code": "CIVL9410",
+    "name": "Soil Mechanics"
+  },
+  {
+    "code": "CIVL9411",
+    "name": "Geotechnical Engineering"
+  },
+  {
+    "code": "CIVL9611",
+    "name": "Introductory Fluid Mechanics"
+  },
+  {
+    "code": "CIVL9612",
+    "name": "Fluid Mechanics"
+  },
+  {
+    "code": "CIVL9614",
+    "name": "Hydrology"
+  },
+  {
+    "code": "CIVL9700",
+    "name": "Transport Systems"
+  },
+  {
+    "code": "CIVL9703",
+    "name": "Transport Policy, Planning and Deployment"
+  },
+  {
+    "code": "CIVL9704",
+    "name": "Transport Informatics"
+  },
+  {
+    "code": "CIVL9802",
+    "name": "Statics"
+  },
+  {
+    "code": "CIVL9810",
+    "name": "Engineering Construction and Surveying"
+  },
+  {
+    "code": "CIVL9811",
+    "name": "Engineering Design and Construction"
+  },
+  {
+    "code": "CIVL9903",
+    "name": "Civil Engineering Design"
+  },
+  {
+    "code": "COMP2007",
+    "name": "Algorithms and Complexity"
+  },
+  {
+    "code": "COMP2017",
+    "name": "Systems Programming"
+  },
+  {
+    "code": "COMP2022",
+    "name": "Programming Languages, Logic and Models"
+  },
+  {
+    "code": "COMP2121",
+    "name": "Principles of Distributed Systems and Networks"
+  },
+  {
+    "code": "COMP2123",
+    "name": "Data Structures & Algorithms"
+  },
+  {
+    "code": "COMP2129",
+    "name": "Operating Systems and Machine Principles"
+  },
+  {
+    "code": "COMP2555",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP2556",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP2557",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP2558",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP2591",
+    "name": "Advanced Computer Science Exchange"
+  },
+  {
+    "code": "COMP2592",
+    "name": "Advanced Computer Science Exchange"
+  },
+  {
+    "code": "COMP2823",
+    "name": "Data Structures & Algorithms (Adv)"
+  },
+  {
+    "code": "COMP2907",
+    "name": "Algorithms and Complexity (Advanced)"
+  },
+  {
+    "code": "COMP2922",
+    "name": "Programming Languages, Logic and Models (Adv)"
+  },
+  {
+    "code": "COMP3027",
+    "name": "Algorithm Design"
+  },
+  {
+    "code": "COMP3109",
+    "name": "Programming Languages and Paradigms"
+  },
+  {
+    "code": "COMP3221",
+    "name": "Distributed Systems"
+  },
+  {
+    "code": "COMP3308",
+    "name": "Introduction to Artificial Intelligence"
+  },
+  {
+    "code": "COMP3419",
+    "name": "Graphics and Multimedia"
+  },
+  {
+    "code": "COMP3456",
+    "name": "Computational Methods for Life Sciences"
+  },
+  {
+    "code": "COMP3520",
+    "name": "Operating Systems Internals - not offered in 2018"
+  },
+  {
+    "code": "COMP3530",
+    "name": "Discrete Optimization"
+  },
+  {
+    "code": "COMP3556",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP3557",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP3558",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP3559",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP3600",
+    "name": "Computer Science Project (Adv)"
+  },
+  {
+    "code": "COMP3608",
+    "name": "Introduction to Artificial Intelligence (Adv)"
+  },
+  {
+    "code": "COMP3615",
+    "name": "Computer Science Project"
+  },
+  {
+    "code": "COMP3888",
+    "name": "Computer Science Project"
+  },
+  {
+    "code": "COMP3927",
+    "name": "Algorithm Design (Adv)"
+  },
+  {
+    "code": "COMP3988",
+    "name": "Computer Science Project (Advanced)"
+  },
+  {
+    "code": "COMP4011",
+    "name": "Computer Science Honours A"
+  },
+  {
+    "code": "COMP4012",
+    "name": "Computer Science Honours B"
+  },
+  {
+    "code": "COMP4013",
+    "name": "Computer Science Honours C"
+  },
+  {
+    "code": "COMP4014",
+    "name": "Computer Science Honours D"
+  },
+  {
+    "code": "COMP4551",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP4552",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP4553",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP4554",
+    "name": "Computer Science Exchange"
+  },
+  {
+    "code": "COMP5028",
+    "name": "Object-Oriented Design"
+  },
+  {
+    "code": "COMP5045",
+    "name": "Computational Geometry "
+  },
+  {
+    "code": "COMP5046",
+    "name": "Natural Language Processing"
+  },
+  {
+    "code": "COMP5047",
+    "name": "Pervasive Computing"
+  },
+  {
+    "code": "COMP5048",
+    "name": "Visual Analytics"
+  },
+  {
+    "code": "COMP5105",
+    "name": "Foundations of Data Structures"
+  },
+  {
+    "code": "COMP5114",
+    "name": "Digital Media Fundamentals"
+  },
+  {
+    "code": "COMP5116",
+    "name": "Design of Networks & Distributed Systems"
+  },
+  {
+    "code": "COMP5138",
+    "name": "Database Management Systems"
+  },
+  {
+    "code": "COMP5206",
+    "name": "Information Technologies and Systems"
+  },
+  {
+    "code": "COMP5211",
+    "name": "Algorithms"
+  },
+  {
+    "code": "COMP5212",
+    "name": "Software Construction"
+  },
+  {
+    "code": "COMP5213",
+    "name": "Computer and Network Organisation"
+  },
+  {
+    "code": "COMP5214",
+    "name": "Software Development in Java"
+  },
+  {
+    "code": "COMP5216",
+    "name": "Mobile Computing"
+  },
+  {
+    "code": "COMP5310",
+    "name": "Principles of Data Science"
+  },
+  {
+    "code": "COMP5313",
+    "name": "Large Scale Networks"
+  },
+  {
+    "code": "COMP5318",
+    "name": "Machine Learning and Data Mining"
+  },
+  {
+    "code": "COMP5320",
+    "name": "Embedded Systems Programming"
+  },
+  {
+    "code": "COMP5328",
+    "name": "Advanced Machine Learning"
+  },
+  {
+    "code": "COMP5329",
+    "name": "Deep Learning"
+  },
+  {
+    "code": "COMP5338",
+    "name": "Advanced Data Models"
+  },
+  {
+    "code": "COMP5347",
+    "name": "Web Application Development"
+  },
+  {
+    "code": "COMP5348",
+    "name": "Enterprise Scale Software Architecture"
+  },
+  {
+    "code": "COMP5349",
+    "name": "Cloud Computing"
+  },
+  {
+    "code": "COMP5405",
+    "name": "Digital Media Computing"
+  },
+  {
+    "code": "COMP5415",
+    "name": "Multimedia Design and Authoring"
+  },
+  {
+    "code": "COMP5416",
+    "name": "Advanced Network Technologies"
+  },
+  {
+    "code": "COMP5424",
+    "name": "Information Technology in Biomedicine"
+  },
+  {
+    "code": "COMP5425",
+    "name": "Multimedia Retrieval"
+  },
+  {
+    "code": "COMP5426",
+    "name": "Parallel and Distributed Computing"
+  },
+  {
+    "code": "COMP5427",
+    "name": "Usability Engineering"
+  },
+  {
+    "code": "COMP5456",
+    "name": "Introduction to Bioinformatics [Not running in 2017]"
+  },
+  {
+    "code": "COMP5615",
+    "name": "Software Engineering Project"
+  },
+  {
+    "code": "COMP5617",
+    "name": "Empirical Security Analysis and Engineering"
+  },
+  {
+    "code": "COMP5618",
+    "name": "Applied Cybersecurity"
+  },
+  {
+    "code": "COMP5702",
+    "name": "IT Research Project A"
+  },
+  {
+    "code": "COMP5703",
+    "name": "Information Technology Capstone Project"
+  },
+  {
+    "code": "COMP5704",
+    "name": "IT Research Project B"
+  },
+  {
+    "code": "COMP5705",
+    "name": "Information Technology Short Project"
+  },
+  {
+    "code": "COMP5706",
+    "name": "IT Industry Placement Project "
+  },
+  {
+    "code": "COMP5707",
+    "name": " Information Technology Capstone A "
+  },
+  {
+    "code": "COMP5708",
+    "name": "Information Technology Capstone B "
+  },
+  {
+    "code": "COMP5709",
+    "name": "IT Capstone Project - Individual"
+  },
+  {
+    "code": "COMP9001",
+    "name": "Introduction to Programming"
+  },
+  {
+    "code": "COMP9007",
+    "name": "Algorithms"
+  },
+  {
+    "code": "COMP9017",
+    "name": "Systems Programming"
+  },
+  {
+    "code": "COMP9103",
+    "name": "Software Development in Java"
+  },
+  {
+    "code": "COMP9110",
+    "name": "System Analysis and Modelling"
+  },
+  {
+    "code": "COMP9120",
+    "name": "Database Management Systems"
+  },
+  {
+    "code": "COMP9121",
+    "name": "Design of Networks & Distributed Systems"
+  },
+  {
+    "code": "COMP9123",
+    "name": "Data Structures and Algorithms"
+  },
+  {
+    "code": "COMP9129",
+    "name": "Software Construction"
+  },
+  {
+    "code": "COMP9201",
+    "name": "Software Construction and Design 1"
+  },
+  {
+    "code": "COMP9202",
+    "name": "Software Construction and Design 2"
+  },
+  {
+    "code": "COMP9220",
+    "name": "Object-Oriented Design"
+  },
+  {
+    "code": "COMP9412",
+    "name": "Agile Software Development Practices"
+  },
+  {
+    "code": "COMP9419",
+    "name": "Digital Media Fundamentals"
+  },
+  {
+    "code": "COMP9601",
+    "name": "Computer and Network Organisation"
+  },
+  {
+    "code": "COSC1001",
+    "name": "Computational Science in MATLAB"
+  },
+  {
+    "code": "COSC1901",
+    "name": "Computational Science in MATLAB"
+  },
+  {
+    "code": "COSC1902",
+    "name": "Computational Science in C"
+  },
+  {
+    "code": "CSCD1032",
+    "name": "Human Communication"
+  },
+  {
+    "code": "CSCD1033",
+    "name": "Child Phonology "
+  },
+  {
+    "code": "CSCD1034",
+    "name": "Linguistics and Phonetics"
+  },
+  {
+    "code": "CSCD2058",
+    "name": "Stuttering"
+  },
+  {
+    "code": "CSCD3090",
+    "name": "Audiology 2 "
+  },
+  {
+    "code": "CSCD3091",
+    "name": "Fieldwork "
+  },
+  {
+    "code": "CSCD5022",
+    "name": "Specialist Studies 1"
+  },
+  {
+    "code": "CSYS5010",
+    "name": "Introduction to Complex Systems"
+  },
+  {
+    "code": "CSYS5020",
+    "name": "Interdependent Civil Systems"
+  },
+  {
+    "code": "CSYS5030",
+    "name": "Information Theory and Self-Organisation"
+  },
+  {
+    "code": "CSYS5040",
+    "name": "Criticality in Dynamical Systems"
+  },
+  {
+    "code": "CSYS5050",
+    "name": "Complex Systems Capstone Project A"
+  },
+  {
+    "code": "CSYS5051",
+    "name": "Complex Systems Capstone Project B"
+  },
+  {
+    "code": "CSYS5060",
+    "name": "Complex Systems Research Project A"
+  },
+  {
+    "code": "CSYS5061",
+    "name": "Complex Systems Research Project B"
+  },
+  {
+    "code": "DAAE2001",
+    "name": "20th Century Australian Architecture"
+  },
+  {
+    "code": "DAAE2002",
+    "name": "Architecture, Place and Society"
+  },
+  {
+    "code": "DAAE2005",
+    "name": "Designing with Colour"
+  },
+  {
+    "code": "DAAE2008",
+    "name": "Innovative Building Structures"
+  },
+  {
+    "code": "DAAE2009",
+    "name": "Designing Effective Visual Communication"
+  },
+  {
+    "code": "DATA1002",
+    "name": "Informatics: Data and Computation"
+  },
+  {
+    "code": "DATA1902",
+    "name": "Informatics: Data and Computation (Advanced)"
+  },
+  {
+    "code": "DATA2001",
+    "name": "Data Science: Big Data and Data Diversity"
+  },
+  {
+    "code": "DATA2002",
+    "name": "Data Analytics: Learning from Data"
+  },
+  {
+    "code": "DATA2901",
+    "name": "Big Data and Data Diversity (Advanced)"
+  },
+  {
+    "code": "DATA3404",
+    "name": "Data Science Platforms"
+  },
+  {
+    "code": "DATA5207",
+    "name": "Data Analysis in the Social Sciences"
+  },
+  {
+    "code": "DECO1013",
+    "name": "Sound Design and Physical Computing"
+  },
+  {
+    "code": "DECO2012",
+    "name": "Sound Design and Sonification"
+  },
+  {
+    "code": "DECO2101",
+    "name": "Visual Communication"
+  },
+  {
+    "code": "DECO2204",
+    "name": "Principles of AutoCAD"
+  },
+  {
+    "code": "DECO2205",
+    "name": "Principles of ArchiCAD"
+  },
+  {
+    "code": "DECO3200",
+    "name": "Interactive Product Design Studio"
+  },
+  {
+    "code": "DESA1004",
+    "name": "Designing with Surfaces and Light"
+  },
+  {
+    "code": "DESA3444",
+    "name": "Design Architecture Independent Study D"
+  },
+  {
+    "code": "DESA3551",
+    "name": "Design Architecture General Elective A"
+  },
+  {
+    "code": "DESA9008",
+    "name": "Object Design"
+  },
+  {
+    "code": "DESA9009",
+    "name": "Public Art"
+  },
+  {
+    "code": "DESA9010",
+    "name": "Painting"
+  },
+  {
+    "code": "DESA9011",
+    "name": "Photography 2"
+  },
+  {
+    "code": "DESA9012",
+    "name": "2D Print Processes in Design"
+  },
+  {
+    "code": "DESA9013",
+    "name": "Architecture & Design Material Processes"
+  },
+  {
+    "code": "DESA9014",
+    "name": "Architecture & Design Ceramic Processes"
+  },
+  {
+    "code": "DESA9015",
+    "name": "Site Specific Art"
+  },
+  {
+    "code": "DESC9014",
+    "name": "Building Construction Technology"
+  },
+  {
+    "code": "DESC9074",
+    "name": "Project Management"
+  },
+  {
+    "code": "DESC9134",
+    "name": "Audio and Acoustics Seminar"
+  },
+  {
+    "code": "DESC9137",
+    "name": "Spatial Audio"
+  },
+  {
+    "code": "DESC9138",
+    "name": "Architectural and Audio Acoustics"
+  },
+  {
+    "code": "DESC9169",
+    "name": "Daylight in Buildings"
+  },
+  {
+    "code": "DESC9191",
+    "name": "Building Acoustics and Noise Control"
+  },
+  {
+    "code": "DESP1001",
+    "name": "Introductory Urban Design and Planning"
+  },
+  {
+    "code": "DESP2001",
+    "name": "Planning for the Public Domain"
+  },
+  {
+    "code": "DESP2002",
+    "name": "Planning for the Built Environment"
+  },
+  {
+    "code": "ELEC1004",
+    "name": "Practical Introduction to Electrical Engineering"
+  },
+  {
+    "code": "ELEC1103",
+    "name": "Fundamentals of Electrical and Electronic Engineering"
+  },
+  {
+    "code": "ELEC1601",
+    "name": "Introduction to Computer Systems "
+  },
+  {
+    "code": "ELEC2004",
+    "name": "Electrical Engineering: Foundations"
+  },
+  {
+    "code": "ELEC2103",
+    "name": "Simulation and Numerical Solutions in Engineering"
+  },
+  {
+    "code": "ELEC2104",
+    "name": "Electronic Devices and Circuits"
+  },
+  {
+    "code": "ELEC2302",
+    "name": "Signals and Systems"
+  },
+  {
+    "code": "ELEC2602",
+    "name": "Digital Logic"
+  },
+  {
+    "code": "ELEC3104",
+    "name": "Engineering Electromagnetics"
+  },
+  {
+    "code": "ELEC3105",
+    "name": "Circuit Theory and Design"
+  },
+  {
+    "code": "ELEC3203",
+    "name": "Electricity Networks"
+  },
+  {
+    "code": "ELEC3204",
+    "name": "Power Electronics and Applications"
+  },
+  {
+    "code": "ELEC3206",
+    "name": "Electrical Energy Conversion Systems"
+  },
+  {
+    "code": "ELEC3304",
+    "name": "Control"
+  },
+  {
+    "code": "ELEC3305",
+    "name": "Digital Signal Processing"
+  },
+  {
+    "code": "ELEC3404",
+    "name": "Electronic Circuit Design"
+  },
+  {
+    "code": "ELEC3405",
+    "name": "Communications Electronics and Photonics"
+  },
+  {
+    "code": "ELEC3505",
+    "name": "Communications"
+  },
+  {
+    "code": "ELEC3506",
+    "name": "Data Communications and the Internet"
+  },
+  {
+    "code": "ELEC3607",
+    "name": "Embedded Systems"
+  },
+  {
+    "code": "ELEC3608",
+    "name": "Computer Architecture"
+  },
+  {
+    "code": "ELEC3609",
+    "name": "Internet Software Platforms"
+  },
+  {
+    "code": "ELEC3610",
+    "name": "E-Business Analysis and Design"
+  },
+  {
+    "code": "ELEC3702",
+    "name": "Management for Engineers"
+  },
+  {
+    "code": "ELEC3802",
+    "name": "Fundamentals of Biomedical Engineering"
+  },
+  {
+    "code": "ELEC3803",
+    "name": "Bioelectronics"
+  },
+  {
+    "code": "ELEC3901",
+    "name": "Electrical Exchange Unit 1A"
+  },
+  {
+    "code": "ELEC3902",
+    "name": "Electrical Exchange Unit 1B"
+  },
+  {
+    "code": "ELEC3903",
+    "name": "Electrical Exchange Unit 1C"
+  },
+  {
+    "code": "ELEC3904",
+    "name": "Electrical Exchange Unit 2A"
+  },
+  {
+    "code": "ELEC3905",
+    "name": "Electrical Exchange Unit 2B"
+  },
+  {
+    "code": "ELEC3906",
+    "name": "Electrical Exchange Unit 2C"
+  },
+  {
+    "code": "ELEC4505",
+    "name": "Digital Communication Systems"
+  },
+  {
+    "code": "ELEC4605",
+    "name": "Computer Architecture"
+  },
+  {
+    "code": "ELEC4702",
+    "name": "Practical Experience"
+  },
+  {
+    "code": "ELEC4706",
+    "name": "Project Management"
+  },
+  {
+    "code": "ELEC4710",
+    "name": "Engineering Project A"
+  },
+  {
+    "code": "ELEC4711",
+    "name": "Engineering Project B"
+  },
+  {
+    "code": "ELEC4712",
+    "name": "Thesis A"
+  },
+  {
+    "code": "ELEC4713",
+    "name": "Thesis B"
+  },
+  {
+    "code": "ELEC4714",
+    "name": "Major Industrial Project"
+  },
+  {
+    "code": "ELEC5020",
+    "name": "Capstone Project A"
+  },
+  {
+    "code": "ELEC5021",
+    "name": "Capstone Project B"
+  },
+  {
+    "code": "ELEC5022",
+    "name": "Capstone Project B Extended"
+  },
+  {
+    "code": "ELEC5101",
+    "name": "Antennas and Propagation"
+  },
+  {
+    "code": "ELEC5203",
+    "name": "Topics in Power Engineering"
+  },
+  {
+    "code": "ELEC5204",
+    "name": "Power Systems Analysis and Protection"
+  },
+  {
+    "code": "ELEC5205",
+    "name": "High Voltage Engineering"
+  },
+  {
+    "code": "ELEC5206",
+    "name": "Sustainable Energy Systems"
+  },
+  {
+    "code": "ELEC5207",
+    "name": "Advanced Power Conversion Technologies"
+  },
+  {
+    "code": "ELEC5208",
+    "name": "Intelligent Electricity Networks "
+  },
+  {
+    "code": "ELEC5211",
+    "name": "Power System Dynamics and Control"
+  },
+  {
+    "code": "ELEC5212",
+    "name": "Power System Planning and Markets"
+  },
+  {
+    "code": "ELEC5222",
+    "name": "Dissertation A"
+  },
+  {
+    "code": "ELEC5223",
+    "name": "Dissertation B"
+  },
+  {
+    "code": "ELEC5303",
+    "name": "Computer Control System Design [Not Offered 2018]"
+  },
+  {
+    "code": "ELEC5304",
+    "name": "Multidimensional Signal Processing"
+  },
+  {
+    "code": "ELEC5305",
+    "name": "Acoustics, Speech and Signal Processing [not running in 2018]"
+  },
+  {
+    "code": "ELEC5306",
+    "name": "Advanced Signal Processing: Video Compression"
+  },
+  {
+    "code": "ELEC5307",
+    "name": "Advanced Signal Processing with Deep Learning"
+  },
+  {
+    "code": "ELEC5402",
+    "name": "Digital Integrated Circuit Design"
+  },
+  {
+    "code": "ELEC5403",
+    "name": "Radio Frequency Engineering"
+  },
+  {
+    "code": "ELEC5507",
+    "name": "Error Control Coding"
+  },
+  {
+    "code": "ELEC5508",
+    "name": "Wireless Engineering"
+  },
+  {
+    "code": "ELEC5509",
+    "name": "Mobile Networks"
+  },
+  {
+    "code": "ELEC5510",
+    "name": "Satellite Communication Systems"
+  },
+  {
+    "code": "ELEC5511",
+    "name": "Optical Communication Systems"
+  },
+  {
+    "code": "ELEC5512",
+    "name": "Optical Networks"
+  },
+  {
+    "code": "ELEC5514",
+    "name": "Networked Embedded Systems"
+  },
+  {
+    "code": "ELEC5515",
+    "name": "Gigabit Wireless Systems"
+  },
+  {
+    "code": "ELEC5516",
+    "name": "Electrical and Optical Sensor Design"
+  },
+  {
+    "code": "ELEC5517",
+    "name": "Software Defined Networks"
+  },
+  {
+    "code": "ELEC5518",
+    "name": "IoT for Critical Infrastructures"
+  },
+  {
+    "code": "ELEC5613",
+    "name": " Image Processing and Computer Vision"
+  },
+  {
+    "code": "ELEC5614",
+    "name": "Real Time Computing [Not Offered 2018]"
+  },
+  {
+    "code": "ELEC5615",
+    "name": "Advanced Computer Architecture"
+  },
+  {
+    "code": "ELEC5616",
+    "name": "Computer and Network Security"
+  },
+  {
+    "code": "ELEC5617",
+    "name": "Topics in Software Engineering"
+  },
+  {
+    "code": "ELEC5618",
+    "name": "Software Quality Engineering"
+  },
+  {
+    "code": "ELEC5619",
+    "name": "Object Oriented Application Frameworks"
+  },
+  {
+    "code": "ELEC5620",
+    "name": "Model Based Software Engineering"
+  },
+  {
+    "code": "ELEC5621",
+    "name": "Digital Systems Design"
+  },
+  {
+    "code": "ELEC5622",
+    "name": "Signals, Software and Health"
+  },
+  {
+    "code": "ELEC5701",
+    "name": "Technology Venture Creation"
+  },
+  {
+    "code": "ELEC5710",
+    "name": "Foundations of Electrical and Electronic Engineering"
+  },
+  {
+    "code": "ELEC5711",
+    "name": "Foundations of Computer Systems"
+  },
+  {
+    "code": "ELEC5720",
+    "name": "Foundations of Electronic Devices and Circuits"
+  },
+  {
+    "code": "ELEC5721",
+    "name": "Foundations of Signals and Systems"
+  },
+  {
+    "code": "ELEC5722",
+    "name": "Foundations of Digital Systems Design"
+  },
+  {
+    "code": "ELEC5723",
+    "name": "Foundations of Simulations & Numerical Solutions in Eng"
+  },
+  {
+    "code": "ELEC5730",
+    "name": "Foundations of Eng Electromagnetics"
+  },
+  {
+    "code": "ELEC5731",
+    "name": "Foundations of Circuit Theory and Design"
+  },
+  {
+    "code": "ELEC5732",
+    "name": "Foundations of Electricity Networks"
+  },
+  {
+    "code": "ELEC5733",
+    "name": "Foundations of Power Electronics & Apps"
+  },
+  {
+    "code": "ELEC5734",
+    "name": "Foundations of Electrical Energy Conversion Systems"
+  },
+  {
+    "code": "ELEC5735",
+    "name": "Foundations of Control"
+  },
+  {
+    "code": "ELEC5736",
+    "name": "Foundations of Digital Signal Processing"
+  },
+  {
+    "code": "ELEC5737",
+    "name": "Foundations of Electronic Circuit Design"
+  },
+  {
+    "code": "ELEC5738",
+    "name": "Foundations Comm Electronics & Photonics"
+  },
+  {
+    "code": "ELEC5739",
+    "name": "Foundations of Communications"
+  },
+  {
+    "code": "ELEC5740",
+    "name": "Foundations of Data Comm & the Internet"
+  },
+  {
+    "code": "ELEC5741",
+    "name": "Foundations of Embedded Computing"
+  },
+  {
+    "code": "ELEC5742",
+    "name": "Foundations: Internet Software Platforms"
+  },
+  {
+    "code": "ELEC5743",
+    "name": "Foundations of E-Business Analysis & Design"
+  },
+  {
+    "code": "ELEC5744",
+    "name": "Foundations of Digital Comm Systems"
+  },
+  {
+    "code": "ELEC5745",
+    "name": "Foundations of Computer Architecture"
+  },
+  {
+    "code": "ELEC5803",
+    "name": "Advanced Bioelectronics [Not Offered 2018]"
+  },
+  {
+    "code": "ELEC6901",
+    "name": "Electrical Exchange Unit 1A"
+  },
+  {
+    "code": "ELEC6902",
+    "name": "Electrical Exchange Unit 1B"
+  },
+  {
+    "code": "ELEC6903",
+    "name": "Electrical Exchange Unit 1C"
+  },
+  {
+    "code": "ELEC6904",
+    "name": "Electrical Exchange Unit 2A"
+  },
+  {
+    "code": "ELEC6905",
+    "name": "Electrical Exchange Unit 2B"
+  },
+  {
+    "code": "ELEC8900",
+    "name": "Project, Full-Time"
+  },
+  {
+    "code": "ELEC8901",
+    "name": "Project  Part A"
+  },
+  {
+    "code": "ELEC8902",
+    "name": "Project  Part B"
+  },
+  {
+    "code": "ELEC8905",
+    "name": "Dissertation A"
+  },
+  {
+    "code": "ELEC8906",
+    "name": "Dissertation B"
+  },
+  {
+    "code": "ELEC9103",
+    "name": "Simulations & Numerical Solutions in Eng"
+  },
+  {
+    "code": "ELEC9104",
+    "name": "Engineering Electromagnetics"
+  },
+  {
+    "code": "ELEC9203",
+    "name": "Electricity Networks"
+  },
+  {
+    "code": "ELEC9204",
+    "name": "Power Electronics and Applications"
+  },
+  {
+    "code": "ELEC9206",
+    "name": "Electrical Energy Conversion Systems"
+  },
+  {
+    "code": "ELEC9302",
+    "name": "Signals and Systems"
+  },
+  {
+    "code": "ELEC9304",
+    "name": "Control"
+  },
+  {
+    "code": "ELEC9305",
+    "name": "Digital Signal Processing"
+  },
+  {
+    "code": "ELEC9404",
+    "name": "Electronic Circuit Design"
+  },
+  {
+    "code": "ELEC9405",
+    "name": "Communications Electronics and Photonics"
+  },
+  {
+    "code": "ELEC9505",
+    "name": "Communications"
+  },
+  {
+    "code": "ELEC9506",
+    "name": "Data Communications and the Internet"
+  },
+  {
+    "code": "ELEC9515",
+    "name": "Digital Communication Systems"
+  },
+  {
+    "code": "ELEC9601",
+    "name": "Computer Systems"
+  },
+  {
+    "code": "ELEC9602",
+    "name": "Digital Logic"
+  },
+  {
+    "code": "ELEC9607",
+    "name": "Embedded Systems"
+  },
+  {
+    "code": "ELEC9608",
+    "name": "Computer Architecture"
+  },
+  {
+    "code": "ELEC9609",
+    "name": "Internet Software Platforms"
+  },
+  {
+    "code": "ELEC9610",
+    "name": "E-Business Analysis and Design"
+  },
+  {
+    "code": "ELEC9703",
+    "name": "Fundamentals of Electrical and Electronic Engineering"
+  },
+  {
+    "code": "ELEC9704",
+    "name": "Electronic Devices and Circuits"
+  },
+  {
+    "code": "ENGD1000",
+    "name": "Building a Sustainable World"
+  },
+  {
+    "code": "ENGD2001",
+    "name": "Protecting People Who Use Technology"
+  },
+  {
+    "code": "ENGD3001",
+    "name": "Technological Innovation through New Ventures"
+  },
+  {
+    "code": "ENGF1661",
+    "name": "Flexible First Year Enrolment 1"
+  },
+  {
+    "code": "ENGF1662",
+    "name": "Flexible First Year Enrolment 2"
+  },
+  {
+    "code": "ENGF1663",
+    "name": "Flexible First Year Enrolment 3"
+  },
+  {
+    "code": "ENGG1000",
+    "name": "History and Philosophy of Engineering"
+  },
+  {
+    "code": "ENGG1061",
+    "name": "Advanced Engineering 1"
+  },
+  {
+    "code": "ENGG1111",
+    "name": "Integrated Engineering 1"
+  },
+  {
+    "code": "ENGG1800",
+    "name": "Introduction to Engineering Disciplines "
+  },
+  {
+    "code": "ENGG1801",
+    "name": "Engineering Computing"
+  },
+  {
+    "code": "ENGG1802",
+    "name": "Engineering Mechanics"
+  },
+  {
+    "code": "ENGG1803",
+    "name": "Professional Engineering 1"
+  },
+  {
+    "code": "ENGG1805",
+    "name": "Professional Engineering and IT"
+  },
+  {
+    "code": "ENGG1813",
+    "name": "Engineering Critical Thinking"
+  },
+  {
+    "code": "ENGG1850",
+    "name": "Introduction to Project Management"
+  },
+  {
+    "code": "ENGG1860",
+    "name": "Project Initiation & Scope"
+  },
+  {
+    "code": "ENGG1865",
+    "name": "Project Time, Cost and Resources"
+  },
+  {
+    "code": "ENGG1960",
+    "name": "Introduction to Biomedical Engineering"
+  },
+  {
+    "code": "ENGG2005",
+    "name": "Engineering Studies C"
+  },
+  {
+    "code": "ENGG2008",
+    "name": "Engineering Studies A"
+  },
+  {
+    "code": "ENGG2062",
+    "name": "Engineering Project: Business Plan 2 Adv"
+  },
+  {
+    "code": "ENGG2111",
+    "name": "Integrated Engineering 2"
+  },
+  {
+    "code": "ENGG2850",
+    "name": "Project Cost and Finance"
+  },
+  {
+    "code": "ENGG2851",
+    "name": "Project Analytics "
+  },
+  {
+    "code": "ENGG2852",
+    "name": "Project Based Organisational Behaviour"
+  },
+  {
+    "code": "ENGG2855",
+    "name": "Project Acceptance "
+  },
+  {
+    "code": "ENGG3005",
+    "name": "Engineering and Industrial Management Fund"
+  },
+  {
+    "code": "ENGG3062",
+    "name": "Technology Education (Advanced)"
+  },
+  {
+    "code": "ENGG3111",
+    "name": "Integrated Engineering 3"
+  },
+  {
+    "code": "ENGG3800",
+    "name": "Industry and Community Projects"
+  },
+  {
+    "code": "ENGG3853",
+    "name": "Project Risk Management: Tools & Techniques"
+  },
+  {
+    "code": "ENGG3854",
+    "name": "Legal Aspects of Projects"
+  },
+  {
+    "code": "ENGG4000",
+    "name": "Practical Experience"
+  },
+  {
+    "code": "ENGG4006",
+    "name": "Adv Professional Eng Managemt & Practice"
+  },
+  {
+    "code": "ENGG4061",
+    "name": "Innovation\\/Technology Commercialisation"
+  },
+  {
+    "code": "ENGG4064",
+    "name": "Advanced Engineering Design A"
+  },
+  {
+    "code": "ENGG4065",
+    "name": "Advanced Engineering Design B"
+  },
+  {
+    "code": "ENGG4111",
+    "name": "Integrated Engineering 4"
+  },
+  {
+    "code": "ENGG5001",
+    "name": "Professional Development"
+  },
+  {
+    "code": "ENGG5011",
+    "name": "Engineering Foundation Studies A"
+  },
+  {
+    "code": "ENGG5012",
+    "name": "Engineering Foundation Studies B"
+  },
+  {
+    "code": "ENGG5013",
+    "name": "Engineering Foundation Studies C"
+  },
+  {
+    "code": "ENGG5014",
+    "name": "Engineering Foundation Studies D"
+  },
+  {
+    "code": "ENGG5102",
+    "name": "Entrepreneurship for Engineers"
+  },
+  {
+    "code": "ENGG5103",
+    "name": "Safety Systems and Risk Analysis"
+  },
+  {
+    "code": "ENGG5201",
+    "name": "Data Quality in Engineering Computing"
+  },
+  {
+    "code": "ENGG5202",
+    "name": "Sustainable Design, Engineering & Management"
+  },
+  {
+    "code": "ENGG5203",
+    "name": "Quality Engineering and Management"
+  },
+  {
+    "code": "ENGG5204",
+    "name": "Engineering Professional Practice"
+  },
+  {
+    "code": "ENGG5205",
+    "name": "Professional Practice in Project Management"
+  },
+  {
+    "code": "ENGG5214",
+    "name": "Management of Technology"
+  },
+  {
+    "code": "ENGG5215",
+    "name": "International Engineering Strategies and Operations"
+  },
+  {
+    "code": "ENGG5216",
+    "name": "Management of Engineering Innovation"
+  },
+  {
+    "code": "ENGG5217",
+    "name": "Practical Experience"
+  },
+  {
+    "code": "ENGG5218",
+    "name": "Research Dissertation"
+  },
+  {
+    "code": "ENGG5219",
+    "name": "Research Project"
+  },
+  {
+    "code": "ENGG5220",
+    "name": "Engineering Project A"
+  },
+  {
+    "code": "ENGG5221",
+    "name": "Engineering Project B"
+  },
+  {
+    "code": "ENGG5222",
+    "name": "Dissertation A"
+  },
+  {
+    "code": "ENGG5223",
+    "name": "Dissertation B"
+  },
+  {
+    "code": "ENGG5231",
+    "name": "Engineering Graduate Exchange A"
+  },
+  {
+    "code": "ENGG5232",
+    "name": "Engineering Graduate Exchange B"
+  },
+  {
+    "code": "ENGG5601",
+    "name": "Greenhouse Gas Mitigation"
+  },
+  {
+    "code": "ENGG5610",
+    "name": "Environmental Studies at Tokyo"
+  },
+  {
+    "code": "ENGG5701",
+    "name": "Doctoral Thesis 1A"
+  },
+  {
+    "code": "ENGG5702",
+    "name": "Thesis and Doctoral Seminar 1B"
+  },
+  {
+    "code": "ENGG5703",
+    "name": "Doctoral Thesis 2A"
+  },
+  {
+    "code": "ENGG5704",
+    "name": "Thesis and Doctoral Seminar 2B"
+  },
+  {
+    "code": "ENGG5705",
+    "name": "Thesis and Doctoral Seminar 3A"
+  },
+  {
+    "code": "ENGG5706",
+    "name": "Thesis and Oral Defence"
+  },
+  {
+    "code": "ENGG5811",
+    "name": "Critical & Systems Thinking"
+  },
+  {
+    "code": "ENGG5812",
+    "name": "Project Delivery Approaches"
+  },
+  {
+    "code": "ENGG5820",
+    "name": "Applied Project Management"
+  },
+  {
+    "code": "ENGG9801",
+    "name": "Engineering Computing"
+  },
+  {
+    "code": "ENGG9802",
+    "name": "Engineering Mechanics"
+  },
+  {
+    "code": "ENGG9999",
+    "name": "Postgraduate practice on intranet"
+  },
+  {
+    "code": "ENGP1000",
+    "name": "Professional Engagement Program 1"
+  },
+  {
+    "code": "ENGP2000",
+    "name": "Professional Engagement Program 2"
+  },
+  {
+    "code": "ENGP3000",
+    "name": "Professional Engagement Program 3"
+  },
+  {
+    "code": "ENVI2111",
+    "name": "Conservation Biology & Applied Ecology"
+  },
+  {
+    "code": "ENVI2911",
+    "name": "Conservation Biology & Applied Ecology"
+  },
+  {
+    "code": "EXSS1018",
+    "name": "Biomechanics of Human Movement"
+  },
+  {
+    "code": "EXSS1032",
+    "name": "Fundamentals of Exercise Science"
+  },
+  {
+    "code": "EXSS2025",
+    "name": "Motor Control and Learning"
+  },
+  {
+    "code": "EXSS2027",
+    "name": "Exercise Physiology for Clinicians"
+  },
+  {
+    "code": "HSBH1005",
+    "name": "Human Development"
+  },
+  {
+    "code": "HSBH1006",
+    "name": "Foundations of Health Science"
+  },
+  {
+    "code": "HSBH1007",
+    "name": "Health Science and Research"
+  },
+  {
+    "code": "HSBH1008",
+    "name": "Health Determinants and Interventions"
+  },
+  {
+    "code": "HSBH1009",
+    "name": "Health Care Resources and Systems"
+  },
+  {
+    "code": "HSBH3001",
+    "name": "Health and Indigenous Populations"
+  },
+  {
+    "code": "HSBH3002",
+    "name": "Health Information Science"
+  },
+  {
+    "code": "HSBH3003",
+    "name": "Health Service Strategy and Policy"
+  },
+  {
+    "code": "HSBH3004",
+    "name": "Health, Ethics and the Law"
+  },
+  {
+    "code": "HSBH3005",
+    "name": "Evidence Based Health Care"
+  },
+  {
+    "code": "HSBH3006",
+    "name": "Research Methods in Health"
+  },
+  {
+    "code": "HSBH3009",
+    "name": "International Health Project"
+  },
+  {
+    "code": "HSBH3010",
+    "name": "Health and Lifelong Disability"
+  },
+  {
+    "code": "HSBH3011",
+    "name": "Rural Health"
+  },
+  {
+    "code": "HTIN5001",
+    "name": "Nature of Systems"
+  },
+  {
+    "code": "HTIN5002",
+    "name": "Quality Frameworks for Health Innovation"
+  },
+  {
+    "code": "HTIN5003",
+    "name": "Health Technology Evaluation"
+  },
+  {
+    "code": "HTIN5004",
+    "name": "Integrated Approaches to Chronic Disease"
+  },
+  {
+    "code": "HTIN6011",
+    "name": "Health Technology Innovation Capstone A"
+  },
+  {
+    "code": "HTIN6012",
+    "name": "Health Technology Innovation Capstone B "
+  },
+  {
+    "code": "HTIN6020",
+    "name": "Health Technology Innovation Capstone"
+  },
+  {
+    "code": "HTIN6030",
+    "name": "Health Technology Innovation Thesis A"
+  },
+  {
+    "code": "HTIN6032",
+    "name": "Health Technology Innovation Thesis B "
+  },
+  {
+    "code": "INFO1003",
+    "name": "Foundations of Information Technology"
+  },
+  {
+    "code": "INFO1103",
+    "name": "Introduction to Programming"
+  },
+  {
+    "code": "INFO1105",
+    "name": "Data Structures"
+  },
+  {
+    "code": "INFO1110",
+    "name": "Introduction to Programming"
+  },
+  {
+    "code": "INFO1111",
+    "name": "Computing 1A Professionalism"
+  },
+  {
+    "code": "INFO1112",
+    "name": "Computing 1B OS & Network Platforms"
+  },
+  {
+    "code": "INFO1113",
+    "name": "Object-Oriented Programming"
+  },
+  {
+    "code": "INFO1551",
+    "name": "Information Technology Exchange"
+  },
+  {
+    "code": "INFO1552",
+    "name": "Information Technology Exchange"
+  },
+  {
+    "code": "INFO1591",
+    "name": "Advanced Information Technology Exchange"
+  },
+  {
+    "code": "INFO1592",
+    "name": "Advanced Information Technology Exchange"
+  },
+  {
+    "code": "INFO1903",
+    "name": "Informatics (Advanced)"
+  },
+  {
+    "code": "INFO1905",
+    "name": "Data Structures (Advanced)"
+  },
+  {
+    "code": "INFO1910",
+    "name": "Introduction to Programming (Advanced)"
+  },
+  {
+    "code": "INFO1911",
+    "name": "IT Special Project 1A"
+  },
+  {
+    "code": "INFO1912",
+    "name": "IT Special Project 1B"
+  },
+  {
+    "code": "INFO2110",
+    "name": "Systems Analysis and Modelling "
+  },
+  {
+    "code": "INFO2120",
+    "name": "Database Systems 1"
+  },
+  {
+    "code": "INFO2150",
+    "name": "Introduction to Health Data Science"
+  },
+  {
+    "code": "INFO2222",
+    "name": "Computing 2 Usability and Security"
+  },
+  {
+    "code": "INFO2315",
+    "name": "Introduction to IT Security "
+  },
+  {
+    "code": "INFO2551",
+    "name": "Information Technology Exchange"
+  },
+  {
+    "code": "INFO2552",
+    "name": "Information Technology Exchange"
+  },
+  {
+    "code": "INFO2591",
+    "name": "Advanced Information Technology Exchange"
+  },
+  {
+    "code": "INFO2592",
+    "name": "Advanced Information Technology Exchange"
+  },
+  {
+    "code": "INFO2820",
+    "name": "Database Systems 1 (Advanced)"
+  },
+  {
+    "code": "INFO2911",
+    "name": "IT Special Project 2A"
+  },
+  {
+    "code": "INFO2912",
+    "name": "IT Special Project 2B"
+  },
+  {
+    "code": "INFO3220",
+    "name": "Object Oriented Design"
+  },
+  {
+    "code": "INFO3315",
+    "name": "Human-Computer Interaction"
+  },
+  {
+    "code": "INFO3333",
+    "name": "Computing 3 Management"
+  },
+  {
+    "code": "INFO3402",
+    "name": "Management of IT Projects and Systems"
+  },
+  {
+    "code": "INFO3404",
+    "name": "Database Systems 2"
+  },
+  {
+    "code": "INFO3406",
+    "name": "Introduction to Data Analytics"
+  },
+  {
+    "code": "INFO3504",
+    "name": "Database Systems 2 (Adv)"
+  },
+  {
+    "code": "INFO3551",
+    "name": "Information Technology Exchange"
+  },
+  {
+    "code": "INFO3552",
+    "name": "Information Technology Exchange"
+  },
+  {
+    "code": "INFO3553",
+    "name": "Information Technology Exchange"
+  },
+  {
+    "code": "INFO3591",
+    "name": "Advanced Information Technology Exchange"
+  },
+  {
+    "code": "INFO3592",
+    "name": "Advanced Information Technology Exchange"
+  },
+  {
+    "code": "INFO3593",
+    "name": "Advanced Information Technology Exchange"
+  },
+  {
+    "code": "INFO3594",
+    "name": "Advanced Information Technology Exchange"
+  },
+  {
+    "code": "INFO3600",
+    "name": "Major Development Project (Advanced)"
+  },
+  {
+    "code": "INFO3616",
+    "name": "Principles of Security and Security Engineering"
+  },
+  {
+    "code": "INFO3911",
+    "name": "IT Special Project 3A"
+  },
+  {
+    "code": "INFO3912",
+    "name": "IT Special Project 3B"
+  },
+  {
+    "code": "INFO4991",
+    "name": "IT Research Thesis A"
+  },
+  {
+    "code": "INFO4992",
+    "name": "IT Research Thesis B"
+  },
+  {
+    "code": "INFO4999",
+    "name": "Computer Science Honours Result"
+  },
+  {
+    "code": "INFO5001",
+    "name": "System Analysis and Modelling "
+  },
+  {
+    "code": "INFO5003",
+    "name": "Information Technology for Health Professionals"
+  },
+  {
+    "code": "INFO5010",
+    "name": "Algorithms reading group"
+  },
+  {
+    "code": "INFO5011",
+    "name": "IT Advanced Topic B"
+  },
+  {
+    "code": "INFO5060",
+    "name": "Data Analytics and Business Intelligence"
+  },
+  {
+    "code": "INFO5206",
+    "name": "Information Technologies and Systems"
+  },
+  {
+    "code": "INFO5301",
+    "name": "Information Security Management"
+  },
+  {
+    "code": "INFO5306",
+    "name": "Enterprise Healthcare Information Systems"
+  },
+  {
+    "code": "INFO5551",
+    "name": "Postgraduate IT Exchange A"
+  },
+  {
+    "code": "INFO5552",
+    "name": "Postgraduate IT Exchange B"
+  },
+  {
+    "code": "INFO5553",
+    "name": "Postgraduate IT Exchange C"
+  },
+  {
+    "code": "INFO5554",
+    "name": "Postgraduate IT Exchange D"
+  },
+  {
+    "code": "INFO5990",
+    "name": "Professional Practice in IT"
+  },
+  {
+    "code": "INFO5991",
+    "name": "Services Science Management and Engineering"
+  },
+  {
+    "code": "INFO5992",
+    "name": "Understanding IT Innovations"
+  },
+  {
+    "code": "INFO5993",
+    "name": "IT Research Methods"
+  },
+  {
+    "code": "INFO6007",
+    "name": "Project Management in IT"
+  },
+  {
+    "code": "INFO6010",
+    "name": "Advanced Topics in IT Project Management"
+  },
+  {
+    "code": "INFO6012",
+    "name": "Information Technology Strategy & Value"
+  },
+  {
+    "code": "INFO9003",
+    "name": "Information Technology for Health Professionals"
+  },
+  {
+    "code": "INFO9117",
+    "name": "Intro to Software Engineering Practice [not offered in 2018]"
+  },
+  {
+    "code": "ISYS1551",
+    "name": "Information Systems Exchange"
+  },
+  {
+    "code": "ISYS1552",
+    "name": "Information Systems Exchange"
+  },
+  {
+    "code": "ISYS2110",
+    "name": "Analysis & Design of Web Information Systems"
+  },
+  {
+    "code": "ISYS2120",
+    "name": "Data & Information Management"
+  },
+  {
+    "code": "ISYS2140",
+    "name": "Information Systems"
+  },
+  {
+    "code": "ISYS2160",
+    "name": "Information Systems in the Internet Age"
+  },
+  {
+    "code": "ISYS2554",
+    "name": "Information Systems Exchange"
+  },
+  {
+    "code": "ISYS2555",
+    "name": "Information Systems Exchange"
+  },
+  {
+    "code": "ISYS2556",
+    "name": "Information Systems Exchange"
+  },
+  {
+    "code": "ISYS2557",
+    "name": "Information Systems Exchange"
+  },
+  {
+    "code": "ISYS3400",
+    "name": "Information Systems Project"
+  },
+  {
+    "code": "ISYS3401",
+    "name": "Information Technology Evaluation"
+  },
+  {
+    "code": "ISYS3402",
+    "name": "Decision Analytics & Support Systems [not running in 2018]"
+  },
+  {
+    "code": "ISYS3554",
+    "name": "Information Systems Exchange"
+  },
+  {
+    "code": "ISYS3555",
+    "name": "Information Systems Exchange"
+  },
+  {
+    "code": "ISYS3556",
+    "name": "Information Systems Exchange"
+  },
+  {
+    "code": "ISYS3557",
+    "name": "Information Systems Exchange"
+  },
+  {
+    "code": "ISYS3888",
+    "name": "Information Systems Project"
+  },
+  {
+    "code": "ISYS4301",
+    "name": "Information Systems Honours A"
+  },
+  {
+    "code": "ISYS4302",
+    "name": "Information Systems Honours B"
+  },
+  {
+    "code": "ISYS4303",
+    "name": "Information Systems Honours C"
+  },
+  {
+    "code": "ISYS4304",
+    "name": "Information Systems Honours D"
+  },
+  {
+    "code": "ISYS5050",
+    "name": "Knowledge Management Systems"
+  },
+  {
+    "code": "ISYS5070",
+    "name": "Change Management in IT"
+  },
+  {
+    "code": "ITLS6002",
+    "name": "Supply Chain Planning Systems"
+  },
+  {
+    "code": "ITLS6107",
+    "name": "Applied GIS and Spatial Data Analytics"
+  },
+  {
+    "code": "MARC4001",
+    "name": "Urban Architecture Research Studio"
+  },
+  {
+    "code": "MARC4002",
+    "name": "Sustainable Architecture Research Studio"
+  },
+  {
+    "code": "MARC4003",
+    "name": "Digital Architecture Research Studio"
+  },
+  {
+    "code": "MARC4102",
+    "name": "Modern Architectural Theory"
+  },
+  {
+    "code": "MARC6101",
+    "name": "Performance Based Modelling in Design"
+  },
+  {
+    "code": "MARC6102",
+    "name": "3D Computer Design Modelling"
+  },
+  {
+    "code": "MARC6203",
+    "name": "Architecture Workshop B"
+  },
+  {
+    "code": "MARF5201",
+    "name": "Honours Studio"
+  },
+  {
+    "code": "MECH1400",
+    "name": "Mechanical Construction"
+  },
+  {
+    "code": "MECH1560",
+    "name": "Introduction to Mechanical Engineering "
+  },
+  {
+    "code": "MECH2400",
+    "name": "Mechanical Design 1"
+  },
+  {
+    "code": "MECH2401",
+    "name": "Human-Centred Engineering Design"
+  },
+  {
+    "code": "MECH2660",
+    "name": "Engineering Management"
+  },
+  {
+    "code": "MECH2901",
+    "name": "Anatomy and Physiology for Engineers"
+  },
+  {
+    "code": "MECH3260",
+    "name": "Thermal Engineering 2"
+  },
+  {
+    "code": "MECH3261",
+    "name": "Fluid Mechanics 2"
+  },
+  {
+    "code": "MECH3361",
+    "name": "Mechanics of Solids 2"
+  },
+  {
+    "code": "MECH3362",
+    "name": "Materials 2"
+  },
+  {
+    "code": "MECH3460",
+    "name": "Mechanical Design 2"
+  },
+  {
+    "code": "MECH3660",
+    "name": "Manufacturing Engineering"
+  },
+  {
+    "code": "MECH3661",
+    "name": "Engineering Management"
+  },
+  {
+    "code": "MECH3921",
+    "name": "Biomedical Design and Technology"
+  },
+  {
+    "code": "MECH4231",
+    "name": "Environmental Acoustics & Noise Control"
+  },
+  {
+    "code": "MECH4241",
+    "name": "Energy and the Environment"
+  },
+  {
+    "code": "MECH4255",
+    "name": "Air Conditioning and Refrigeration"
+  },
+  {
+    "code": "MECH4265",
+    "name": "Combustion"
+  },
+  {
+    "code": "MECH4310",
+    "name": "Advanced Engineering Materials"
+  },
+  {
+    "code": "MECH4320",
+    "name": "Polymer Engineering"
+  },
+  {
+    "code": "MECH4460",
+    "name": "Mechanical Design 3"
+  },
+  {
+    "code": "MECH4601",
+    "name": "Professional Engineering 2"
+  },
+  {
+    "code": "MECH4660",
+    "name": "Engineering Management"
+  },
+  {
+    "code": "MECH4720",
+    "name": "Sensors and Signals"
+  },
+  {
+    "code": "MECH4730",
+    "name": "Computers in Real-Time Control and Instrumentation"
+  },
+  {
+    "code": "MECH4902",
+    "name": "Orthopaedic and Surgical Engineering"
+  },
+  {
+    "code": "MECH4961",
+    "name": "Biomechanics and Biomaterials"
+  },
+  {
+    "code": "MECH5255",
+    "name": "Air Conditioning and Refrigeration"
+  },
+  {
+    "code": "MECH5261",
+    "name": "Foundations of Fluid Mechanics 2"
+  },
+  {
+    "code": "MECH5262",
+    "name": "Foundations of Thermal Engineering 2"
+  },
+  {
+    "code": "MECH5265",
+    "name": "Combustion"
+  },
+  {
+    "code": "MECH5275",
+    "name": "Renewable Energy"
+  },
+  {
+    "code": "MECH5304",
+    "name": "Materials Failure"
+  },
+  {
+    "code": "MECH5305",
+    "name": "Smart Materials"
+  },
+  {
+    "code": "MECH5310",
+    "name": "Advanced Engineering Materials"
+  },
+  {
+    "code": "MECH5361",
+    "name": "Foundations of Mechanics of Solids 2"
+  },
+  {
+    "code": "MECH5362",
+    "name": "Foundations of Materials 2"
+  },
+  {
+    "code": "MECH5400",
+    "name": "Foundations of Mechanical Design 1"
+  },
+  {
+    "code": "MECH5410",
+    "name": "Advanced Design and Analysis"
+  },
+  {
+    "code": "MECH5416",
+    "name": "Advanced Design and Analysis"
+  },
+  {
+    "code": "MECH5660",
+    "name": "Foundations of Manufacturing Engineering"
+  },
+  {
+    "code": "MECH5701",
+    "name": "Computers in Real Time Control and Instrumentation"
+  },
+  {
+    "code": "MECH5720",
+    "name": "Sensors and Signals"
+  },
+  {
+    "code": "MECH5900",
+    "name": "Thesis"
+  },
+  {
+    "code": "MECH5907",
+    "name": "Orthopaedic and Surgical Engineering"
+  },
+  {
+    "code": "MECH9260",
+    "name": "Thermal Engineering 2"
+  },
+  {
+    "code": "MECH9261",
+    "name": "Fluid Mechanics 2"
+  },
+  {
+    "code": "MECH9361",
+    "name": "Mechanics of Solids 2"
+  },
+  {
+    "code": "MECH9362",
+    "name": "Materials 2"
+  },
+  {
+    "code": "MECH9400",
+    "name": "Mechanical Design 1"
+  },
+  {
+    "code": "MECH9660",
+    "name": "Manufacturing Engineering"
+  },
+  {
+    "code": "MRSC5040",
+    "name": "Medical Radiation Science Nuclear Med 2"
+  },
+  {
+    "code": "MRTY2090",
+    "name": "Clinical Education 2.2DR"
+  },
+  {
+    "code": "MTRX1701",
+    "name": " Introduction to Mechatronic Engineering"
+  },
+  {
+    "code": "MTRX1702",
+    "name": "Mechatronics 1"
+  },
+  {
+    "code": "MTRX1705",
+    "name": "Introduction to Mechatronic Design "
+  },
+  {
+    "code": "MTRX2700",
+    "name": "Mechatronics 2"
+  },
+  {
+    "code": "MTRX3700",
+    "name": "Mechatronics 3"
+  },
+  {
+    "code": "MTRX3760",
+    "name": "Mechatronic Systems Design"
+  },
+  {
+    "code": "MTRX4700",
+    "name": "Experimental Robotics"
+  },
+  {
+    "code": "MTRX5700",
+    "name": "Experimental Robotics"
+  },
+  {
+    "code": "OCCP4087",
+    "name": "Health Promotion through Occupation"
+  },
+  {
+    "code": "OLEO1300",
+    "name": "Managing and Analysing Data with SQL (0 cp)"
+  },
+  {
+    "code": "OLEO1302",
+    "name": "Understanding Web Skeletons and Skins (0 cp)"
+  },
+  {
+    "code": "OLEO1304",
+    "name": "Coding Literacy (0 cp)"
+  },
+  {
+    "code": "OLEO1306",
+    "name": "Beginner Programming for Data Analysis (0 cp)"
+  },
+  {
+    "code": "OLEO1308",
+    "name": "Interactive Web Pages with JavaScript (0 cp)"
+  },
+  {
+    "code": "OLEO1310",
+    "name": "Managing Your Project (0 cp)"
+  },
+  {
+    "code": "OLEO5312",
+    "name": "Project Management for Research (0 cp)"
+  },
+  {
+    "code": "OLET1301",
+    "name": "Managing and Analysing Data with SQL "
+  },
+  {
+    "code": "OLET1303",
+    "name": "Understanding Web Skeletons and Skins "
+  },
+  {
+    "code": "OLET1305",
+    "name": "Coding Literacy"
+  },
+  {
+    "code": "OLET1307",
+    "name": "Beginner Programming for Data Analysis"
+  },
+  {
+    "code": "OLET1309",
+    "name": "Interactive Web Pages with JavaScript "
+  },
+  {
+    "code": "OLET1311",
+    "name": "Managing Your Project "
+  },
+  {
+    "code": "ORTH5050",
+    "name": "Ocular Pathology 2"
+  },
+  {
+    "code": "PHTY3068",
+    "name": "Musculoskeletal Physiotherapy C"
+  },
+  {
+    "code": "PHTY5175",
+    "name": "Cardiopulmonary Physiotherapy II"
+  },
+  {
+    "code": "PHTY5177",
+    "name": "Neurological Physiotherapy II"
+  },
+  {
+    "code": "PHYS1005",
+    "name": "Astronomy"
+  },
+  {
+    "code": "PLAN9010",
+    "name": "Planning Dissertation 1"
+  },
+  {
+    "code": "PLAN9011",
+    "name": "Planning Dissertation 2"
+  },
+  {
+    "code": "PLAN9018",
+    "name": "Planning Report"
+  },
+  {
+    "code": "PLAN9048",
+    "name": "Environmental Design and Planning"
+  },
+  {
+    "code": "PLAN9061",
+    "name": "Planning Principles, Systems & Practice"
+  },
+  {
+    "code": "PLAN9063",
+    "name": "Strategic Planning and Design"
+  },
+  {
+    "code": "PLAN9065",
+    "name": "Resource and Environmental Management"
+  },
+  {
+    "code": "PLAN9067",
+    "name": "Metropolitan Planning"
+  },
+  {
+    "code": "PLAN9068",
+    "name": "History & Theory of Planning & Design"
+  },
+  {
+    "code": "PLAN9069",
+    "name": "Urban Design and Development Control"
+  },
+  {
+    "code": "PLAN9071",
+    "name": "Housing & Urban and Regional Development"
+  },
+  {
+    "code": "PLAN9072",
+    "name": "Housing Policy and Assistance"
+  },
+  {
+    "code": "PLAN9073",
+    "name": "GIS Based Planning Policy and Analysis"
+  },
+  {
+    "code": "PLAN9074",
+    "name": "Public & Community Finance for Planners"
+  },
+  {
+    "code": "PMGT1711",
+    "name": "Systems Thinking in Projects"
+  },
+  {
+    "code": "PMGT1852",
+    "name": "Facilitation & Stakeholder Engagement"
+  },
+  {
+    "code": "PMGT2800",
+    "name": "Project Placement A"
+  },
+  {
+    "code": "PMGT2801",
+    "name": "Project Placement B"
+  },
+  {
+    "code": "PMGT2821",
+    "name": "Project Conflict Management "
+  },
+  {
+    "code": "PMGT2822",
+    "name": "Reframing Projects "
+  },
+  {
+    "code": "PMGT2854",
+    "name": "Executing Projects"
+  },
+  {
+    "code": "PMGT3850",
+    "name": "Project Management Capstone Project A"
+  },
+  {
+    "code": "PMGT3851",
+    "name": "Project Management Capstone Project B"
+  },
+  {
+    "code": "PMGT3855",
+    "name": "Project Variance Analysis"
+  },
+  {
+    "code": "PMGT3856",
+    "name": "Sustainability & Knowledge Management"
+  },
+  {
+    "code": "PMGT3857",
+    "name": "International Project Management"
+  },
+  {
+    "code": "PMGT3858",
+    "name": "Adapting to Project Context "
+  },
+  {
+    "code": "PMGT4850",
+    "name": "Project Management Honours Project A"
+  },
+  {
+    "code": "PMGT4851",
+    "name": "Project Management Honours Project B"
+  },
+  {
+    "code": "PMGT5850",
+    "name": "Project Management Capstone Project"
+  },
+  {
+    "code": "PMGT5851",
+    "name": "Project Management Dissertation A"
+  },
+  {
+    "code": "PMGT5852",
+    "name": "Project Management Dissertation B"
+  },
+  {
+    "code": "PMGT5860",
+    "name": "Project Leadership Thesis A"
+  },
+  {
+    "code": "PMGT5861",
+    "name": "Project Leadership Thesis B"
+  },
+  {
+    "code": "PMGT5871",
+    "name": "Project Process Planning and Control"
+  },
+  {
+    "code": "PMGT5872",
+    "name": "People and Leadership"
+  },
+  {
+    "code": "PMGT5873",
+    "name": "Project Economics and Finance"
+  },
+  {
+    "code": "PMGT5875",
+    "name": "Project Innovation Management"
+  },
+  {
+    "code": "PMGT5876",
+    "name": "Strategic Delivery of Change"
+  },
+  {
+    "code": "PMGT5877",
+    "name": "Management of Project Organisations"
+  },
+  {
+    "code": "PMGT5879",
+    "name": "Strategic Portfolio & Program Management"
+  },
+  {
+    "code": "PMGT5883",
+    "name": "Project Management Thesis A"
+  },
+  {
+    "code": "PMGT5884",
+    "name": "Project Management Thesis B"
+  },
+  {
+    "code": "PMGT5886",
+    "name": "System Dynamics Modelling for PM"
+  },
+  {
+    "code": "PMGT5887",
+    "name": "Computer Applications in PM"
+  },
+  {
+    "code": "PMGT5888",
+    "name": "Global Project Management"
+  },
+  {
+    "code": "PMGT5889",
+    "name": "Integrated Cost and Scheduling Control"
+  },
+  {
+    "code": "PMGT5891",
+    "name": "Project Risk Management"
+  },
+  {
+    "code": "PMGT5892",
+    "name": "Project Management Industrial Project"
+  },
+  {
+    "code": "PMGT5893",
+    "name": "Statistical Methods in PM"
+  },
+  {
+    "code": "PMGT5895",
+    "name": "Contracts Management"
+  },
+  {
+    "code": "PMGT5896",
+    "name": "Sustainability & Intelligence in PM"
+  },
+  {
+    "code": "PMGT5897",
+    "name": "Disaster Project Management"
+  },
+  {
+    "code": "PMGT5898",
+    "name": "Complex Project Leadership"
+  },
+  {
+    "code": "PMGT5900",
+    "name": "Project Management Thesis"
+  },
+  {
+    "code": "PMGT5901",
+    "name": "Project Leadership Thesis"
+  },
+  {
+    "code": "PMGT6812",
+    "name": "Integrated Project Delivery Approaches"
+  },
+  {
+    "code": "PMGT6850",
+    "name": "Project and Program Management Capstone"
+  },
+  {
+    "code": "PMGT6867",
+    "name": "Quantitative Methods: Project Management"
+  },
+  {
+    "code": "PMGT6869",
+    "name": "Advanced Knowledge in Project Management"
+  },
+  {
+    "code": "PMGT6871",
+    "name": "Project Planning and Governance"
+  },
+  {
+    "code": "PMGT6872",
+    "name": "Project Leadership and Communications"
+  },
+  {
+    "code": "PMGT6873",
+    "name": "Project Economics and Investment"
+  },
+  {
+    "code": "PMGT6883",
+    "name": "Project and Program Management Thesis A"
+  },
+  {
+    "code": "PMGT6884",
+    "name": "Project and Program Management Thesis B"
+  },
+  {
+    "code": "PMGT6885",
+    "name": "Project Management Special Topic"
+  },
+  {
+    "code": "PMGT6888",
+    "name": "International Project Study Tour"
+  },
+  {
+    "code": "PMGT6891",
+    "name": "Risk Dynamics and Resilience"
+  },
+  {
+    "code": "REHB3065",
+    "name": "PTSD and Rehabilitation"
+  },
+  {
+    "code": "REHB5062",
+    "name": "Brain Injury Rehabilitation"
+  },
+  {
+    "code": "REHB5063",
+    "name": "Rehabilitation for PTSD"
+  },
+  {
+    "code": "REHB5070",
+    "name": "Vocational Development and Counselling"
+  },
+  {
+    "code": "REHB5077",
+    "name": "Psychiatric Rehabilitation"
+  },
+  {
+    "code": "SOFT2201",
+    "name": "Software Construction and Design 1"
+  },
+  {
+    "code": "SOFT2412",
+    "name": "Agile Software Development Practices"
+  },
+  {
+    "code": "SOFT3202",
+    "name": "Software Construction and Design 2 (not offered in 2018)"
+  },
+  {
+    "code": "SOFT3410",
+    "name": "Concurrency for Software Development"
+  },
+  {
+    "code": "SOFT3413",
+    "name": "Software Development Project"
+  },
+  {
+    "code": "SOFT3888",
+    "name": "Software Development Project"
+  },
+  {
+    "code": "VETS6401",
+    "name": "Small Animal Clinics A"
+  },
+  {
+    "code": "VETS6402",
+    "name": "Small Animal Clinics B"
+  },
+  {
+    "code": "VETS6403",
+    "name": "Small Animal Clinics C"
+  },
+  {
+    "code": "VETS6404",
+    "name": "Small Animal Clinics D"
+  },
+  {
+    "code": "VETS6405",
+    "name": "Large Animal Clinics A"
+  },
+  {
+    "code": "VETS6406",
+    "name": "Large Animal Clinics B"
+  },
+  {
+    "code": "VETS6407",
+    "name": "Laboratory Investigations of Clinical Disease"
+  },
+  {
+    "code": "VETS6408",
+    "name": "Public, Industry, or Community Placement"
+  },
+  {
+    "code": "VETS6409",
+    "name": "Extramural Placement 1"
+  },
+  {
+    "code": "VETS6410",
+    "name": "Extramural Placement 2"
+  },
+  {
+    "code": "VETS6411",
+    "name": "Extramural Placement 3"
+  },
+  {
+    "code": "VETS6412",
+    "name": "Extramural Placement 4"
+  }
+]
