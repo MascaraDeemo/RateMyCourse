@@ -1,0 +1,7 @@
+ALTER TABLE course ENGINE = MYISAM;
+
+ALTER TABLE course ADD FULLTEXT(courseName);
+
+ALTER TABLE course ADDD FULLTEXT(courseDescrip);
+
+ALTER TABLE course ADD FULLTEXT(courseName,courseDescrip);
